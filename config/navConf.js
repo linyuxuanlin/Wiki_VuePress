@@ -1,18 +1,13 @@
-module.exports = [
-
-
-    {
+module.exports = [{
         text: 'Home',
         link: '/'
     },
     {
         text: 'Tools',
-        link: '/Tools/'
+        link: 'Tools'
     },
     {
         text: 'Collection',
         link: 'Collection'
     },
-
-
 ];

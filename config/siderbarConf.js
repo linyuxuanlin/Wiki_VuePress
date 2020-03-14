@@ -1,8 +1,4 @@
-module.exports = [
-
-
-
-    {
+module.exports = [{
         title: '电路设计',
         collapsable: false,
         sidebarDepth: 0,
@@ -111,7 +107,6 @@ module.exports = [
         sidebarDepth: 0,
         children: [
             "post/命令行/命令行基本操作",
-
         ]
     },
     {
@@ -122,8 +117,6 @@ module.exports = [
             "post/Git&GitHub/Git学习笔记",
             "post/Git&GitHub/Git配置代理",
             "post/Git&GitHub/删除GitHub仓库中某个文件夹",
-
-
         ]
     },
     {
@@ -152,7 +145,6 @@ module.exports = [
         children: [
             "post/音乐/哥德堡变奏曲",
             "post/音乐/不能说的秘密",
-
         ]
     },
     {
@@ -172,7 +164,6 @@ module.exports = [
         children: [
             "post/比赛经历/THEHack2019",
             "post/比赛经历/Hack.init()",
-
         ]
     },
     {
@@ -184,7 +175,6 @@ module.exports = [
             "post/生活方式/读《黑客与画家》",
             "post/生活方式/英语六级-备考",
             "post/生活方式/ITX装机筹备",
-
         ]
     },
     {

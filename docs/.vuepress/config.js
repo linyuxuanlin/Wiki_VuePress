@@ -2,10 +2,11 @@ const navConf = require('../../config/navConf.js');
 const siderbarConf = require('../../config/siderbarConf.js');
 
 module.exports = {
-    title: 'Power\'s Wiki',
-    description: '个人知识库',
-    //base: '/Wiki-book/',
+    title: 'Power\'s Wiki', // 网站标题，改为你自己的
+    //description: '个人知识库',
+    //base: '/Wiki-book/', // 不自定义链接的时候才需要
 
+    // 让时间格式符合国内习惯
     locales: {
         '/': {
             lang: 'zh-CN',
@@ -23,37 +24,15 @@ module.exports = {
         }
     },
 
-
-
     plugins: [
         '@vuepress/back-to-top', // 回到顶部
-        '@vuepress/google-analytics',
+        'reading-progress', // 阅读进度条插件
+        ['vuepress-plugin-code-copy', true], // 代码块一键复制按钮
+        '@vuepress/google-analytics', // Google 分析
         {
-            'ga': '' // UA-00000000-0
+            'ga': 'UA-152900803-1' // 改为你自己的
         },
-
-        // RSS 插件
-        'vuepress-plugin-rss',
-        {
-            base_url: '/', // required
-            site_url: 'https://wiki-power.com', // required
-            copyright: '2020 Power Lin', // optional
-            // filter some post
-            filter: (frontmatter) => {
-                return [true | false]
-            },
-            // How much articles
-            count: 100,
-        },
-
-        // 阅读进度
-        'reading-progress',
-
-        // 代码块一键复制按钮
-        ['vuepress-plugin-code-copy', true],
     ],
-    //theme: 'reco', //reco 主题，会拖慢加载速度
-    //theme: 'antdocs',
 
     // 解决搜索框放大问题
     head: [
@@ -72,30 +51,18 @@ module.exports = {
         nav: navConf,
         sidebar: siderbarConf,
 
-        //logo: '/logo.png', 
         lastUpdated: 'Last Updated',
-        smoothScroll: true, // 干嘛用的？
+
+        // 平滑滚动
+        smoothScroll: true,
 
 
-        // Edit on GitHub
+        // 显示 'Edit on GitHub'
         repo: 'linyuxuanlin/Wiki-book',
-        // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
-        // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-        repoLabel: '本站源码',
+        repoLabel: '本站源码', // 显示在 NavBar
         docsDir: 'docs',
         editLinks: true,
-        // 默认为 "Edit this page"
-        editLinkText: '在 GitHub 上编辑此页面',
-
-        themePicker: {
-            colorName1: 'red',
-            colorName2: 'yellow',
-            colorName3: 'blue'
-        },
-
-
-
-
-
-    }
+        editLinkText: '在 GitHub 上编辑此页面', // 显示在文章底部
+    },
+}
 }
