@@ -12,6 +12,6 @@ features:
   details: 我将零散的知识结构化归档于此，以构建一个网状的知识体系。
 - title: 舒适体验
   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，作为 SPA 运行，提供舒适的阅读环境。
-footer: MIT Licensed | Copyright © 2015-present | Power Lin | 粤 ICP 备 20014898 号
+footer: MIT Licensed | Power Lin | 粤 ICP 备 20014898 号
 ---
 
