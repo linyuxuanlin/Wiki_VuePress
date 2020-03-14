@@ -1,3 +1,6 @@
+const navConf = require('../../config/navConf.js');
+
+
 module.exports = {
     title: 'Power\'s Wiki',
     description: '个人知识库',
@@ -66,6 +69,8 @@ module.exports = {
 
     themeConfig: {
 
+        nav: navConf,
+
         //logo: '/logo.png', 
         lastUpdated: 'Last Updated',
         smoothScroll: true, // 干嘛用的？
@@ -87,19 +92,7 @@ module.exports = {
             colorName3: 'blue'
         },
 
-        nav: [{
-                text: 'Home',
-                link: '/'
-            },
-            {
-                text: 'Tools',
-                link: '/Tools/'
-            },
-            {
-                text: 'Collection',
-                link: 'Collection'
-            },
-        ],
+
 
 
         sidebar: [
