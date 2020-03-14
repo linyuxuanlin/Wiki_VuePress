@@ -25,8 +25,6 @@ module.exports = {
         }
     },
 
-
-
     // 解决搜索框放大问题
     head: [
         ['link', {
