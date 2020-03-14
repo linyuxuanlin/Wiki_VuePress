@@ -14,22 +14,20 @@ module.exports = {
         }
     },
 
-    // PWA
-    '@vuepress/pwa': {
-        serviceWorker: true,
-        updatePopup: {
-            message: "发现新内容可用.",
-            buttonText: "刷新",
-            // 自定义弹窗
-            // popupComponent: 'MySWUpdatePopup',
-        }
-    },
 
     // 解决搜索框放大问题
     head: [
         ['link', {
             rel: 'icon',
             href: '/favicon.ico'
+        }],
+        ['meta', {
+            name: 'theme-color',
+            content: '#5d85c8'
+        }],
+        ['meta', {
+            name: 'msapplication-TileColor',
+            content: '#3eaf7c'
         }],
         ['meta', {
             name: 'viewport',

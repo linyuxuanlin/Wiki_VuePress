@@ -6,4 +6,15 @@ module.exports = [
     {
         'ga': 'UA-152900803-1' // 改为你自己的
     },
+
+    '@vuepress/pwa': {
+        serviceWorker: true,
+        popupComponent: 'MySWUpdatePopup',
+        updatePopup: {
+            message: "啦啦啦,一大波内容已更新!",
+            buttonText: "朕知道了" +
+        },
+    },
+
+
 ];
