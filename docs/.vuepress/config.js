@@ -4,7 +4,7 @@ const pluginConf = require('../../config/pluginConf.js');
 
 module.exports = {
     title: 'Power\'s Wiki', // 网站标题，改为你自己的
-    //description: '个人知识库',
+    description: '个人知识库', // 网站描述，改为你自己的
     //base: '/Wiki-book/', // 不自定义链接的时候才需要
 
     // 让时间格式符合国内习惯
