@@ -51,7 +51,6 @@ module.exports = {
         // 平滑滚动
         smoothScroll: true,
 
-
         // 显示 'Edit on GitHub'
         repo: 'linyuxuanlin/Wiki-book',
         repoLabel: '本站源码', // 显示在 NavBar
@@ -59,5 +58,4 @@ module.exports = {
         editLinks: true,
         editLinkText: '在 GitHub 上编辑此页面', // 显示在文章底部
     },
-}
 }
