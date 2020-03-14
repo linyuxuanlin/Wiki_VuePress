@@ -1,4 +1,6 @@
-module.exports = [{
+module.exports = [
+
+    {
         text: 'Home',
         link: '/'
     },

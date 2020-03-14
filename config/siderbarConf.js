@@ -1,4 +1,6 @@
-module.exports = [{
+module.exports = [
+
+    {
         title: '电路设计',
         collapsable: false,
         sidebarDepth: 0,

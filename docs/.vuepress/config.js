@@ -1,5 +1,6 @@
 const navConf = require('../../config/navConf.js');
 const siderbarConf = require('../../config/siderbarConf.js');
+const pluginConf = require('../../config/pluginConf.js');
 
 module.exports = {
     title: 'Power\'s Wiki', // 网站标题，改为你自己的
@@ -24,15 +25,7 @@ module.exports = {
         }
     },
 
-    plugins: [
-        '@vuepress/back-to-top', // 回到顶部
-        'reading-progress', // 阅读进度条插件
-        ['vuepress-plugin-code-copy', true], // 代码块一键复制按钮
-        '@vuepress/google-analytics', // Google 分析
-        {
-            'ga': 'UA-152900803-1' // 改为你自己的
-        },
-    ],
+
 
     // 解决搜索框放大问题
     head: [
@@ -45,6 +38,8 @@ module.exports = {
             content: 'width=device-width,initial-scale=1,user-scalable=no'
         }]
     ],
+
+    plugins: pluginConf,
 
     themeConfig: {
 
