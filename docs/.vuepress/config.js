@@ -21,6 +21,10 @@ module.exports = {
             rel: 'icon',
             href: '/favicon.ico'
         }],
+        ['link', {
+            rel: 'manifest',
+            href: '/manifest.json'
+        }],
         ['meta', {
             name: 'theme-color',
             content: '#5d85c8'
