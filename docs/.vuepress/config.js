@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Power\'s Wiki',
     description: '个人知识库',
-    //base: '/Wiki-site/',
+    //base: '/Wiki-book/',
 
     locales: {
         '/': {
@@ -72,7 +72,7 @@ module.exports = {
 
 
         // Edit on GitHub
-        repo: 'linyuxuanlin/Wiki-site',
+        repo: 'linyuxuanlin/Wiki-book',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
         // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
         repoLabel: '本站源码',
