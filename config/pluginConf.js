@@ -6,20 +6,4 @@ module.exports = [
     {
         'ga': 'UA-152900803-1' // 改为你自己的
     },
-
-    'sitemap': {
-        hostname: 'https://wiki-power.com'
-    },
-
-
-    '@vssue/vuepress-plugin-vssue': {
-
-        platform: 'github',
-
-        // 其他的 Vssue 配置
-        owner: 'OWNER_OF_REPO',
-        repo: 'NAME_OF_REPO',
-        clientId: 'YOUR_CLIENT_ID',
-        clientSecret: 'YOUR_CLIENT_SECRET',
-    },
 ];
