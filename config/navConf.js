@@ -6,10 +6,10 @@ module.exports = [
     },
     {
         text: 'Tools',
-        link: 'Tools'
+        link: '/Tools'
     },
     {
         text: 'Collection',
-        link: 'Collection'
+        link: '/Collection'
     },
 ];
