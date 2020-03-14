@@ -360,8 +360,9 @@ module.exports = {
                 collapsable: false,
                 sidebarDepth: 0,
                 children: [
+                    ['https://bobi.site/', 'BOBI83'],
                     ['https://unbinilium.me', 'Unbinilium'],
-
+                    ['https://waitech.cn/', 'WAI 科技社'],
                 ]
             },
         ]
