@@ -21,3 +21,6 @@ footer: Power Lin © 2015 | 粤 ICP 备 20014898 号
 * GitHub - <https://github.com/linyuxuanlin>
 * Telegram - <https://t.me/linyuxuanlin>
 * WeChat - `linyuxuanlin`
+
+
+<Footer/>
