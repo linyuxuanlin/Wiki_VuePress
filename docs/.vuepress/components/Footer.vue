@@ -1,17 +1,14 @@
 <template>
   <div class="footer-wrapper">
-    <span v-if="$themeConfig.record">
-      <i class="iconfont reco-beian"></i>
-      <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
-    </span>
     <span>
       <i class="iconfont reco-copyright"></i>
       <a>
-        <span v-if="$themeConfig.author || $site.title">{{ $themeConfig.author || $site.title }}</span>
-        &nbsp;&nbsp;
-        <span v-if="$themeConfig.startYear">{{ $themeConfig.startYear }} -</span>
-        {{ year }}
+        <p>Power Lin © 2015 |</p>
       </a>
+    </span>
+    <span v-if="$themeConfig.record">
+      <i class="iconfont reco-beian"></i>
+      <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
     </span>
   </div>
 </template>

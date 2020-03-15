@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 # heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png
 # heroText: 标题
 # tagline: 副标题
@@ -9,6 +9,12 @@ actionText: 点击进入 →
 actionLink: /post/电路设计/TinyDVR-小巧身材，满载动力
 
 footer: Power Lin © 2015 | 粤 ICP 备 20014898 号
+---
+
+# Power's Wiki
+
+个人知识库
+
 ---
 
 > 一个不会写作的硬件工程师不是一个合格的产品经理。
