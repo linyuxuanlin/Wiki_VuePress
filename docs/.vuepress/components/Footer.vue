@@ -2,7 +2,6 @@
   <div class="footer-wrapper">
     <span v-if="$themeConfig.record">
       <i class="iconfont reco-beian"></i>
-      <p>Power Lin © 2015 |</p>
       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
     </span>
   </div>
