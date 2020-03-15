@@ -19,7 +19,11 @@ module.exports = {
     head: [
         ['link', {
             rel: 'icon',
-            href: '/favicon.ico'
+            href: 'icons/favicon.ico'
+        }],
+        ['link', {
+            rel: 'shortcut icon',
+            href: 'icons/favicon.ico'
         }],
         ['link', {
             rel: 'manifest',
@@ -30,8 +34,29 @@ module.exports = {
             content: '#5d85c8'
         }],
         ['meta', {
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes'
+        }],
+        ['meta', {
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: 'default'
+        }],
+        ['link', {
+            rel: 'apple-touch-icon',
+            href: '/icons/apple-touch-icon.png'
+        }],
+        ['link', {
+            rel: 'mask-icon',
+            href: '/icons/safari-pinned-tab.svg',
+            color: '#3eaf7c'
+        }],
+        ['meta', {
             name: 'msapplication-TileColor',
-            content: '#3eaf7c'
+            content: '#bcbcbc'
+        }],
+        ['meta', {
+            name: 'msapplication-TileImage',
+            content: '/icons/msapplication-icon.png'
         }],
         ['meta', {
             name: 'viewport',

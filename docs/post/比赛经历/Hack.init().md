@@ -188,7 +188,7 @@ void loop()
 
 **模型：**
 
-![&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2017-07-17 &#x4E0B;&#x5348;5.00.16 \(2\).png](http://upload-images.jianshu.io/upload_images/2218072-c2cb025a94089a51.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2017-07-17 &#x4E0B;&#x5348;5.00.16 \(2\).png](http://upload-images.jianshu.io/upload_2218072-c2cb025a94089a51.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
 
 比赛时间所限，只能粗略画出模型，打印出来组装。
 

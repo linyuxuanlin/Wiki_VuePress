@@ -11,10 +11,7 @@ module.exports = [
         {
             serviceWorker: true,
             popupComponent: 'MySWUpdatePopup',
-            updatePopup: {
-                message: "内容更新啦!",
-                buttonText: "朕知道了"
-            }
+            updatePopup: true
         }
     ]
 
