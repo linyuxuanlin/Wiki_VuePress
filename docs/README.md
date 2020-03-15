@@ -24,8 +24,8 @@ heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200
 
 你可以通过以下方式联系到我：  
 
-* GitHub - <https://github.com/linyuxuanlin>
-* Telegram - <https://t.me/linyuxuanlin>
+* GitHub - [linyuxuanlin](https://github.com/linyuxuanlin)
+* Telegram - [linyuxuanlin](https://t.me/linyuxuanlin)
 * WeChat - `linyuxuanlin`
 
 
