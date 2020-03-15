@@ -11,6 +11,7 @@ home: false
 #footer: Power Lin © 2015 | 粤 ICP 备 20014898 号
 
 editLink: false
+lastUpdated: false
 
 ---
 
@@ -19,7 +20,7 @@ editLink: false
 
 ---
 
-<br /><br />
+<br />
 
 > 一个不会讲故事的硬件工程师不是一个合格的产品经理。
 
@@ -33,7 +34,7 @@ editLink: false
 * WeChat - `linyuxuanlin`
 
 
-<br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 ---
