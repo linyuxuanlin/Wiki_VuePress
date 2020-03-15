@@ -1,5 +1,5 @@
 ---
-home: false
+home: true
 # heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png
 # heroText: 标题
 # tagline: 副标题
@@ -10,19 +10,12 @@ home: false
 
 #footer: Power Lin © 2015 | 粤 ICP 备 20014898 号
 
-editLink: false
-lastUpdated: false
+#editLink: false
+#lastUpdated: false
 
 ---
 
-# Power's Wiki
 
-
----
-
-个人知识库
-
-<br />
 
 > 一个不会讲故事的硬件工程师，不是一个合格的产品经理。
 
