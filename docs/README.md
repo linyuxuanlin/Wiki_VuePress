@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png
+heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png
 # heroText: 标题
 # tagline: 副标题
 
@@ -15,7 +15,7 @@ home: true
 
 ---
 
-
+<br />
 
 > 一个不会讲故事的硬件工程师，不是一个合格的产品经理。
 
@@ -29,7 +29,7 @@ home: true
 * WeChat - `linyuxuanlin`
 
 
-<br /><br />
+<br />
 
 
 ---
