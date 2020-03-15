@@ -1,9 +1,5 @@
 <template>
   <div class="footer-wrapper">
-    <span>
-      <i class="iconfont reco-theme"></i>
-      <a target="blank" href="https://vuepress-theme-reco.recoluan.com">VuePress-theme-reco</a>
-    </span>
     <span v-if="$themeConfig.record">
       <i class="iconfont reco-beian"></i>
       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
@@ -17,14 +13,6 @@
         {{ year }}
       </a>
     </span>
-    <span v-show="$themeConfig.valineConfig !== undefined">
-      <i class="iconfont reco-eye"></i>
-      <AccessNumber idVal="/" />
-    </span>
-    <p class="cyber-security" v-if="$themeConfig.cyberSecurityRecord">
-      <img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" alt />
-      <a :href="$themeConfig.cyberSecurityLink || '#'">{{ $themeConfig.cyberSecurityRecord }}</a>
-    </p>
   </div>
 </template>
 

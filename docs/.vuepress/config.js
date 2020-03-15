@@ -84,9 +84,9 @@ module.exports = {
         editLinkText: '在 GitHub 上编辑此页面', // 显示在文章底部
 
         record: '粤 ICP 备 20014898 号',
-        recordLink: 'ICP 备案指向链接',
-        cyberSecurityRecord: '公安部备案文案',
-        cyberSecurityLink: '公安部备案指向链接',
+        recordLink: 'http://www.beian.miit.gov.cn/',
+        //cyberSecurityRecord: '公安部备案文案',
+        //cyberSecurityLink: '公安部备案指向链接',
         // 项目开始时间，只填写年份
         startYear: '2015'
     },
