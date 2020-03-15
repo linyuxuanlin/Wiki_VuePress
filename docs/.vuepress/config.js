@@ -71,7 +71,7 @@ module.exports = {
         nav: navConf,
         sidebar: siderbarConf,
 
-        lastUpdated: 'Last Updated',
+        //lastUpdated: 'Last Updated',
 
         // 平滑滚动
         smoothScroll: true,

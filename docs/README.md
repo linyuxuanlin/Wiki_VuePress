@@ -16,9 +16,11 @@ lastUpdated: false
 ---
 
 # Power's Wiki
-个人知识库
+
 
 ---
+
+个人知识库
 
 <br />
 
@@ -34,7 +36,7 @@ lastUpdated: false
 * WeChat - `linyuxuanlin`
 
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br />
 
 
 ---
