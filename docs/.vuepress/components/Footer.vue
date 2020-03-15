@@ -1,13 +1,8 @@
 <template>
   <div class="footer-wrapper">
-    <span>
-      <i class="iconfont reco-copyright"></i>
-      <a>
-        <p>Power Lin © 2015 |</p>
-      </a>
-    </span>
     <span v-if="$themeConfig.record">
       <i class="iconfont reco-beian"></i>
+      <p>Power Lin © 2015 |</p>
       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
     </span>
   </div>
