@@ -1,54 +1,58 @@
 <template>
-  <SWUpdatePopup>
-    <div v-if="enabled"
-      slot-scope="{ enabled, reload, message, buttonText }"
-      class="my-sw-update-popup">
+  <SWUpdatePopup v-slot="{ enabled, reload, message, buttonText }">
+    <div v-if="enabled" class="my-sw-update-popup">
       {{ message }}
-      <br><button @click="reload">{{ buttonText }}</button></br>
-    </div>  
+      <br />
+      <button @click="reload">{{ buttonText }}</button>
+    </div>
   </SWUpdatePopup>
 </template>
 
 <script>
-import SWUpdatePopup from '@vuepress/plugin-pwa/lib/SWUpdatePopup.vue'
+import SWUpdatePopup from "@vuepress/plugin-pwa/lib/SWUpdatePopup.vue";
+
 export default {
   components: { SWUpdatePopup }
-}
+};
 </script>
 
 <style>
+:root {
+  color-scheme: light dark;
+  --popup-border-color: #2c3e50;
+  --popup-background-color: #fefefe;
+  --msg-text-color: #25272a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --popup-border-color: #e2e2e2;
+    --popup-background-color: #25272a;
+    --msg-text-color: #e2e2e2;
+  }
+}
+
 .my-sw-update-popup {
-  text-align: right;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #fff;
-  color:#6a8bad;
-  font-size: 19px;
-  padding: 15px;
-  margin: 0px 15px;
-  border: 3px solid #4db6ac;
+  right: 1em;
+  bottom: 1em;
+  padding: 1em;
+  border: 2px solid #3eaf7c;
+  border-radius: 3px;
+  background: var(--popup-background-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  color: var(--msg-text-color);
+  text-align: center;
+  animation: drop 2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+  z-index: 2;
 }
 
 .my-sw-update-popup button {
-  background-color: #4db6ac;
-  -moz-border-radius:28px;
-  -webkit-border-radius:28px;
-  border-radius:28px;
-  border:1px solid #18ab29;
-  display:inline-block;
-  cursor:pointer;
-  color:#fff;
-  font-family:Arial;
-  font-size:17px;
-  margin: 12px 50px;
-  padding:13px 30px;
-  text-decoration:none;
-  text-shadow:0px 1px 0px #2f6627;
-
-}
-
-.my-sw-update-popup button:hover {
-  background-color:#3eaf7c;
+  margin-top: 0.5em;
+  padding: 0.25em 1.8em;
+  background-color: #3eaf7c;
+  color: #fff;
+  border-width: 0;
+  border-radius: 3px;
 }
 </style>
