@@ -5,8 +5,8 @@ heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200
 # tagline: 副标题
 
 
-#actionText: 点击进入 →
-#actionLink: /post/电路设计/TinyDVR-小巧身材，满载动力
+actionText: 点击进入 →
+actionLink: /post/电路设计/TinyDVR-小巧身材，满载动力
 
 #footer: Power Lin © 2015 | 粤 ICP 备 20014898 号
 
