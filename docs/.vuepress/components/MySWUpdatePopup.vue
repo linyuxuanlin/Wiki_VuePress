@@ -24,14 +24,6 @@ export default {
   --msg-text-color: #25272a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --popup-border-color: #e2e2e2;
-    --popup-background-color: #25272a;
-    --msg-text-color: #e2e2e2;
-  }
-}
-
 .my-sw-update-popup {
   position: fixed;
   right: 1em;
