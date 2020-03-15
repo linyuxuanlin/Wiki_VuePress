@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png
-# heroText: Hero 标题
-tagline: 
+# heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png
+# heroText: 标题
+# tagline: 副标题
 actionText: 点击进入 →
 actionLink: /post/电路设计/TinyDVR-小巧身材，满载动力
 features:
