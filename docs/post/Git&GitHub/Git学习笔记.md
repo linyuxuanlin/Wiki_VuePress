@@ -7,6 +7,7 @@
 下载安装包：[**git-scm.com/downloads**](https://git-scm.com/downloads)
 
 配置：
+
 ```bash
 $ git config --global user.name "username"
 $ git config --global user.email "email@example.com"
@@ -33,7 +34,6 @@ $ git config --global user.email "email@example.com"
 * 查看提交历史（按照提交顺序）：`$ git log` , 按 `q` 退出
 * 查看命令历史（所有提交记录）：`$ git reflog`
 
-
 ## 远程仓库
 
 ### 本地项目远程化
@@ -54,11 +54,9 @@ $ git config --global user.email "email@example.com"
 适用于从零开始，或基于别人的项目开发的情况。
 1. 将远程仓库克隆下来：`$ git clone git@server-name:user/repo-name.git`
 
-
 ## 分支管理
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200217195056.png)
-
 
 > 分支就是科幻电影里面的平行宇宙，当你正在电脑前努力学习 Git 的时候，另一个你正在另一个平行宇宙里努力学习 SVN。  
 > 如果两个平行宇宙互不干扰，那对现在的你也没啥影响。不过，在某个时间点，两个平行宇宙合并了，结果，你既学会了 Git 又学会了 SVN!   
