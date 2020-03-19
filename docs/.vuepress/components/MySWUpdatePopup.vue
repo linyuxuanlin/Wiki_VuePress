@@ -29,7 +29,7 @@ export default {
   right: 1em;
   bottom: 1em;
   padding: 1em;
-  border: 2px solid #3eaf7c;
+  border: 2px solid #4775c1;
   border-radius: 3px;
   background: var(--popup-background-color);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
@@ -42,7 +42,7 @@ export default {
 .my-sw-update-popup button {
   margin-top: 0.5em;
   padding: 0.25em 1.8em;
-  background-color: #3eaf7c;
+  background-color: #5d85c8;
   color: #fff;
   border-width: 0;
   border-radius: 3px;

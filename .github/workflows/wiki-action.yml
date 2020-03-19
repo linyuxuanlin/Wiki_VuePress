@@ -14,7 +14,6 @@ jobs:
           ref: 'master'
       
       - run: npm install
-      - run: npm ci
       - run: npm run docs:build
     
       - name: Deploy
