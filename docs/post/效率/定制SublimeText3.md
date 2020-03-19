@@ -41,7 +41,7 @@ Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[
 
 我使用的暗色主题：用 `Package Control` 搜索 `Spacegray` 和 `Afterglow` ，在用户设置里替换为：
 
-```text
+```
 "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 "theme": "Afterglow-green.sublime-theme"
 ```
@@ -50,7 +50,7 @@ Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[
 
 在用户设置里可添加如下代码：
 
-```text
+```
 "word_wrap": "true", // 被遮挡自动换行
 "fold_buttons": true, // 开启代码折叠
 "fade_fold_buttons": true, // 折叠按钮自动隐藏
@@ -67,7 +67,7 @@ Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[
 
 **StyleToken**：显示代码所代表的颜色（RGB） **FileHeader**：自定义文件模板 打开 `Preferences -> Package Settings -> FileHeader -> Settings - User` ，把 `Default` 里的内容拷贝到 `User` ,并修改个人信息如：
 
-```text
+```
 {
     "Default": {
         "author": "linyuxuanlin",
@@ -84,7 +84,7 @@ Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[
 
 由于自带编译器没有用户输入，所以这里需要一个插件：`SublimeREPL`. 直接 用 `Package Control` 安装，并在 `Preferences —> Key Buildings -> User` 下添加快捷键唤醒：
 
-```text
+```
 [
     { "keys": ["f5"], "caption": "SublimeREPL:Python",
                       "command": "run_existing_window_command", "args":
@@ -102,7 +102,7 @@ Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[
 
 安装 `Python PEP8 Autoformat` 插件，在 `Key Buildings` 中加入：
 
-```text
+```
 { "keys": ["alt+r"], "command": "pep8_autoformat" },
 ```
 
@@ -114,6 +114,5 @@ Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[
 
 ## 参考与致谢
 
-* [Sublime Text 3 调教你的私人利器（上）](https://www.sheyilin.com/2015/05/sublime_text_3_tiao_jiao_ni_de_si_ren_li_qi_1/)
-* [Sublime Text 自动生成文件头部注释（版权信息）：FileHeader 插件的使用](https://blog.csdn.net/afei__/article/details/82890493)
-
+- [Sublime Text 3 调教你的私人利器（上）](https://www.sheyilin.com/2015/05/sublime_text_3_tiao_jiao_ni_de_si_ren_li_qi_1/)
+- [Sublime Text 自动生成文件头部注释（版权信息）：FileHeader 插件的使用](https://blog.csdn.net/afei__/article/details/82890493)

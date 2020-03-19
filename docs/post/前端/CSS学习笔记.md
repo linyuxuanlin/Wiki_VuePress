@@ -6,7 +6,7 @@
 
 在 HTML 的 `<head>` 下添加外部样式表：
 
-```text
+```
 <link rel="stylesheet" href="xxx.css">
 ```
 
@@ -18,8 +18,8 @@
 ### 基本语法
 
 ```css
-selector{
-    prpperty : value;
+selector {
+  prpperty: value;
 }
 ```
 
@@ -36,8 +36,10 @@ selector{
 用相同样式定义不同元素。
 
 ```css
-h1,h2,h3{
-    color : navy;
+h1,
+h2,
+h3 {
+  color: navy;
 }
 ```
 
@@ -55,7 +57,7 @@ background-color: blue;
 opacity: 0.5;
 ```
 
-##   文本
+## 文本
 
 ### 字体大小
 
@@ -78,12 +80,12 @@ font-size: 200%;
 ```css
 /*字体选用*/
 /*本地*/
-font-family: 'Courier New',Courier,monospace,外链字体名称;
+font-family: "Courier New", Courier, monospace, 外链字体名称;
 
 /*外链*/
 @font-face {
-    font-family: 外链字体名称;
-    src: url('外链地址');
+  font-family: 外链字体名称;
+  src: url("外链地址");
 }
 ```
 
@@ -120,21 +122,27 @@ text-align: left;
 
 ```css
 /* 未访问的链接 */
-a:link {color:#FF0000;} 
+a:link {
+  color: #ff0000;
+}
 
 /* 已访问的链接 */
-a:visited {color:#00FF00;} 
+a:visited {
+  color: #00ff00;
+}
 
 /* 鼠标划过链接 */
-a:hover {color:#FF00FF;} 
+a:hover {
+  color: #ff00ff;
+}
 
 /* 已选中的链接 */
-a:active {color:#0000FF;} 
+a:active {
+  color: #0000ff;
+}
 ```
 
 ## 盒子
-
-
 
 ## 列表，表格与表单
 
@@ -148,28 +156,28 @@ a:active {color:#0000FF;}
 
 ### 属性分类顺序
 
-* 显示方法 & 布局
-* 定位
-* 盒模型框
-  * 外边距
-  * 边框
-  * 内边距
-* 尺寸
-* 文本样式
-  * 字体
-  * 文本
-  * 文字颜色
-* 背景
-* 轮廓
-* 透明度 & 阴影
-* 动效
-  * 过渡
-  * 转换变形
-  * 动画
-* 其他
-  * 伪类 & 伪元素
-  * 引用
-  * 媒体查询
+- 显示方法 & 布局
+- 定位
+- 盒模型框
+  - 外边距
+  - 边框
+  - 内边距
+- 尺寸
+- 文本样式
+  - 字体
+  - 文本
+  - 文字颜色
+- 背景
+- 轮廓
+- 透明度 & 阴影
+- 动效
+  - 过渡
+  - 转换变形
+  - 动画
+- 其他
+  - 伪类 & 伪元素
+  - 引用
+  - 媒体查询
 
 ### 属性顺序列表
 
@@ -353,13 +361,8 @@ a:active {color:#0000FF;}
 ]
 ```
 
- 
-
 ## 参考与致谢
 
-* [CSS 入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
-* [CSS3 Tutorial 《CSS3 教程》](https://waylau.gitbooks.io/css3-tutorial/content/)
-* [CSS 属性声明顺序规范](https://wiki.zthxxx.me/wiki/程序语言/CSS/CSS%20属性声明顺序规范/)
-
-
-
+- [CSS 入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+- [CSS3 Tutorial 《CSS3 教程》](https://waylau.gitbooks.io/css3-tutorial/content/)
+- [CSS 属性声明顺序规范](https://wiki.zthxxx.me/wiki/程序语言/CSS/CSS%20属性声明顺序规范/)

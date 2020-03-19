@@ -12,7 +12,7 @@
 
 ## 安装
 
-发现一个很好用的在线编辑器：\[GraphvizOnline\]\([http://dreampuf.github.io/GraphvizOnline/\#digraph graph\_name { ](http://dreampuf.github.io/GraphvizOnline/#digraph%20graph_name%20{%20) %20%20A-&gt;B\[label%3D"关系"\]%20 }\) 支持即时渲染，导出 `.png` 与 `.svg` 等格式。
+发现一个很好用的在线编辑器：\[GraphvizOnline\]\([http://dreampuf.github.io/GraphvizOnline/\#digraph graph_name { ](http://dreampuf.github.io/GraphvizOnline/#digraph%20graph_name%20{%20) %20%20A-&gt;B\[label%3D"关系"\]%20 }\) 支持即时渲染，导出 `.png` 与 `.svg` 等格式。
 
 macOS 安装：`$ brew install graphviz`
 
@@ -24,7 +24,7 @@ macOS 安装：`$ brew install graphviz`
 
 ## 简易语法
 
-```text
+```
 graph graph_name {
   A--B[label="连接关系"]
 }
@@ -42,7 +42,6 @@ Q：其他平台的兼容情况？ A：官网有 Windows，macOS，Linux 的下�
 
 ## 参考与致谢
 
-* [Graphviz 简易教程](https://blog.zengrong.net/post/2294.html)
-* [Drawing graphs with dot](http://www.graphviz.org/pdf/dotguide.pdf)
-* [Windows 下 Graphviz 安装及入门教程](https://blog.csdn.net/lanchunhui/article/details/49472949)
-
+- [Graphviz 简易教程](https://blog.zengrong.net/post/2294.html)
+- [Drawing graphs with dot](http://www.graphviz.org/pdf/dotguide.pdf)
+- [Windows 下 Graphviz 安装及入门教程](https://blog.csdn.net/lanchunhui/article/details/49472949)
