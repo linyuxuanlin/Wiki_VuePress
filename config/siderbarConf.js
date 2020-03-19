@@ -136,7 +136,7 @@ module.exports = [
             "post/效率/构建知识管理系统",
             "post/效率/回归博客",
             "post/效率/定制SublimeText3",
-            "post/生活方式/VSCode生产力指南-环境配置",
+            "post/效率/VSCode生产力指南-环境配置",
 
         ]
     },
