@@ -136,7 +136,7 @@ module.exports = [
             "post/效率/构建知识管理系统",
             "post/效率/回归博客",
             "post/效率/定制SublimeText3",
-            "post/效率/定制VSCode",
+            "post/生活方式/VSCode生产力指南-环境配置",
 
         ]
     },
@@ -177,7 +177,6 @@ module.exports = [
             "post/生活方式/读《黑客与画家》",
             "post/生活方式/英语六级-备考",
             "post/生活方式/攒机基础知识",
-            "post/生活方式/VSCode生产力指南-环境配置",
         ]
     },
     {
