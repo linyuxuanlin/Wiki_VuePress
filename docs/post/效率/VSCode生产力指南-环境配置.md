@@ -48,7 +48,6 @@ VS Code 发展到现在，各种功能已经非常强大，基本超越收费闭
 
 - [**Markdown All in One**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)：提供更强大的 Markdown 语法支持
 - [**Markdown Paste Image**](https://marketplace.visualstudio.com/items?itemName=onesdev.vscode-paste-image-plus)：将图片粘贴到 Markdown, 并拷贝至 /res 文件夹内
-- [**Markdown Preview Enhanced**](https://marketplace.visualstudio.com/items?itemName=onesdev.vscode-paste-image-plus)：增强 Markdown 预览
 - [**Pangu-Markdown**](https://marketplace.visualstudio.com/items?itemName=xlthu.Pangu-Markdown)：规范 Markdown 格式（中英文间加空格、替换规范标点等）
   - **配置项**：启用保存时自动格式化
 - [**vscode-pandoc**](https://marketplace.visualstudio.com/items?itemName=DougFinke.vscode-pandoc)：增加 Pandoc 支持，将 Markdown 导出为 PDF/Word/HTML 等格式
@@ -101,7 +100,7 @@ VS Code 发展到现在，各种功能已经非常强大，基本超越收费闭
 
 ### 字体
 
-等宽字体是写代码的必备，我个人推荐 [**雅黑等宽(Microsoft YaHei Mono)**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/Microsoft-YaHei-Mono.ttf) 字体。
+等宽字体是写代码的必备，我个人推荐 [**雅黑等宽 (Microsoft YaHei Mono)**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/Microsoft-YaHei-Mono.ttf) 字体。
 
 下载 .ttf 字体文件后安装，重启 VS Code，并在 `设置 - 文本编辑器 - 字体 - Font Family` 选项中将 `'Microsoft YaHei Mono'` 添加至头部，即可启用字体。
 
@@ -125,4 +124,4 @@ VS Code 发展到现在，各种功能已经非常强大，基本超越收费闭
 ### 参考链接
 
 - [Docs · Visual Studio Code](https://code.visualstudio.com/docs)
-- [为什么我选择使用 VS Code 进行前端开发?](https://zhuanlan.zhihu.com/p/28631442)
+- [为什么我选择使用 VS Code 进行前端开发？](https://zhuanlan.zhihu.com/p/28631442)
