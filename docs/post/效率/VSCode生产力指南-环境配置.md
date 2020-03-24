@@ -43,6 +43,7 @@ VS Code 发展到现在，各种功能已经非常强大，基本超越收费闭
 - [**Settings Sync**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)：备份设置项和插件，多设备同步
   - **配置项**：配置相应的 `GitHub Gist ID` 和 `GitHub Access Token`
   - **用法**：`Shift + Alt + U` 上传，`Shift + Alt + D` 下载
+  - （最新版本 VS Code 已自带同步功能，但如果需要版本管理还是可以用这个插件）
 
 ### Markdown
 
