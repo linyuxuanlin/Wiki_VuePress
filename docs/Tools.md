@@ -4,11 +4,6 @@
 
 ---
 
-$$\begin{aligned}P_n(x)=\sum_{n=0}^{
-[\frac{n}{2}]} \frac{(-1)^k(2n-2k)!} 
-{2^nk!(n-k)!(n-2k)!}x^{n-2k}, \quad 
-\text{n=1,2,...}\tag{1}\end{aligned}$$
-
 ![Wiki-Action](https://github.com/linyuxuanlin/Wiki-book/workflows/Wiki-Action/badge.svg)
 
 ## 工作流涉及的工具
