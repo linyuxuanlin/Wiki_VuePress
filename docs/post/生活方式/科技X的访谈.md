@@ -133,4 +133,4 @@ Hello 大家好，我的名字是 Power，是一名大学生。我的标签如�
 ## Power 的联系方式
 
 - 微信：`linyuxuanlin`
-- 个人网站：<wiki-power.com>
+- 个人网站：<https://wiki-power.com>
