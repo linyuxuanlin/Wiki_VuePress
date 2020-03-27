@@ -2,8 +2,6 @@
 
 Altium Designer 系列教程
 
----
-
 ## 背景
 
 本系列教程基于 Altium Designer 19，往后如遇版本更新，本教程也将同步跟进。
@@ -64,4 +62,3 @@ Altium Designer 系列教程
 * [Altium 公司 Altium Designer 专栏](https://seujxh.wordpress.com/2018/09/30/altium%e5%85%ac%e5%8f%b8altium-designer%e4%b8%93%e6%a0%8f/)
 
 另：感谢彬哥整理的经验和笔记。
-

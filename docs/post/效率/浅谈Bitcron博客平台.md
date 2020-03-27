@@ -1,9 +1,5 @@
 # 浅谈 Bitcron 博客平台
 
-
----
-
-
 ## 背景
 
 Bitcron 作为一个独立博客平台，网上的评价普遍不错。我也是看了这些文章之后入坑的，赞同它「人类创造内容，我们负责渲染」的理念。不过，使用了一段时间后，还是发现有一些不尽如人意的地方。
@@ -18,7 +14,7 @@ Bitcron 作为一个独立博客平台，网上的评价普遍不错。我也是
 2. Markeditor 同步：要钱，授权费 ¥128
 3. Dropbox 同步：需要搭梯子
 
-Bitcron 的邀请制度很严格。每个用户每充值50元，可以邀请一个人。从一定角度来说，这保证了用户质量，毕竟一旦流量涌入，内容质量必然会下降（像豆瓣、知乎）。但这也是门槛，挡住了一部分优质用户。城外的人想进去，真进去了却发现并没有像大部分软文提及的一样好用。
+Bitcron 的邀请制度很严格。每个用户每充值 50 元，可以邀请一个人。从一定角度来说，这保证了用户质量，毕竟一旦流量涌入，内容质量必然会下降（像豆瓣、知乎）。但这也是门槛，挡住了一部分优质用户。城外的人想进去，真进去了却发现并没有像大部分软文提及的一样好用。
 
 **Bitcron 的宣传点是「简单」，但种种操作从一开始就架高了用户门槛。**
 
@@ -46,9 +42,8 @@ A：可以联系我拿邀请码。
 
 ## 参考与致谢
 
-* [简谈Bitcron与博客](https://linhai1990.com/archives/89.html)
-* [Bitcron折腾小记（上）](https://linhai1990.com/archives/103.html)
-* [Bitcron折腾小记（下）](https://linhai1990.com/archives/104.html)
+* [简谈 Bitcron 与博客](https://linhai1990.com/archives/89.html)
+* [Bitcron 折腾小记（上）](https://linhai1990.com/archives/103.html)
+* [Bitcron 折腾小记（下）](https://linhai1990.com/archives/104.html)
 * [Bitcron 初体验](https://cyhour.com/533/)
 * [我把 pi.bitcron.com 全部看了一遍，整理出了这些有用的信息](https://www.liaoyuqin.com/post/help/pibitcron)
-

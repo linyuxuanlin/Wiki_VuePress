@@ -2,8 +2,6 @@
 
 Altium Designer 系列教程
 
----
-
 ## 背景
 
 经过上一章节的预热，从这一章开始，我们进入原理图绘制环节。
@@ -76,4 +74,3 @@ Altium Designer 系列教程
 ## 参考与致谢
 
 * [Altium 公司 Altium Designer 专栏](https://seujxh.wordpress.com/2018/09/30/altium%e5%85%ac%e5%8f%b8altium-designer%e4%b8%93%e6%a0%8f/)
-

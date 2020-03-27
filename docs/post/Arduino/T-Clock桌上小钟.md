@@ -1,7 +1,5 @@
 # T-Clock 桌上小钟
 
----
-
 ## 准备材料
 
 1. **NodeMCU**：基于 ESP8266
@@ -15,7 +13,6 @@
 |  VCC  |  3.3V   |
 |  SCL  |   D1    |
 |  SDA  |   D2    |
-
 
 ## 例程
 
@@ -35,11 +32,10 @@
 注：需将 WiFi 名称及密码、城市、私钥改为你自己的。  
 如果编译出现错误，且错误信息定位在 `#error("Height incorrect, please fix Adafruit_SSD1306.h!");`，则需打开库文件 `Adafruit_SSD1306.h`，将 `#define SSD1306_128_32` 改为 `#define SSD1306_128_64`。
 
-
 注：定制硬件项目正在路上~
 
 ## 参考与致谢
-* [T-Clock 桌上小钟（旧）](../unlist/T-Clock桌上小钟（旧）.md)
+* [T-Clock 桌上小钟（旧）](../unlist/T-Clock 桌上小钟（旧）.md)
 * [心知天气](https://www.seniverse.com/)
 * [ESP8266 接入心知天气 API【程序＋详细讲解】](https://www.bilibili.com/video/av89935868/?spm_id_from=333.788.b_636f6d6d656e74.4)
 * [ESP8266＋OLED = 网络时钟和未来 3 日天气预报](https://www.bilibili.com/video/av88920975/)

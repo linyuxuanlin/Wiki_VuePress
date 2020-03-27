@@ -1,7 +1,5 @@
 # Git 学习笔记
 
----
-
 ## 安装与配置
 
 下载安装包：[**git-scm.com/downloads**](https://git-scm.com/downloads)

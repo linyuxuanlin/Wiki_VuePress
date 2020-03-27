@@ -1,9 +1,5 @@
 # T-Clock 桌上小钟（旧）
 
-旧项目归档
-
----
-
 ## 背景
 
 我从柜子里翻出了以前做的一个玩具，拨一下开关，发现还能用，遂将资料整理一下。
@@ -31,7 +27,7 @@
 #include <Wire.h>
 #include <RTClib.h>
 U8GLIB_SSD1306_128X64 u8g(10, 9, 12, 11, 13);
-//这里适用的OLED屏的引脚是：D0,D1,RST,DC
+//这里适用的 OLED 屏的引脚是：D0,D1,RST,DC
 /*接线：
   OLED-Arduino
   D0-D10
@@ -39,7 +35,7 @@ U8GLIB_SSD1306_128X64 u8g(10, 9, 12, 11, 13);
   RST-D13
   DC-D11
 */
-RTC_DS1307 RTC;//RTC按照IIC接线
+RTC_DS1307 RTC;//RTC 按照 IIC 接线
 char monthString[37] =
 {
   "JanFebMarAprMayJunJulAugSepOctNovDec"
@@ -75,7 +71,7 @@ void draw(void)
   thisTime = String(now.hour()) + ":";
   if (now.minute() < 10)
   {
-    thisTime = thisTime + "0";    // 在单数数字前头加个0
+    thisTime = thisTime + "0";    // 在单数数字前头加个 0
   }
   //数字时间
   thisTime = thisTime + String(now.minute()) ;
@@ -87,7 +83,7 @@ void draw(void)
   //跳动显示
   for ( int z = 0; z < 360; z = z + 30 )
   {
-    //始于0°,止于360°
+    //始于 0°, 止于 360°
     float angle = z ;
     angle = (angle / 57.29577951) ;   //化度数为弧度
     int x2 = (clockCentreX + (sin(angle) * 20));
@@ -157,4 +153,3 @@ void loop(void)
 * [屏幕无法显示？先测试一下](http://shimo.im/doc/63ALdXdl3EUInWJO)
 * [使用 Arduino UNO 为 Arduino Pro Mini 下载程序](http://blog.sina.com.cn/s/blog_53f8d23d0102wv3m.html)
 * [U8glib 用法](https://github.com/olikraus/u8glib/wiki/device#ssd1306-128x64)
-

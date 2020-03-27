@@ -1,12 +1,8 @@
 # BookJourney - 二手书商城
 
-一个商城类微信小程序的开发经历。
-
----
-
 ## 成品
 
-![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/书程小驿.jpg)
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/书程小驿。jpg)
 
 项目地址：[linyuxuanlin/BookJourney](https://github.com/linyuxuanlin/BookJourney) 微信扫码体验：
 
@@ -22,7 +18,7 @@
 
 功能上，我删去了与砍价、分享有赏有关的一系列乱七八糟的东西，只留下核心功能。
 
-因为后期商品上新不由我负责，所以后台商品编辑必须是图形化界面。BookJourney 用的是 [api工厂](https://www.it120.cc/) 的后台，省去了自己搭建服务器的过程，也方便团队成员上架新的商品。相应地，免费用户有储存限制。
+因为后期商品上新不由我负责，所以后台商品编辑必须是图形化界面。BookJourney 用的是 [api 工厂](https://www.it120.cc/) 的后台，省去了自己搭建服务器的过程，也方便团队成员上架新的商品。相应地，免费用户有储存限制。
 
 ## 避坑
 
@@ -45,4 +41,3 @@ A：总利润收入：¥16.66……
 ## 参考与致谢
 
 * [EastWorld / wechat-app-mall](https://github.com/EastWorld/wechat-app-mall)
-

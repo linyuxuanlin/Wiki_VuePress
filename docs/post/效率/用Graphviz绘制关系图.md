@@ -1,8 +1,6 @@
 # 用 Graphviz 绘制关系图
 
-一种自动化画图的方式。
-
----
+一种用代码绘制关系图的方式。
 
 ## 背景
 
@@ -30,7 +28,7 @@ graph graph_name {
 }
 ```
 
-![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/Graphviz/屏幕快照%202019-02-01%20下午2.02.44.png)
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/Graphviz/屏幕快照%202019-02-01%20 下午 2.02.44.png)
 
 ## FAQ
 

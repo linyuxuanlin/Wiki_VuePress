@@ -1,7 +1,5 @@
 # CSS 学习笔记
 
----
-
 ## 调用
 
 在 HTML 的 `<head>` 下添加外部样式表：
@@ -80,11 +78,10 @@ font-size: 200%;
 ```css
 /*字体选用*/
 /*本地*/
-font-family: "Courier New", Courier, monospace, 外链字体名称;
-
+font-family: "Courier New", Courier, monospace, 外链字体名称；
 /*外链*/
 @font-face {
-  font-family: 外链字体名称;
+  font-family: 外链字体名称；
   src: url("外链地址");
 }
 ```
@@ -365,4 +362,4 @@ a:active {
 
 - [CSS 入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
 - [CSS3 Tutorial 《CSS3 教程》](https://waylau.gitbooks.io/css3-tutorial/content/)
-- [CSS 属性声明顺序规范](https://wiki.zthxxx.me/wiki/程序语言/CSS/CSS%20属性声明顺序规范/)
+- [CSS 属性声明顺序规范](https://wiki.zthxxx.me/wiki/程序语言/CSS/CSS%20 属性声明顺序规范/)

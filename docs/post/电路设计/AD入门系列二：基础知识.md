@@ -2,8 +2,6 @@
 
 Altium Designer 系列教程
 
----
-
 ## 背景
 
 配置完软件运行环境，在开始画板子之前，我们务必先熟悉一些 Altium Designer 及电路设计的基本知识。
@@ -22,8 +20,7 @@ Altium Designer 系列教程
 * [**JLCSMT\_LIB**](https://gitee.com/JLC_SMT/JLCSMT_LIB)：嘉立创提供的标准集成库，包含嘉立创可以 SMT 贴片的所有元件，直接用这个集成库，打板 / SMT 的时候兼容性会比较好。
 * [**Hare\_Library**](https://www.jianguoyun.com/p/DX2d84cQ-OOjBxj0kPwB#dir=%2FHare_Library::mode=0)：彬哥整理的原理图库 / 封装库，涵盖队内硬件所需的大部分元器件。
 
-如何安装库文件：参考 [**Altium Designer 安装库文件**](../unlist/AltiumDesigner安装库文件.md)
-
+如何安装库文件：参考 [**Altium Designer 安装库文件**](../unlist/AltiumDesigner 安装库文件。md)
 
 ### 不常见的元器件
 
@@ -37,11 +34,7 @@ AD 插件：
 * [**SnapEDA**](https://www.snapeda.com/)
 * [**Ultra Librarian**](https://www.ultralibrarian.com/)
 
-SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](../unlist/从SnapEDA导入库文件.md)
-
-
-
-
+SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](../unlist/从 SnapEDA 导入库文件。md)
 
 ## 快捷键
 
@@ -124,22 +117,22 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](../unlist/
       * 固定孔
         * M3 螺孔：内 **3.1** mm、外 **4** mm
    4. 排布元件
-      * 参考 [**PCB 元件布局规范**](post/电路设计/PCB元件布局规范.md)
+      * 参考 [**PCB 元件布局规范**](post/电路设计/PCB 元件布局规范。md)
    5. 布线
       * 设置布线规则
-        * 参考 [**PCB 布线规范**](post/电路设计/PCB布线规范.md)
+        * 参考 [**PCB 布线规范**](post/电路设计/PCB 布线规范。md)
       * **不要开启自动布线！**
       * **开启泪滴功能**
    6. 字体标识（引脚标识 / 版权 / 迷惑性文字）
       * 放置于丝印层（顶层 / 底层）
       * 放底层要先镜像
    7. 敷铜（**PG**）
-      * 参考 [**PCB 布线规范**](post/电路设计/PCB布线规范.md)
+      * 参考 [**PCB 布线规范**](post/电路设计/PCB 布线规范。md)
 4. 打板
    1. 保存项目
    2. 将 **.pcb** 文件压缩（这样做似乎不太对，可以的话导出 Gerber）
    3. 上传至 **嘉立创下单助手**
-   4. (可选 SMT)
+   4. （可选 SMT)
 
 ## 其他知识
 
@@ -156,7 +149,7 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](../unlist/
   * **FB**：磁珠
   * **U**：芯片
   * **TP**：测试点
-* **Comment**：元件大小参数，如电阻的阻值、电容的容值、IC芯片型号等
+* **Comment**：元件大小参数，如电阻的阻值、电容的容值、IC 芯片型号等
 * **Description**：用于填写元件的功能描述
 
 ### Logo 添加
@@ -171,8 +164,5 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](../unlist/
 ## 参考与致谢
 
 * [Altium 公司 Altium Designer 专栏](https://seujxh.wordpress.com/2018/09/30/altium%e5%85%ac%e5%8f%b8altium-designer%e4%b8%93%e6%a0%8f/)
-* [嘉立创 SMT 贴片 可贴列表 PADS 集成库 \(正式版\)](http://club.szlcsc.com/article/details_2757_1.html)
+* [嘉立创 SMT 贴片 可贴列表 PADS 集成库 \（正式版、)](http://club.szlcsc.com/article/details_2757_1.html)
 * 彬哥整理的经验和笔记
-
-
-

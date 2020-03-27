@@ -1,8 +1,6 @@
 # ZenDriver - 高性能的电机驱动
 
-基于 V5.1 Release 版本
-
----
+基于 V5.1 Release 版本。
 
 ## 基本参数
 
@@ -41,7 +39,4 @@
 
 PCB 工程已开源至 GitHub：[https://github.com/linyuxuanlin/ZenDriver](https://github.com/linyuxuanlin/ZenDriver)
 
-
-
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200125192734.png)
-

@@ -2,8 +2,6 @@
 
 如何用 VS Code 打造高效率的生产力工具。
 
----
-
 ## 背景
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200323155728.png)

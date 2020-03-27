@@ -1,10 +1,5 @@
 # 从 SnapEDA 导入库文件
 
-
-
----
-
-
    * 从 **SnapEDA** 下载的元器件：
      1. 先在 **Shared\Library** 路径下创建 **SnapEDA** 文件夹（便于后期整理）；
      2. 将下载的 **.lia** 文件解压并拷贝至 **SnapEDA** 文件夹内；

@@ -1,7 +1,5 @@
 # HTML 学习笔记
 
----
-
 ## 基本框架
 
 ```markup
@@ -64,7 +62,7 @@
 
     <!--链接-->
     <a href="https://www.google.com/">链接显示的文本</a>
-    <!--链接到页面特定位置,使用 ID 特性-->
+    <!--链接到页面特定位置，使用 ID 特性-->
     <a href="#top">回到顶部</a>
     <p id="top">顶部</p>
     <!--链接到其他页面的特定位置-->
@@ -112,4 +110,3 @@
 * [HTML 教程 \| 菜鸟教程](http://www.runoob.com/html/html-tutorial.html)
 * [HTML 30 分钟入门教程](http://deerchao.net/tutorials/html/html.htm)
 * [HTML - head 头部浅析](https://www.tielemao.com/831.html)
-

@@ -1,23 +1,21 @@
 # Hack.init( )
 
----
-
 ## Wight -  基于云平台的去线缆化照明系统。
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/wight.jpg)
 
 ## 背景
 
-项目制作于 2017 hack.init\(\) 创客马拉松。 20多个小时的敲代码、建模、调试各种乱七八糟的bug、等待打印、展示 & 演讲，终于有点成品的样子。
+项目制作于 2017 hack.init\(\) 创客马拉松。 20 多个小时的敲代码、建模、调试各种乱七八糟的 bug、等待打印、展示 & 演讲，终于有点成品的样子。
 
 这个项目主要用于乡村偏远地区的路灯照明系统。 模型有点抽象，其实它正扮演的是一杆路灯。
 
 ## 项目创新点
 
-* **太阳能供电。**自给自足（经查阅详细资料，太阳能发电量足以点亮LED）
+* **太阳能供电。**自给自足（经查阅详细资料，太阳能发电量足以点亮 LED）
 * **去线缆化。**为偏远山区不方便铺线缆提供便利
-* **智能算法。**检测到夜晚，自动开灯；检测到人或车辆经过，提高LED亮度
-* **云平台统一控制。**用的是GSM主控，可以批量远程调试
+* **智能算法。**检测到夜晚，自动开灯；检测到人或车辆经过，提高 LED 亮度
+* **云平台统一控制。**用的是 GSM 主控，可以批量远程调试
 * **拓展性。**对个别有自定义照明需求的特殊用户提供各种自定义的功能
 
 ## 原理及实现
@@ -36,7 +34,6 @@
 #define LEDPIN4    D5
 #define CHECKIN1   A0
 #define CHECKIN2   D4
-
 
 int autostate = 2;
 int light_state = 2;
@@ -147,7 +144,6 @@ void automode()
 void HUMIDITY_print_function(uint8_t *payload, uint32_t len)
 {
 
-
 }
 
 // IntoRobot.publish(LIGHT_STATUS_address,"1");
@@ -205,4 +201,3 @@ Q：项目后期还有跟进吗？
 
 * 团队成员：林沛杰，黄岳峰，张梓宜
 * [IntoRobot 云平台](https://www.intorobot.com/)
-

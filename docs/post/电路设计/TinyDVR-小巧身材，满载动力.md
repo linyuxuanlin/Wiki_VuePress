@@ -1,13 +1,7 @@
 
-
 # TinyDVR - 小巧身材，满载动力
 
 基于 TinyDVR Master V1.1 & Slave V7.2 Release
-
----
-
-
-
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200125191345.jpg)
 

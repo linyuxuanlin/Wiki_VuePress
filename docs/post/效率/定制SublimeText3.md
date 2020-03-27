@@ -1,15 +1,11 @@
 # 定制 Sublime Text 3
 
----
-
-颜值即生产力。
-
 ## 背景
 
 **Sublime Text** 是一款非常强大的文本编辑器。由于下学期有 Python 相关课程，而 Pycharm 等工具的 UI 有些难看。我决定把 Sublime Text 打造为 Python 开发利器。
 
 定制后的效果图：  
- ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/ST3效果.png)
+ ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/ST3 效果。png)
 
 ## [极简部署](https://www.jianguoyun.com/p/Da9TMr0Q-OOjBxif86sB)
 
@@ -21,7 +17,7 @@
 
 ### 软件下载及安装
 
-Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[**免安装版本**](https://download.sublimetext.com/Sublime%20Text%20Build%203176%20x64.zip)） 软件可以免费使用，但有时候会弹出付费提示。经提醒，已将序列号从文章中删除。需要可以联系我。
+Sublime Text 3 可从 [官网](http://www.sublimetext.com/) 下载（推荐下载 [**免安装版本**](https://download.sublimetext.com/Sublime%20Text%20Build%203176%20x64.zip)） 软件可以免费使用，但有时候会弹出付费提示。经提醒，已将序列号从文章中删除。需要可以联系我。
 
 ### 包管理器及插件安装
 
@@ -65,7 +61,7 @@ Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[
 
 以下插件可用 `Package Control` 直接安装。
 
-**StyleToken**：显示代码所代表的颜色（RGB） **FileHeader**：自定义文件模板 打开 `Preferences -> Package Settings -> FileHeader -> Settings - User` ，把 `Default` 里的内容拷贝到 `User` ,并修改个人信息如：
+**StyleToken**：显示代码所代表的颜色（RGB） **FileHeader**：自定义文件模板 打开 `Preferences -> Package Settings -> FileHeader -> Settings - User` ，把 `Default` 里的内容拷贝到 `User` , 并修改个人信息如：
 
 ```
 {
@@ -78,7 +74,7 @@ Sublime Text 3 可从[官网](http://www.sublimetext.com/)下载（推荐下载[
 ```
 
 在 `Preferences -> Browse Packages... -> FileHeader -> template -> header 或 body` 中修改模板内容。 效果：  
- ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/ST3模板效果.png)
+ ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/ST3 模板效果。png)
 
 ### 运行 Python
 

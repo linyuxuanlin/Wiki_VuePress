@@ -1,7 +1,5 @@
 # Doxygen 注释规范
 
----
-
 ## 文件头标注展开目录
 
 ```
@@ -28,8 +26,8 @@
  * @file doxygen_c.h
  * @author someone
  * @date 2018.1.4
- * @brief doxygen规范的C文件注释规范文档，可以换行，
- * 所有brief同
+ * @brief doxygen 规范的 C 文件注释规范文档，可以换行，
+ * 所有 brief 同
  *
  * @details 对该文档的详细说明和解释，可以换行，
  * 所有详细说明同
@@ -57,7 +55,7 @@ typedef enum BoxEnum_enum {
 
 ```
 /**
- * @brief 函数简要说明, 可以换行
+ * @brief 函数简要说明，可以换行
  *
  * @details 对函数的详细说明和解释，可以换行
  *

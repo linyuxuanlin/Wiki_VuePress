@@ -1,12 +1,8 @@
 # 基于 docsify 搭建个人 Wiki
 
----
-
-
 ## 背景
 
-笔者一直都有撰写博客的传统，自 2015 年以来，历经 Wordpress, Hexo, Jekyll, Bitcron ,GitBook 等博客工具, 甚至尝试用 GitHub issues 直接撰写文章，效果始终不理想。而最近发现的 docsify 博客工具，辅以一系列非常规操作，似乎是博客撰写的最终归宿。
-
+笔者一直都有撰写博客的传统，自 2015 年以来，历经 Wordpress, Hexo, Jekyll, Bitcron ,GitBook 等博客工具，甚至尝试用 GitHub issues 直接撰写文章，效果始终不理想。而最近发现的 docsify 博客工具，辅以一系列非常规操作，似乎是博客撰写的最终归宿。
 
 ## 搭建 Wiki 的意义
 
@@ -17,8 +13,6 @@
 1. 防止遗忘
 2. 体系化归纳知识
 3. 用输出倒逼输入
-
-
 
 好记性不如烂笔头，知识需要归纳、总结、沉淀。而输出总是比输入难的，在这个过程中，也加深了对知识的掌握和理解。这是一个反刍，咀嚼和表达的过程。知识经历了这个过程，才能真正被我们所吸收。
 
@@ -43,7 +37,7 @@
 * 样式完全由自己定义
 
 虽然优势看上去平平无奇，但重要性显而易见。当我们在非独立平台上写作时，这几个问题可能时时困扰着你：
-1. 我辛辛苦苦写的回答怎么就被折叠了呢？我的文章怎么就被 `政治敏感` 了呢?
+1. 我辛辛苦苦写的回答怎么就被折叠了呢？我的文章怎么就被 `政治敏感` 了呢？
 2. 怎么会有如此多的广告，污染我的文章版面？
 3. 我的读者大多是躲在被窝里阅读的，我想加一个暗色模式，保护读者的眼睛，平台却没有这个功能？（微信公众号）
 4. 我想介绍一个不错的网站，却不允许我引用外部链接？（微信公众号）
@@ -68,11 +62,7 @@
 > 
 > 积土成山，风雨兴焉；积水成渊，蛟龙生焉。从某些角度来说，Blog 锋芒毕现，Wiki 厚积薄发。
 
-
-
-
 ## docsify 的优势
-
 
 * 不会将 `.md` 转成 `.html` 文件，所有转换工作都是在运行时进行
 * 容易使用并且轻量 (~19kB gzipped)
@@ -96,7 +86,6 @@
 4. Git / GitHub 基本使用：下文将会普及
 5. （非必须）前端语言（HTML / CSS / Javascript），基本的命令行操作
 
-
 ## 快速部署
 
 如果你不想折腾，只想好好写文章，那么以下是捷径：
@@ -105,7 +94,7 @@
 3. 直接搬走我网站的样式
    1. 打开 https://github.com/linyuxuanlin/Wiki 
    2. 点击右上角 `Fork` 按钮，待页面刷新后继续
-   3. 点击右上角小齿轮图标的 `Settings` 按钮，将 `Repository name` 从 `Wiki` 改为 `你的 GitHub 用户名.github.io`（如果忘了刚刚设置的用户名，可以看看页面左上角），然后点击 `Rename` 按钮，待页面刷新后继续
+   3. 点击右上角小齿轮图标的 `Settings` 按钮，将 `Repository name` 从 `Wiki` 改为 `你的 GitHub 用户名。github.io`（如果忘了刚刚设置的用户名，可以看看页面左上角），然后点击 `Rename` 按钮，待页面刷新后继续
    4. 点击绿色按钮 `Clone or download`, 然后选择 `Open in Desktop`
    5. 在 GitHub Desktop 弹出的窗口内更改 `Local Path`，选择你想保存的路径，点击确认
 4. 打开文件 `你保存的路径/index.html`（找个适合自己的编辑器例如 VScode），利用 `Ctrl + H` 搜索替换：
@@ -117,7 +106,7 @@
 
 ## 写文章的流程
 
-1. 直接在相应目录创建 `文章标题.md`（参照我网站的目录结构），用 Markdown 写作
+1. 直接在相应目录创建 `文章标题。md`（参照我网站的目录结构），用 Markdown 写作
 2. 在 `siderbar.md` 内更新这篇文章的路径
 3. 在 GitHub Desktop 软件内进行 Commit & Push 操作，文章更新完成
 
@@ -135,9 +124,9 @@
 * **谷歌统计**：已默认配置并开启，需修改 `track id` ，详见文档
 * **Gitalk**：墙内可用且评论不受审查。已默认配置并开启，需以下操作：
     1. 打开链接 [**Register a new OAuth application**](https://github.com/settings/applications/new)
-    2. 填写信息。`Application name` ,`Homepage URL` 与 `Authorization callback URL` 都填写 `你的用户名.github.io`, 然后点击注册
+    2. 填写信息。`Application name` ,`Homepage URL` 与 `Authorization callback URL` 都填写 `你的用户名。github.io`, 然后点击注册
     3. 记下生成的 `clientID ` 和 `clientSecret`
-    4. 打开 `index.html`, 搜索并更新 `clientID ` 与 `clientSecret`, `repo` 的参数改为 `你的用户名.github.io`, `owner` 与 `admin` 内相应字符改为 `你的用户名`.（注意冒号后保留一空格，且标点符号为英文字符）
+    4. 打开 `index.html`, 搜索并更新 `clientID ` 与 `clientSecret`, `repo` 的参数改为 `你的用户名。github.io`, `owner` 与 `admin` 内相应字符改为 `你的用户名`.（注意冒号后保留一空格，且标点符号为英文字符）
     5. Commit & Push
 
 ### 图床
@@ -148,7 +137,6 @@
 
 与其临渊羡鱼，不如退而结网。  
 写作，是为了更好地思考。
-
 
 ## 参考与致谢
 
