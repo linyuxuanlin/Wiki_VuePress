@@ -2,8 +2,6 @@
 
 资源收藏夹
 
----
-
 ## 嵌入式
 
 ### 优秀项目
@@ -31,13 +29,11 @@
 
 ### 书籍及文档
 
-* [**ADI《新概念模拟电路》全五册**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/ADI《新概念模拟电路》全五册.pdf)
+* [**ADI《新概念模拟电路》全五册**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/ADI《新概念模拟电路》全五册。pdf)
 * [**《工程师教你最简单的读懂电路图的方法》**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/《工程师教你最简单的读懂电路图的方法》.pdf)
 * [**常用电子元器件**](https://www.eetree.cn/wiki/%E5%B8%B8%E7%94%A8%E7%94%B5%E5%AD%90%E5%85%83%E5%99%A8%E4%BB%B6)
 * [**电子工程师的资源网站大全**](https://www.eetree.cn/wiki/)
 * [**凡亿原创电子技术干货文章**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/%E5%87%A1%E4%BA%BF%E5%8E%9F%E5%88%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7%E6%96%87%E7%AB%A0)：包含 `单片机的复位电路` `采样电路的运用和设计` 等 13 篇技术文章
-
-
 
 ### 在线工具
 
@@ -54,7 +50,6 @@
 * [**技新 · 产品中心**](https://www.jixin.pro/shop)
 * [**立创开源硬件平台**](https://oshwhub.com/)
 
-
 ---
 
 ## 编程语言
@@ -62,20 +57,17 @@
 ### Python 
 * [**《Think Python 2e》最新版中文翻译**](https://codingpy.com/books/thinkpython2/index.html#think-python-2e)
 
-
 ---
 
 ## 效率
 
-* [**《GitHub 漫游指南》**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/GitHub漫游指南.pdf)
+* [**《GitHub 漫游指南》**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/GitHub 漫游指南。pdf)
 
 ---
 
 ## 文章备份
 
 * [**Power's Collection**](https://www.yuque.com/collection-power)：互联网存档，优秀内容防丢备份
-
-
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

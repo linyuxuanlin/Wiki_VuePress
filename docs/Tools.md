@@ -2,10 +2,6 @@
 
 利器分享
 
----
-
-![Wiki-Action](https://github.com/linyuxuanlin/Wiki-book/workflows/Wiki-Action/badge.svg)
-
 ## 工作流涉及的工具
 
 ### 项目管理
