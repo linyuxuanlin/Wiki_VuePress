@@ -110,22 +110,22 @@ module.exports = [
     ]
   },
   {
-    title: "效率",
+    title: "高效工作",
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/效率/文章排版规范",
-      "post/效率/基于docsify搭建个人Wiki",
-      "post/效率/用Graphviz绘制关系图",
-      "post/效率/博客转至GitBook",
-      "post/效率/浅谈Bitcron博客平台",
-      "post/效率/RSS-高效率的阅读方式",
-      "post/效率/把回忆放心交给GooglePhotos",
-      "post/效率/构建知识管理系统",
-      "post/效率/回归博客",
-      "post/效率/定制SublimeText3",
-      "post/效率/VSCode生产力指南-环境配置",
-      "post/效率/VSCode生产力指南-JupyterNotebook"
+      "post/高效工作/文章排版规范",
+      "post/高效工作/基于docsify搭建个人Wiki",
+      "post/高效工作/用Graphviz绘制关系图",
+      "post/高效工作/博客转至GitBook",
+      "post/高效工作/浅谈Bitcron博客平台",
+      "post/高效工作/RSS-高效率的阅读方式",
+      "post/高效工作/把回忆放心交给GooglePhotos",
+      "post/高效工作/构建知识管理系统",
+      "post/高效工作/回归博客",
+      "post/高效工作/定制SublimeText3",
+      "post/高效工作/VSCode生产力指南-环境配置",
+      "post/高效工作/VSCode生产力指南-JupyterNotebook"
     ]
   },
   {

@@ -59,7 +59,7 @@
 
 ---
 
-## 效率
+## 高效工作
 
 * [**《GitHub 漫游指南》**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/GitHub 漫游指南。pdf)
 
