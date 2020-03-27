@@ -85,3 +85,7 @@ A：读书这种方式也没有被时代淘汰。一个趋势是，凡是互联�
 * [【RSS】我的 RSS 使用介绍](https://www.cnblogs.com/buwuliao/p/8379549.html)
 * [自制全文 RSS 汇总（附 推荐工具）](https://www.douban.com/note/522518464/)
 * [论 RSS 的「复兴」](https://sspai.com/post/43998)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

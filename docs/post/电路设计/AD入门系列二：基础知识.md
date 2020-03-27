@@ -166,3 +166,7 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](../unlist/
 * [Altium 公司 Altium Designer 专栏](https://seujxh.wordpress.com/2018/09/30/altium%e5%85%ac%e5%8f%b8altium-designer%e4%b8%93%e6%a0%8f/)
 * [嘉立创 SMT 贴片 可贴列表 PADS 集成库 \（正式版、)](http://club.szlcsc.com/article/details_2757_1.html)
 * 彬哥整理的经验和笔记
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

@@ -71,3 +71,7 @@ A：建议用移动硬盘加密备份，或者打包加密再上传到国外的�
 * [“中国人更愿意用隐私换便利”，李彦宏错了吗？](https://news.newseed.cn/p/1345029)
 * [这一次，Google Photos 要重新定义「云相册」](https://sspai.com/post/29151)
 * [Google 隐私权和条款](https://policies.google.com/privacy?hl=zh-CN)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

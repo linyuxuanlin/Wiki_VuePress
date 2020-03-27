@@ -124,3 +124,7 @@ VS Code 发展到现在，各种功能已经非常强大，基本超越收费闭
 
 - [Docs · Visual Studio Code](https://code.visualstudio.com/docs)
 - [为什么我选择使用 VS Code 进行前端开发？](https://zhuanlan.zhihu.com/p/28631442)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

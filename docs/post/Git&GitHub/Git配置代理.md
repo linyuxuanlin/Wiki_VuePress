@@ -42,3 +42,7 @@ $ git config --global --unset https.proxy
 ## 参考与致谢
 
 * [**征服 git clone 与 git pull 的龟速提交**](https://c.lanmit.com/czxt/Linux/16965.html)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

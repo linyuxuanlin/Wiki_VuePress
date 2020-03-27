@@ -8,3 +8,7 @@
         * 将 **Layer '20'** 右键选择为 **Mechanical Layer 13** ；
         * 将 **Layer '21'** 右键选择为 **Mechanical Layer 15** ；
      4. 一直点 **Next** 直至完成。
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

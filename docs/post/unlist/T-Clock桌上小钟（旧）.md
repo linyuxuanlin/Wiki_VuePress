@@ -153,3 +153,7 @@ void loop(void)
 * [屏幕无法显示？先测试一下](http://shimo.im/doc/63ALdXdl3EUInWJO)
 * [使用 Arduino UNO 为 Arduino Pro Mini 下载程序](http://blog.sina.com.cn/s/blog_53f8d23d0102wv3m.html)
 * [U8glib 用法](https://github.com/olikraus/u8glib/wiki/device#ssd1306-128x64)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

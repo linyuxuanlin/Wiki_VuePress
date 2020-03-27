@@ -16,3 +16,7 @@ CMSIS DAP 是 ARM 官方推出的开源仿真器，支持所有的 Cortex - ARM 
 * [电子屌丝的的情怀：CMSIS DAP 仿真器](http://www.stmcu.org.cn/module/forum/thread-610968-1-2.html)
 * [CMSIS DAP 仿真器](https://item.taobao.com/item.htm?spm=a1z10.1-c.w5003-21405148310.36.78726a3dta5ieC&id=550828063764&scene=taobao_shop)
 * [konosubakonoakua/Various_MCU_Debugger_DIY](https://github.com/konosubakonoakua/Various_MCU_Debugger_DIY)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

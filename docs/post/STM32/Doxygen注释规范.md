@@ -100,3 +100,7 @@ unsigned int variable = 0;
 ## 参考与致谢
 
 - [基于 Doxygen 的 C 语言简要注释规范](https://www.liuguogy.com/archives/doxygen-c-brief-annotation.html)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

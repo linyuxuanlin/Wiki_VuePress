@@ -17,3 +17,7 @@ $ git commit -m '删除了 target'  # 添加操作说明并提交
 ## 参考与致谢
 
 * [删除 GitHub 中某个文件夹](https://blog.csdn.net/wudinaniya/article/details/77508229)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
