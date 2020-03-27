@@ -90,7 +90,7 @@ Hello 大家好，我的名字是 Power，是一名大学生。我的标签如�
   - 格伦·古尔德演奏的《哥德堡变奏曲》
   - Queen 乐队的《波西米亚狂想曲》
   - 爱乐之城的配乐
-  - 《South of the Border》专辑
+  - South of the Border 专辑
   - Scott Joplin 的 Ragtime 风格爵士
 - App：Telegram, Inoreader, Anydesk, 微软数学
 
