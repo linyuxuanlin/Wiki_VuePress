@@ -1,6 +1,6 @@
 # ZenDriver - 高性能的电机驱动
 
-基于 V5.1 Release 版本。
+基于 V5.1 Release 版本
 
 ## 基本参数
 
