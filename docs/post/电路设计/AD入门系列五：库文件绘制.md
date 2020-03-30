@@ -1,6 +1,6 @@
 # AD 入门系列五：库文件绘制
 
-Altium Designer 系列教程
+—— Altium Designer 系列教程
 
 （待更新）
 
@@ -12,7 +12,7 @@ Altium Designer 系列教程
 
 ## 参考与致谢
 
-* []()
+- []()
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

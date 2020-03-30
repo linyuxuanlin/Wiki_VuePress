@@ -1,6 +1,6 @@
 # VS Code 生产力指南 - 环境配置
 
-如何用 VS Code 打造高效率的生产力工具。
+—— 如何用 VS Code 打造高效率的生产力工具。
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200319135609.png)
 

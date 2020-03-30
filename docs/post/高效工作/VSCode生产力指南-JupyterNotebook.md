@@ -1,6 +1,6 @@
 # VS Code 生产力指南 - Jupyter Notebook
 
-如何用 VS Code 打造高效率的生产力工具。
+—— 如何用 VS Code 打造高效率的生产力工具。
 
 ## 背景
 

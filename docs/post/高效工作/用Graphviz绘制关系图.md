@@ -30,10 +30,6 @@ graph graph_name {
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/Graphviz/屏幕快照%202019-02-01%20 下午 2.02.44.png)
 
-## FAQ
-
-Q：其他平台的兼容情况？ A：官网有 Windows，macOS，Linux 的下载链接，推荐在线工具。
-
 ## 总结
 
 自动布局是 Graphviz 的精髓。类比我之前用 Markdown 语法直接生成幻灯片，这些工具把内容标准化，让人能够**更加注重于内容，而非形式与布局**。

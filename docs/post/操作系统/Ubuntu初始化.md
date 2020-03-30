@@ -1,6 +1,6 @@
 # Ubuntu 初始化
 
-记录一些初始化配置。
+—— 记录一些初始化配置。
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

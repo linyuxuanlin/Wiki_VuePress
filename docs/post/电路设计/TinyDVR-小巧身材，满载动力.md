@@ -1,6 +1,6 @@
 # TinyDVR - 小巧身材，满载动力
 
-基于 TinyDVR Master V1.1 & Slave V7.2 Release
+—— 基于 TinyDVR Master V1.1 & Slave V7.2 Release
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200125191345.jpg)
 
@@ -27,12 +27,12 @@ TinyDVR 是一款电机驱动套件，包含母板（Master）与子板（Slave�
 
 背面引脚详解：
 
-* \+ ：提供 5V / 3A 的电源输出
-* 1 ：IN1 端口，输入 PWM 信号 1
-* 2 ：IN2 端口，输入 PWM 信号 2
-* A :  编码器 A 相信号端口
-* B :  编码器 B 相信号端口
-* \- ：GND
+- \+ ：提供 5V / 3A 的电源输出
+- 1 ：IN1 端口，输入 PWM 信号 1
+- 2 ：IN2 端口，输入 PWM 信号 2
+- A : 编码器 A 相信号端口
+- B : 编码器 B 相信号端口
+- \- ：GND
 
 ## 使用指南
 

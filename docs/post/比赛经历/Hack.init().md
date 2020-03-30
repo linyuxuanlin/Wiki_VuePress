@@ -1,6 +1,6 @@
 # Hack.init( )
 
-Wight -  基于云平台的去线缆化照明系统。
+—— Wight · 基于云平台的去线缆化照明系统。
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/wight.jpg)
 
