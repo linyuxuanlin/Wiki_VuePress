@@ -10,6 +10,18 @@ module.exports = [
     }
   ],
   [
+    "vuepress-plugin-comment",
+    {
+      choosen: "valine",
+      // options选项中的所有参数，会传给 Valine 的配置
+      options: {
+        el: "#valine-vuepress-comment",
+        appId: "erDx4QpfFAmXydF6nCRQxMhQ-gzGzoHsz",
+        appKey: "5DHVcLGeYkA1q8gSNY7wsb3z"
+      }
+    }
+  ],
+  [
     "@vuepress/pwa",
     {
       serviceWorker: true,
