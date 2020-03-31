@@ -26,9 +26,12 @@ actionLink: /post/电路设计/TinyDVR-小巧身材，满载动力
 
 我的联系方式：
 
-![微信](https://img.shields.io/badge/WeChat-linyuxuanlin-07C160)
-[![GitHub](https://img.shields.io/badge/GitHub-282c34)](https://github.com/linyuxuanlin)
+[![微信](https://img.shields.io/badge/WeChat-07C160)](unlist/WeChat.md)
 [![Telegram](https://img.shields.io/badge/Telegram-34ABE0)](https://t.me/linyuxuanlin)
+[![知乎](https://img.shields.io/badge/知乎-0084ff)](https://www.zhihu.com/people/linyuxuanlin)
+[![少数派](https://img.shields.io/badge/少数派-C23133)](https://sspai.com/u/power/)
+[![Bilibili](https://img.shields.io/badge/Bilibili-FE7398)](https://space.bilibili.com/349536948)
+[![GitHub](https://img.shields.io/badge/GitHub-282c34)](https://github.com/linyuxuanlin)
 
 <br />
 
