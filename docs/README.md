@@ -26,7 +26,7 @@ actionLink: /post/电路设计/TinyDVR-小巧身材，满载动力
 
 我的联系方式：
 
-[![微信](https://img.shields.io/badge/WeChat-07C160)](unlist/WeChat.md)
+[![微信](https://img.shields.io/badge/WeChat-07C160)](unlist/WeChat)
 [![Telegram](https://img.shields.io/badge/Telegram-34ABE0)](https://t.me/linyuxuanlin)
 [![知乎](https://img.shields.io/badge/知乎-0084ff)](https://www.zhihu.com/people/linyuxuanlin)
 [![少数派](https://img.shields.io/badge/少数派-C23133)](https://sspai.com/u/power/)
