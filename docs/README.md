@@ -35,6 +35,8 @@ actionLink: /post/电路设计/TinyDVR-小巧身材，满载动力
 
 <br />
 
+<Valine></Valine>
+
 ---
 
 <Footer/>
