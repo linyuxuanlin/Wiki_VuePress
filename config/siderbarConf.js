@@ -21,14 +21,14 @@ module.exports = [
       "post/电路设计/AD入门系列五：库文件绘制",
       "post/电路设计/自制CMSIS-DAP",
       "post/电路设计/PCB名片设计",
-      "post/电路设计/焊接比赛：培训及总结"
-    ]
+      "post/电路设计/焊接比赛：培训及总结",
+    ],
   },
   {
     title: "无人机",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/无人机/N3参数调试"]
+    children: ["post/无人机/N3参数调试"],
   },
   {
     title: "产品经理",
@@ -37,14 +37,15 @@ module.exports = [
     children: [
       "post/产品经理/产品经理的日常",
       "post/产品经理/中台的概念",
-      "post/产品经理/画图基础"
-    ]
+      "post/产品经理/画图基础",
+      "post/产品经理/智能硬件产品经理的技术要求",
+    ],
   },
   {
     title: "活动策划",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/活动策划/RM校内赛-前期策划"]
+    children: ["post/活动策划/RM校内赛-前期策划"],
   },
   {
     title: "Arduino",
@@ -55,8 +56,8 @@ module.exports = [
       "post/Arduino/小车游华广-比赛",
       "post/Arduino/麦昆小车-测评",
       "post/Arduino/一个舵机的自我修养",
-      "post/Arduino/麦轮小车"
-    ]
+      "post/Arduino/麦轮小车",
+    ],
   },
   {
     title: "STM32",
@@ -65,14 +66,14 @@ module.exports = [
     children: [
       "post/STM32/KeilMDK配置指南",
       "post/STM32/Doxygen注释规范",
-      "post/STM32/STM32麦轮小车"
-    ]
+      "post/STM32/STM32麦轮小车",
+    ],
   },
   {
     title: "树莓派",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/树莓派/云打印服务器搭建"]
+    children: ["post/树莓派/云打印服务器搭建"],
   },
   {
     title: "前端",
@@ -84,20 +85,20 @@ module.exports = [
       "post/前端/JavaScript学习笔记",
       "post/前端/自适应网页设计",
       "post/前端/Node.js和npm的安装与卸载（MacOS）",
-      "post/前端/前端开发-环境搭建"
-    ]
+      "post/前端/前端开发-环境搭建",
+    ],
   },
   {
     title: "微信小程序",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/微信小程序/BookJourney-二手书商城"]
+    children: ["post/微信小程序/BookJourney-二手书商城"],
   },
   {
     title: "命令行",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/命令行/命令行基本操作"]
+    children: ["post/命令行/命令行基本操作"],
   },
   {
     title: "Git&GitHub",
@@ -106,8 +107,8 @@ module.exports = [
     children: [
       "post/Git&GitHub/Git学习笔记",
       "post/Git&GitHub/Git配置代理",
-      "post/Git&GitHub/删除GitHub仓库中某个文件夹"
-    ]
+      "post/Git&GitHub/删除GitHub仓库中某个文件夹",
+    ],
   },
   {
     title: "高效工作",
@@ -125,26 +126,26 @@ module.exports = [
       "post/高效工作/回归博客",
       "post/高效工作/定制SublimeText3",
       "post/高效工作/VSCode生产力指南-环境配置",
-      "post/高效工作/VSCode生产力指南-JupyterNotebook"
-    ]
+      "post/高效工作/VSCode生产力指南-JupyterNotebook",
+    ],
   },
   {
     title: "音乐",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/音乐/哥德堡变奏曲", "post/音乐/不能说的秘密"]
+    children: ["post/音乐/哥德堡变奏曲", "post/音乐/不能说的秘密"],
   },
   {
     title: "美食",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/美食/极简面包-烘培", "post/美食/参考"]
+    children: ["post/美食/极简面包-烘培", "post/美食/参考"],
   },
   {
     title: "比赛经历",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/比赛经历/THEHack2019", "post/比赛经历/Hack.init()"]
+    children: ["post/比赛经历/THEHack2019", "post/比赛经历/Hack.init()"],
   },
   {
     title: "生活方式",
@@ -156,8 +157,8 @@ module.exports = [
       "post/生活方式/英语六级-备考",
       "post/生活方式/攒机基础知识",
       "post/生活方式/谈谈未来的职业选择",
-      "post/生活方式/科技X的访谈"
-    ]
+      "post/生活方式/科技X的访谈",
+    ],
   },
   {
     title: "摘录",
@@ -211,8 +212,8 @@ module.exports = [
       "post/摘录/独裁者手册",
       "post/摘录/追风筝的人",
       "post/摘录/三体",
-      "post/摘录/反脆弱：从不确定性中获益"
-    ]
+      "post/摘录/反脆弱：从不确定性中获益",
+    ],
   },
   {
     title: "言论",
@@ -222,8 +223,8 @@ module.exports = [
       "post/言论/写作",
       "post/言论/财富",
       "post/言论/创业",
-      "post/言论/个人发展"
-    ]
+      "post/言论/个人发展",
+    ],
   },
   {
     title: "友链",
@@ -232,7 +233,7 @@ module.exports = [
     children: [
       ["https://bobi.site/", "BOBI83"],
       ["https://unbinilium.me", "Unbinilium"],
-      ["https://waitech.cn/", "WAI 科技社"]
-    ]
-  }
+      ["https://waitech.cn/", "WAI 科技社"],
+    ],
+  },
 ];
