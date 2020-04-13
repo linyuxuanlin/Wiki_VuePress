@@ -129,6 +129,7 @@ module.exports = [
       "post/高效工作/定制SublimeText3",
       "post/高效工作/VSCode生产力指南-环境配置",
       "post/高效工作/VSCode生产力指南-JupyterNotebook",
+      "post/高效工作/在浏览器上运行VScode（code-server）",
     ],
   },
   {
