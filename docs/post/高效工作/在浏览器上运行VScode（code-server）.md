@@ -32,7 +32,7 @@ $ wget https://github.com/cdr/code-server/releases/download/3.1.0/code-server-3.
 
 ```shell
 tar -xvf code-server-3.1.0-linux-x86_64.tar.gz # 解压
-mv code-server-3.1.0-linux-x86_64.tar.gz # 改名（非必要）
+mv code-server-3.1.0-linux-x86_64.tar.gz code-server# 改名（非必要）
 ```
 
 ### 2. 安装
@@ -87,6 +87,7 @@ $ screen -X -S id quit # 替换掉 id
 ## 参考与致谢
 
 - [在浏览器上运行 vscode，code-server（阿里云服务器）](https://copyfuture.com/blogs-details/20200405045150018h4edt0f4q8486jq)
+- [在浏览器上运行 vscode，code-server](https://segmentfault.com/a/1190000022267386)
 - [（推荐）VS code 在线工具——code-serve 在云服务器上的安装和使用 与常见的问题解决 （超详细）](https://blog.csdn.net/Granery/article/details/90415636)
 
 > 文章作者：**Power Lin**
