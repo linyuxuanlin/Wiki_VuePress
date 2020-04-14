@@ -116,6 +116,17 @@ VS Code 发展到现在，各种功能已经非常强大，基本超越收费闭
 |   插件管理   |     `Ctrl + Shift + X`     |
 | 快速切换文件 |         `Ctrl + D`         |
 
+## 源代码控制
+
+提交 Github 每次都需要输入用户名及密码？
+输入命令：
+
+```shell
+$ git config --global credential.helper store
+```
+
+重启 VS Code 即可。
+
 ## 总结
 
 以上为 VS Code 基本的环境配置，下一篇将详细讨论 Git, Jupyter NoteBook 及用户代码片段等操作方法，敬请期待。
