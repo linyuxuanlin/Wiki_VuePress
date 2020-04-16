@@ -25,6 +25,12 @@ module.exports = [
     ],
   },
   {
+    title: "操作系统",
+    collapsable: false,
+    sidebarDepth: 0,
+    children: ["post/操作系统/Docker学习笔记"],
+  },
+  {
     title: "无人机",
     collapsable: false,
     sidebarDepth: 0,
@@ -40,7 +46,7 @@ module.exports = [
       "post/产品经理/画图基础",
       "post/产品经理/智能硬件产品经理的技术要求",
       "post/产品经理/如何撰写一份BRD",
-      "post/产品经理/智能硬件产品开发流程",
+      //"post/产品经理/智能硬件产品开发流程",
     ],
   },
   {
