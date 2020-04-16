@@ -14,10 +14,6 @@ Docker 属于 Linux 容器的一种封装。它将应用程序与该程序的依
 > - **提供弹性的云服务**。因为 Docker 容器可以随开随关，很适合动态扩容和缩容
 > - **组建微服务架构**。通过多个容器，一台机器可以跑多个服务，因此在本机就可以模拟出微服务架构
 
-## Docker 安装
-
-详见 [**Install Docker Engine**](https://docs.docker.com/engine/install/)
-
 ## Docker 基本概念
 
 Docker 有三个基本概念：
@@ -25,6 +21,31 @@ Docker 有三个基本概念：
 - **镜像 / 文件（Image）**：将软件与环境封装在一起，就成了一个镜像
 - **容器（Container）**：借用面向对象的思想，镜像是一个类，容器就是将类实例化，生成的一个对象。镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等
 - **仓库（Repository）**：类似一个代码控制中心，用来保存镜像。
+
+## Docker 安装
+
+详见 [**Install Docker Engine**](https://docs.docker.com/engine/install/)
+
+安装完成后，运行下面的命令，验证是否安装成功：
+
+```shell
+$ docker version
+```
+
+Docker 需要 `sudo` 权限。为了避免每次使用都要获取权限，可以把用户加入 Docker 用户组：
+
+```shell
+$ sudo groupadd docker
+$ sudo usermod -aG docker $USER
+```
+
+重启 Docker 后测试：
+
+```shell
+$ docker run hello-world
+```
+
+能看到 `hello-world` 的提示信息则为成功。
 
 ## 总结
 
