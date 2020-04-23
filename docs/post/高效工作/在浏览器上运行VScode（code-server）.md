@@ -31,8 +31,8 @@ $ wget https://github.com/cdr/code-server/releases/download/3.1.0/code-server-3.
 如果下载速度很慢，可复制下载链接，并在 [**这个网站**](https://d.serctl.com/) 中获取新的下载链接。
 
 ```shell
-tar -xvf code-server-3.1.0-linux-x86_64.tar.gz # 解压
-mv code-server-3.1.0-linux-x86_64.tar.gz code-server# 改名（非必要）
+$ tar -xvf code-server-3.1.0-linux-x86_64.tar.gz # 解压
+$ mv code-server-3.1.0-linux-x86_64.tar.gz code-server# 改名（非必要）
 ```
 
 ### 2. 安装

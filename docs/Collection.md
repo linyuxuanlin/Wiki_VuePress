@@ -30,7 +30,7 @@
 
 ### 书籍及文档
 
-- [**ADI《新概念模拟电路》全五册**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/ADI《新概念模拟电路》全五册。pdf)
+- [**ADI《新概念模拟电路》全五册**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/ADI%E6%96%B0%E6%A6%82%E5%BF%B5%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF%E3%80%8B%E5%85%A8%E4%BA%94%E5%86%8C.pdf)
 - [**《工程师教你最简单的读懂电路图的方法》**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/《工程师教你最简单的读懂电路图的方法》.pdf)
 - [**常用电子元器件**](https://www.eetree.cn/wiki/%E5%B8%B8%E7%94%A8%E7%94%B5%E5%AD%90%E5%85%83%E5%99%A8%E4%BB%B6)
 - [**电子工程师的资源网站大全**](https://www.eetree.cn/wiki/)
@@ -64,7 +64,7 @@
 
 ## 高效工作
 
-- [**《GitHub 漫游指南》**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/GitHub 漫游指南。pdf)
+- [**《GitHub 漫游指南》**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/GitHub%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97.pdf)
 
 ---
 
