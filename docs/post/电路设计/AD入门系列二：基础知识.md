@@ -48,6 +48,7 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wi
 - 绘制导线：**Ctrl + W**
 - 绘制网络标签：**PN**
 - 复制元件并自动更新位号：**按住 Shift + 拖动**
+- 给图纸编号：**TAT**
 - 元件自动编号：**TAA**
   - Reset All：复位所有元件标号，使其变成 " 字母 + ? " 的格式
   - Update Change List：对元件列表进行标号变更
