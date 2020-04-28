@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-reading-progress": "^1.0.8",
     "vuepress-theme-antdocs": "^0.1.1-beta",
