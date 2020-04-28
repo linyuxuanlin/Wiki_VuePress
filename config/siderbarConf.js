@@ -136,6 +136,7 @@ module.exports = [
       "post/高效工作/VSCode生产力指南-环境配置",
       "post/高效工作/VSCode生产力指南-JupyterNotebook",
       "post/高效工作/在浏览器上运行VScode（code-server）",
+      "post/高效工作/如何配一台电脑",
     ],
   },
   {
@@ -164,7 +165,6 @@ module.exports = [
       "post/生活方式/华广爬楼指北",
       "post/生活方式/读《黑客与画家》",
       "post/生活方式/英语六级-备考",
-      "post/生活方式/攒机基础知识",
       "post/生活方式/谈谈未来的职业选择",
       "post/生活方式/科技X的访谈",
     ],
