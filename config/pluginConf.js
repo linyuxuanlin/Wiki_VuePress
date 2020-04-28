@@ -6,9 +6,11 @@ module.exports = [
   [
     "@vuepress/google-analytics", // Google 分析
     {
-      ga: "UA-152900803-1"
-    }
+      ga: "UA-152900803-1",
+    },
   ],
+
+  /*
   [
     "vuepress-plugin-comment",
     {
@@ -21,12 +23,13 @@ module.exports = [
       }
     }
   ],
+  */
   [
     "@vuepress/pwa",
     {
       serviceWorker: true,
       popupComponent: "MySWUpdatePopup",
-      updatePopup: true
-    }
-  ]
+      updatePopup: true,
+    },
+  ],
 ];
