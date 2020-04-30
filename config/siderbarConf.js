@@ -32,6 +32,7 @@ module.exports = [
       "post/操作系统/Docker学习笔记",
       "post/操作系统/CentOS配置OhMyZsh",
       "post/操作系统/如何快速制作一个启动盘",
+      "post/操作系统/使用VSCode进行远程开发",
     ],
   },
   {
