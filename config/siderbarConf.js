@@ -28,7 +28,10 @@ module.exports = [
     title: "操作系统",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/操作系统/Docker学习笔记"],
+    children: [
+      "post/操作系统/Docker学习笔记",
+      "post/操作系统/CentOS配置OhMyZsh",
+    ],
   },
   {
     title: "无人机",
