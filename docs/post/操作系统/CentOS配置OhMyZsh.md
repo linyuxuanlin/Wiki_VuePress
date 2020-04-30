@@ -80,6 +80,6 @@ $ reboot
 * [centos7 安装 zsh 配置 oh-my-zsh](https://www.jianshu.com/p/4ce7d511bc13)
 * [CentOs 安装 oh my zsh](https://www.jianshu.com/p/556ff130fc65)
 
-> 文章作者：**Power Lin**
-> 原文地址：<https://wiki-power.com>
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
