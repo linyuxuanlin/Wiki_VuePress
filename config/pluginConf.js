@@ -32,4 +32,18 @@ module.exports = [
       updatePopup: true,
     },
   ],
+  [
+    "vuepress-plugin-rss",
+    {
+      base_url: "/", // required
+      site_url: "https://wiki-power.com", // required
+      //copyright: "2018 Coralo", // optional
+      // filter some post
+      //filter: (frontmatter) => {
+      //  return [true | false];
+      //},
+      // How much articles
+      count: 100,
+    },
+  ],
 ];
