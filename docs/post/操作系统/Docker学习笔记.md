@@ -84,8 +84,6 @@ $ docker image rm [imageName]
 为了节省时间与规范化，尽量用别人制作好的 image 文件（尽量不要自己制作，即使要定制，也应该基于别人的 image 文件进行加工）。  
 你可以在 [**Docker Hub**](https://hub.docker.com/) 搜索和下载大家分享的 image 文件，尽量挑选最多人用的那一个。
 
-## 总结
-
 ## 参考与致谢
 
 - []()
