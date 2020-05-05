@@ -51,6 +51,7 @@
 - [**野火产品资料链接**](http://products.embedfire.com/zh_CN/latest/)
 - [**技新 · 产品中心**](https://www.jixin.pro/shop)
 - [**立创开源硬件平台**](https://oshwhub.com/)
+- [**DFRobot**](http://wiki.dfrobot.com.cn/)
 
 ---
 
