@@ -52,6 +52,8 @@
 - [**技新 · 产品中心**](https://www.jixin.pro/shop)
 - [**立创开源硬件平台**](https://oshwhub.com/)
 - [**DFRobot**](http://wiki.dfrobot.com.cn/)
+- [**硬石开源资料下载**](http://www.ing10bbs.com/forum.php?mod=viewthread&tid=1458&fromuid=4)
+- [**正点原子资料下载中心**](http://www.openedv.com/docs/index.html)
 
 ---
 
