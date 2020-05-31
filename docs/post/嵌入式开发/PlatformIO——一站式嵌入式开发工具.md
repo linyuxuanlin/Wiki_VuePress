@@ -1,10 +1,12 @@
-# 用 PlatformIO 和 CubeMX 搭建一站式开发环境
+# PlatformIO —— 一站式嵌入式开发工具
+
+—— 搭建一站式开发环境，替代 Keil/Arduino IDE
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200531112801.png)
 
 ## 背景
 
-PlatformIO（下文以 PIO 简称）是一个很强大的一站式工具，来看看它的特点：
+PlatformIO（下文以 PIO 简称）是一个强大的一站式工具，来看看它的特点：
 
 - 跨平台，仅需 Python 环境（意味着可以在 Windows/MacOS/Linux 上使用）
 - 在 VSCode 内可作为插件安装使用（终于可以抛弃 Keil 了）

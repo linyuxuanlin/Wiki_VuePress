@@ -25,6 +25,15 @@ module.exports = [
     ],
   },
   {
+    title: "嵌入式开发",
+    collapsable: false,
+    sidebarDepth: 0,
+    children: [
+      "post/嵌入式开发/PlatformIO——一站式嵌入式开发工具",
+      "post/嵌入式开发/CubeMX的一些坑",
+    ],
+  },
+  {
     title: "操作系统",
     collapsable: false,
     sidebarDepth: 0,
