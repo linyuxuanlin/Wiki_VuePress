@@ -22,8 +22,6 @@
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200531162352.jpg)
 
-## 总结
-
 ## 参考与致谢
 
 - [STM32 调试器配置异常导致的问题与解决方法（一）](https://www.jianshu.com/p/cea16b641c3d)

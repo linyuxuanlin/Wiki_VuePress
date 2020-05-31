@@ -25,17 +25,19 @@ PlatformIO（下文以 PIO 简称）是一个很强大的一站式工具，来�
 
 首先，确保你的电脑有 VSCode（VSCode 的下载安装可以跳转 [**这篇文章**](https://wiki-power.com/post/%E9%AB%98%E6%95%88%E5%B7%A5%E4%BD%9C/VSCode%E7%94%9F%E4%BA%A7%E5%8A%9B%E6%8C%87%E5%8D%97-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html)）
 
-在 `拓展` （`Ctrl + Shift + X`） 内搜索并安装 `Python` 和 `PlatformIO IDE`. 
+在 `拓展` （`Ctrl + Shift + X`） 内搜索并安装 `Python` 和 `PlatformIO IDE`.
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200531113916.png)
 
 插件安装成功后，点击 `重新加载` 启动插件，然后泡一杯咖啡，待其自动安装核心组件 `platformIO-core`（首次安装时间比较长）
 
-## 总结
+## 参考与致谢
 
-## 参考与致谢 
-
-* []()
+- [PlatformIO](https://platformio.org/)
+- [PlatformIO Docs](https://docs.platformio.org/en/latest/index.html)
+- [ussserrr/stm32pio](https://github.com/ussserrr/stm32pio#requirements)
+- [用 VScode 作为 stm32 开发平台（platformIO）](https://www.jianshu.com/p/49cfa03d6164)
+- [PlatformIO IDE(VSCode) - stm32cube 框架的工程](https://www.smslit.top/2019/08/24/platformio-stm32-cubemx/)
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
