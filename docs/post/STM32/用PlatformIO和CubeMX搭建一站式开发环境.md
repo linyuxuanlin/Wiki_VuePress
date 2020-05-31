@@ -1,8 +1,8 @@
 # 用 PlatformIO 和 CubeMX 搭建一站式开发环境
 
-## 背景
-
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200531112801.png)
+
+## 背景
 
 PlatformIO（下文以 PIO 简称）是一个很强大的一站式工具，来看看它的特点：
 
