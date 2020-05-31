@@ -29,7 +29,7 @@ PlatformIO（下文以 PIO 简称）是一个很强大的一站式工具，来�
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200531113916.png)
 
-插件安装成功后，点击 `重新加载` 启动插件，然后泡一杯咖啡，待其自动安装核心组件 `platformIO-core`（首次安装时间比较长）
+插件安装成功后，点击 `重新加载` 启动插件，然后泡一杯咖啡，待其自动安装核心组件 `platformIO-core`（首次安装时间可能会比较长）
 
 ## 参考与致谢
 
