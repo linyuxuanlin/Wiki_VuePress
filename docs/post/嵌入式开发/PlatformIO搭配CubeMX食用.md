@@ -1,4 +1,4 @@
-# PlatformIO 配合 CubeMX 使用
+# PlatformIO 搭配 CubeMX 食用
 
 ## 背景
 

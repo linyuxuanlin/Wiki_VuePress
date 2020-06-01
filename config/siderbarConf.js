@@ -31,6 +31,7 @@ module.exports = [
     children: [
       "post/嵌入式开发/PlatformIO——一站式嵌入式开发工具",
       "post/嵌入式开发/CubeMX的一些坑",
+      "post/嵌入式开发/PlatformIO搭配CubeMX食用",
     ],
   },
   {
@@ -86,8 +87,6 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/STM32/用PlatformIO和CubeMX搭建一站式开发环境",
-      "post/STM32/CubeMX的一些坑",
       "post/STM32/KeilMDK配置指南",
       "post/STM32/Doxygen注释规范",
       "post/STM32/STM32麦轮小车",
