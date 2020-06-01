@@ -2,10 +2,10 @@
 
 ## 背景
 
-在上一篇文章中，我们了解到 PlatformIO 用起来比 Keil 优雅多了。  
-在 STM32 学习的路上，HAL 库的方式比标准库更简洁方便，且 HAL 库可以用 CubeMX 这个神器开配置引脚功能和时钟，并自动生成框架代码。但 PlatformIO 官方对 CubeMX 的支持并不是特别完美，需要通过 Python 中间件来转换代码。
+在上一篇文章中，我们可以看到，PlatformIO 用起来比 Keil 优雅多了。  
+众所周知，STM32 打开方式中，HAL 库比标准库更方便易用（配合神器 CubeMX），但 PlatformIO 官方对 CubeMX 的兼容不是特别完美（需通过 Python 中间件来进行代码转换）
 
-在这篇文章中，我将介绍自己摸索出来的独特的方法，使 PlatformIO 与 CubeMX 在项目初始化及后续代码修改更加方便。
+在这篇文章中，我将介绍一种独特的方法，让 PlatformIO 配合 CubeMX 食用起来更加美味。
 
 ## 初始化项目
 
@@ -26,7 +26,7 @@
       1. 将软件包选项（STM32Cube Firmware Library Package）选择为 `Copy only the necessary library files`
       2. 在文件生成选项（Generated files）勾选 `Generate peripheral initialization as a pair of '.c/.h' files per peripheral`
 
-终于配置完成了，那我们点击右上角 `Generate Code` 生成代码吧。
+终于配置完成了，我们点击右上角 `Generate Code` 生成代码吧。
 
 ### PlatformIO 的初始化操作
 
@@ -48,11 +48,14 @@
 
 4. 可以将项目中的 `include` 文件夹删了。而因为 Windows 文件命名不区分大小写，所以 `src` 文件夹顺理成章变为 `Src`.
 
-### 尽情享用！
+### 尽情享用吧！
 
-只要在 `/* USER CODE BEGIN */` 与 `/* USER CODE END */` 之间的代码，后续从 CubeMX 生成，都将被保留。
+项目中， `.c` 存放于 `Src` 文件夹中，`.h` 在 `Inc` 中。  
+只要在 `/* USER CODE BEGIN */` 与 `/* USER CODE END */` 之间的代码，后续从 CubeMX 生成的过程中，都将得以保留，不会被覆盖掉。
 
 PlatformIO 可以用快捷键 `Ctrl + Alt + B` 编译，用 `Ctrl + Alt + U` 编译并上传，按 `F5` 开启调试。
+
+接下来的探索，就是 HAL 库的学习了。未完待续 ~
 
 ## 参考与致谢
 
