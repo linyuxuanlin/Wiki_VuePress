@@ -1,4 +1,4 @@
-# PlatformIO —— 一站式嵌入式开发工具
+# PlatformIO — 一站式嵌入式开发工具
 
 —— 搭建一站式开发环境，替代 Keil / Arduino IDE
 
