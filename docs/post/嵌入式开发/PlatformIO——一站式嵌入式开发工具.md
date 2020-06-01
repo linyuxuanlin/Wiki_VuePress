@@ -6,7 +6,7 @@
 
 ## 背景
 
-PlatformIO（下文以 PIO 简称）是一个强大的一站式工具，来看看它的特点：
+PlatformIO 是一个强大的一站式工具，来看看它的特点：
 
 - 跨平台，仅需 Python 环境（意味着可以在 Windows/MacOS/Linux 上使用）
 - 在 VSCode 内可作为插件安装使用（终于可以抛弃 Keil 了）
@@ -32,6 +32,8 @@ PlatformIO（下文以 PIO 简称）是一个强大的一站式工具，来看�
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200531113916.png)
 
 插件安装成功后，点击 `重新加载` 启动插件，然后泡一杯咖啡，待其自动安装核心组件 `platformIO-core`（首次安装时间可能会比较长）
+
+安装完成后，单击侧边栏相关的按钮，即可启动 PIO.
 
 ## 参考与致谢
 
