@@ -1,6 +1,6 @@
 # PlatformIO —— 一站式嵌入式开发工具
 
-—— 搭建一站式开发环境，替代 Keil/Arduino IDE
+—— 搭建一站式开发环境，替代 Keil / Arduino IDE
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200531112801.png)
 
@@ -12,8 +12,8 @@ PlatformIO 是一个强大的一站式工具，来看看它的特点：
 - 在 VSCode 内可作为插件安装使用（终于可以抛弃 Keil 了）
 - 强大的生态：
   - [**800+ 常用的开发板**](https://docs.platformio.org/en/latest/boards/index.html#boards)：你能买到的通用开发板，这儿基本上都有
-  - [**35+ 开发平台**](https://docs.platformio.org/en/latest/platforms/index.html#platforms)：覆盖 Atmel AVR（Arduino）/ESP/NXP/8051/PIC32/FPGA/FreeRTOS/ARM（STM32） 等等
-  - [**20+ 框架**](https://docs.platformio.org/en/latest/frameworks/index.html#frameworks)：Arduino/CMSIS/STM32Cube 等等
+  - [**35+ 开发平台**](https://docs.platformio.org/en/latest/platforms/index.html#platforms)：覆盖 Atmel AVR（Arduino）/ ESP / NXP / 8051 / PIC32 / FPGA / FreeRTOS / ARM（STM32） 等等
+  - [**20+ 框架**](https://docs.platformio.org/en/latest/frameworks/index.html#frameworks)：Arduino / CMSIS / STM32Cube 等等
 - 带编译 / 下载 / 调试 / 串口监视器功能，且支持各式各样的编译器 / 调试器
 - 提供各式各样的功能库
 - 代码自动补全、语法检查、多项目管理、适配主题
@@ -21,7 +21,7 @@ PlatformIO 是一个强大的一站式工具，来看看它的特点：
 - 单元测试（未尝试）
 - 命令行和 GUI 环境都有
 
-总之，是时候抛弃各类 IDE（如 Arduino IDE/Keil/IAR），享受一条龙服务了。
+总之，是时候抛弃各类 IDE（如 Arduino IDE / Keil / IAR），享受一条龙服务了。
 
 ## 下载安装
 
@@ -33,7 +33,7 @@ PlatformIO 是一个强大的一站式工具，来看看它的特点：
 
 插件安装成功后，点击 `重新加载` 启动插件，然后泡一杯咖啡，待其自动安装核心组件 `platformIO-core`（首次安装时间可能会比较长）
 
-安装完成后，单击侧边栏相关的按钮，即可启动 PIO.
+安装完成后，单击侧边栏相关的按钮，即可启动 PlatformIO.
 
 ## 参考与致谢
 

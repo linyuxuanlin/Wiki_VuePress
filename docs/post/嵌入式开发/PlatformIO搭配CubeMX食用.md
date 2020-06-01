@@ -33,7 +33,7 @@
 1. 打开 PlatformIO 的主页
 2. 点击 `New Project` 新建工程
    1. 填写工程的名字。注意：一定要与 CubeMX 中配置的相同！（e.g. `Template_of_PlatformIO_with_CubeMX`）
-   2. 选择板子 /MCU 型号。这儿可以直接选择 MCU 的型号（e.g. STM32F103C8），也可以直接选择版型（e.g. BluePill F103C8）。注意：一定要与 CubeMX 中配置的相同！
+   2. 选择板子 / MCU 型号。这儿可以直接选择 MCU 的型号（e.g. STM32F103C8），也可以直接选择版型（e.g. BluePill F103C8）。注意：一定要与 CubeMX 中配置的相同！
    3. 代码框架 `Framework` 选择 `STM32Cube`
    4. 将路径 `Location` 下 `Use default location` 取消掉，我们自定义路径。注意：一定要与 CubeMX 中配置的相同！（e.g. `D:/Desktop`）
 3. 打开项目中 `platformio.ini` 文件，添加如下几行：
