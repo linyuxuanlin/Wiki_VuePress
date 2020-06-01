@@ -75,6 +75,7 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 0,
     children: [
+      "post/Arduino/ATTiny85调试记录",
       "post/Arduino/T-Clock桌上小钟",
       "post/Arduino/小车游华广-比赛",
       "post/Arduino/麦昆小车-测评",

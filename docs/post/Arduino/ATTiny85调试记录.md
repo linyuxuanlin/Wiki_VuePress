@@ -1,8 +1,4 @@
-# ATTiny85 上手记
-
-## 背景
-
-段落内容。
+# ATTiny85 调试记录
 
 ## Bootloader
 
@@ -52,6 +48,7 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 - [Connecting and Programming Your Digispark](http://digistump.com/wiki/digispark/tutorials/connecting)
 - [Attiny85 Micronucleus bootloader 燒錄](http://iremo-tw.blogspot.com/2018/03/attiny85-micronucleus-bootloader.html)
 - [ATtiny85 制作迷你小游戏机](https://www.jianshu.com/p/55e86b4e0194)
+- [DigiSpark ATtiny85 8 脚 Arduino AVR ISP 编程的那点事儿 BootLoader 熔丝](http://blog.sina.com.cn/s/blog_6566538d0102w6qk.html)
 
 > 文章作者：**Power Lin**
 > 原文地址：<https://wiki-power.com>
