@@ -9,6 +9,8 @@
 
 ## 初始化项目
 
+太长不看：直接克隆 [**项目模板仓库**](https://github.com/linyuxuanlin/Template_of_PlatformIO_with_CubeMX)
+
 ### CubeMX 的初始化操作
 
 1. 新建项目
