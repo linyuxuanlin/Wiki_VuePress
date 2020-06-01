@@ -9,7 +9,7 @@
 
 ## 初始化项目
 
-太长不看：直接克隆 [**项目模板仓库**](https://github.com/linyuxuanlin/Template_of_PlatformIO_with_CubeMX)
+太长不看：我把以下步骤创建的项目文件夹放在 [**这个仓库**](https://github.com/linyuxuanlin/Template_of_PlatformIO_with_CubeMX)，直接克隆即可。
 
 ### CubeMX 的初始化操作
 
