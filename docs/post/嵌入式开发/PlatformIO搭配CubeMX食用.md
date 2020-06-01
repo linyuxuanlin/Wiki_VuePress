@@ -19,8 +19,8 @@
 4. 配置 Clock Configuration
 5. 配置 Project Manager
    1. Project 页面
-      1. 填写项目名称 （Project Name, e.g. `Template_of_PlatformIO_with_CubeMX`）
-      2. 修改项目路径 （Project Location, e.g. `D:/Desktop`）
+      1. 填写项目名称 （Project Name） e.g. `Template_of_PlatformIO_with_CubeMX`
+      2. 修改项目路径 （Project Location） e.g. `D:/Desktop`
       3. 将工具链（Toolchain / IDE）修改为 `Other Toolchains`
    2. Code Generator 页面
       1. 将软件包选项（STM32Cube Firmware Library Package）选择为 `Copy only the necessary library files`
