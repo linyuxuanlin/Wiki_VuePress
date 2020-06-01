@@ -159,7 +159,7 @@ module.exports = [
     title: "音乐",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/音乐/哥德堡变奏曲", "post/音乐/不能说的秘密"],
+    children: ["post/音乐/哥德堡变奏曲"],
   },
   {
     title: "美食",
