@@ -23,7 +23,7 @@ module.exports = [
       }
     }
   ],
- */
+
 
   [
     "@vuepress/pwa",
@@ -33,7 +33,7 @@ module.exports = [
       updatePopup: true,
     },
   ],
-
+ */
   [
     "vuepress-plugin-rss",
     {
