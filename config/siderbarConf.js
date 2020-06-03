@@ -91,7 +91,7 @@ module.exports = [
     children: [
       "post/STM32/KeilMDK配置指南",
       "post/STM32/Doxygen注释规范",
-      "post/STM32/STM32麦轮小车",
+      //"post/STM32/STM32麦轮小车",
     ],
   },
   {
@@ -160,14 +160,19 @@ module.exports = [
     title: "音乐",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/音乐/哥德堡变奏曲"],
+    children: [
+      "post/音乐/哥德堡变奏曲",
+      //"post/音乐/不能说的秘密",
+    ],
   },
+  /*
   {
     title: "美食",
     collapsable: false,
     sidebarDepth: 0,
     children: ["post/美食/极简面包-烘培", "post/美食/参考"],
   },
+  */
   {
     title: "比赛经历",
     collapsable: false,
@@ -183,6 +188,7 @@ module.exports = [
       "post/生活方式/读《黑客与画家》",
       "post/生活方式/英语六级-备考",
       "post/生活方式/谈谈未来的职业选择",
+      //"post/生活方式/科技X的访谈",
     ],
   },
   {
@@ -240,6 +246,7 @@ module.exports = [
       "post/摘录/反脆弱：从不确定性中获益",
     ],
   },
+  /*
   {
     title: "言论",
     collapsable: false,
@@ -251,6 +258,7 @@ module.exports = [
       "post/言论/个人发展",
     ],
   },
+  */
   {
     title: "友链",
     collapsable: false,
