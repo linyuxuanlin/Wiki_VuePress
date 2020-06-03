@@ -1,42 +1,45 @@
 # STM32 的启动模式
 
-## 参考与致谢
-
-- []()
-
-> 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
-> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
+STM32 提供了 BOOT1 与 BOOT0 引脚，可以通过设置引脚的状态，以选择上电复位后的启动模式。
 
 以下为三种启动模式：
 
-注意：以下图表中 `高` `低` 表示接 10K 电阻上拉 / 下拉，而非直连 VCC / GND
+## 1. 从主闪存存储器启动
 
-### 1. 从主闪存存储器启动
-
-| BOOT1 | BOOT0 |
+| BOOT0 | BOOT1 |
 | :---: | :---: |
-| 悬空  |  低   |
+|  低   | 悬空  |
 
 从片上 Flash 存储器启动（就是参数为 64K / 128K / 256K 的 Flash），一般正常情况下是这样配置的。
 
-### 2. 从系统存储器启动
+## 2. 从系统存储器启动
 
-| BOOT1 | BOOT0 |
+| BOOT0 | BOOT1 |
 | :---: | :---: |
-|  低   |  高   |
+|  高   |  低   |
 
-使用串口下载程序时，需要配置这种模式。
+使用串口 / ISP 下载程序时，需要配置这种模式。
 
-### 3. 从内置 SRAM 启动
+## 3. 从内置 SRAM 启动
 
-| BOOT1 | BOOT0 |
+| BOOT0 | BOOT1 |
 | :---: | :---: |
 |  高   |  高   |
 
 从内置 SRAM 启动，用途有两个：
 
-- 用于反复下载调试时，提高效率（因为下载到 Flash 相对慢）。但注意，断电程序将丢失
-- 解除芯片的读保护功能 / 擦除 Flash 恢复出厂
+- 用于反复下载调试时，提高效率（因为下载到 Flash 相对慢）。需要注意的是，断电程序将丢失
+- 用于解除芯片的读保护功能 / 擦除 Flash 恢复出厂
 
-1）BOOT 设置会在 SYSCLK 的第 4 个上升沿被锁存，所以在启动结束后，可以将 BOOT1 继续当做普通 IO 使用，但是需要注意的是，在 STM32 退出待机模式后 BOOT 引脚会重新锁存，所以在待机模式的时候，应保持为需要的配置；
+## 补充
+
+以上图表中 `高` `低` 表示接 10K 电阻上拉 / 下拉，而非直连 VCC / GND
+
+## 参考与致谢
+
+- [STM32 BOOT0、BOOT1 的配置](https://blog.csdn.net/Creative_Team/article/details/79315876)
+- [STM32 BOOT 模式配置以及作用](https://blog.csdn.net/weixin_34349320/article/details/86231081?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
