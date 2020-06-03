@@ -23,7 +23,7 @@ module.exports = [
       }
     }
   ],
- 
+ */
 
   [
     "@vuepress/pwa",
@@ -34,7 +34,6 @@ module.exports = [
     },
   ],
 
-   */
   [
     "vuepress-plugin-rss",
     {
