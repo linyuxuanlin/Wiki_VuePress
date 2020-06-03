@@ -86,19 +86,22 @@ STM32 各电源引脚需遵守以下设计规则：
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
 
+- [STM32F1 系列单片机硬件设计方法](https://blog.csdn.net/Creative_Team/article/details/80006705?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-7&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-7)
+- [STM32 硬件设计](https://cedar-renjun.github.io/2015/12/12/STM32-Hardware-Design/)
+
 ## 电源
 
 ### 1. 主电源
 
-引脚上标记 VDD1、VDD2... 的引脚为主电源。每个引脚必须接一个 100nF 的滤波电容，并尽量靠近放置。此外，这些引脚需要共同接一个 10uF 的钽电容。
+引脚上标记 VDD1、VDD2... 的引脚为主电源。每个引脚必须接一个 100nF 的滤波电容，尽量靠近引脚放置；此外，需要一个 10uF 的钽电容公用。
 
 ### 2. 后备电源
 
-VBAT 引脚可用于电池供电。如果不用到，可以与 VDD 连接在一起。VBAT 也需要一个 100nF 电容滤波。
+VBAT 引脚可用于电池供电。如果不用，可以与 VDD 连接在一起。VBAT 也需要一个 100nF 电容滤波。
 
 ### 3. ADC 电源
 
-一般情况下，如果对 ADC 精度要求不高，可以直接将 VDD, VDDA, VREF+ 引脚相连，并对地接 1uF 钽电容 + 10nF 陶瓷电容滤波。
+不用到 ADC 的情况下，可将 VDD, VDDA, VREF+ 接在一起，并对地接 1uF 钽电容 + 10nF 陶瓷电容滤波。
 
 ## 复位
 
@@ -112,6 +115,12 @@ VBAT 引脚可用于电池供电。如果不用到，可以与 VDD 连接在一�
 
 ### 高速时钟（HSE）
 
-## 启动配置
+## 启动模式配置
 
-一般将 BOOT0 引脚串接 10K 电阻接地即可。
+一般将 BOOT0 引脚串接 10K 电阻接地即可。  
+启动模式详见 [**STM32 的启动模式**](https://wiki-power.com/post/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91/STM32%E7%9A%84%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F.html)
+
+## 下载调试接口
+
+一般我们用 SWD 接口（接线少），引出 SWDIO, SWCLK, VCC, GND 即可。  
+因为 STM32 内部已经集成了上拉／下拉电阻，所以不需要在外部添加。
