@@ -10,7 +10,7 @@
 
 STM32 的电源有以下几种类型：
 
-### 主电源（VDD/VSS）
+### 主电源（VDD / VSS）
 
 主电源指的是标记为 VDD1、VDD2... 的引脚。  
 每个引脚必须加一个 100nF 的滤波电容，且尽量靠近引脚放置，此外需要一个 10uF 的钽电容公用。
@@ -26,7 +26,7 @@ VBAT 引脚可用于电池供电。如果不用，可以与 VDD 连接在一起�
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605163337.jpg)
 
-### ADC 电源（VDDA/VSSA）
+### ADC 电源（VDDA / VSSA）
 
 在不用到 ADC 的情况下，可将 VDD, VDDA, VREF+ 接在一起，并对地接 1uF 钽电容 + 10nF 陶瓷电容滤波。
 
