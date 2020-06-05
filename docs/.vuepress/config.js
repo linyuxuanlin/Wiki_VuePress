@@ -20,16 +20,14 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        href:
-          "https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/favicon.ico",
+        href: "/icons/favicon.ico",
       },
     ],
     [
       "link",
       {
         rel: "shortcut icon",
-        href:
-          "https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/favicon.ico",
+        href: "/icons/favicon.ico",
       },
     ],
     [
