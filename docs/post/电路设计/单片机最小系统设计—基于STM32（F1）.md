@@ -56,6 +56,8 @@ VBAT 引脚可用于电池供电。如果不用，可以与 VDD 连接在一起�
 
 晶振输入输出引脚之间可加一个 1M 的电阻，产生负反馈，保证放大器工作在高增益的线性区。同时还起到限流作用，防止反相器驱动过载损坏晶振。
 
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605171011.png)
+
 ## 启动模式配置
 
 一般将 BOOT0 引脚下拉（串接 10K 电阻再接地），BOOT1 悬空即可。
@@ -70,6 +72,8 @@ VBAT 引脚可用于电池供电。如果不用，可以与 VDD 连接在一起�
 
 一般我们用 SWD 接口（接线少，方便），引出 SWDIO, SWCLK, VCC, GND 即可。  
 不需要再添加上拉／下拉电阻，因为 STM32 内部已经集成了。
+
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605170741.png)
 
 ## 总结
 
