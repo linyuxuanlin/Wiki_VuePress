@@ -57,10 +57,6 @@ STM32 各电源引脚需遵守以下设计规则：
 
 除此之外，STM32 还有两个二级时钟源：
 
-- 40kHz 内部低速 RC：可以驱动独立看门狗，也可选择地通过程序选择驱动 RTC. RTC 用于从停机 / 待机模式下自动唤醒系统。
-- 32.768kHz 外部低速晶振，可选择它用来驱动 RTC（RTCCLK）
-  每个时钟源在不使用时都可以单独被打开或关闭，以优化系统功耗。
-
 ### 高速外部时钟信号（HSE）
 
 - 外部时钟源（HSE 旁路）（图 6）
@@ -72,53 +68,81 @@ STM32 各电源引脚需遵守以下设计规则：
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200223212710.png)
 
-其中，Hi-Z 表示高阻态；REXT 的值与晶体特性有关（典型值的范围是谐振器串行阻抗 RS 的 5-6 倍）；负载电容 CL = CL1 x CL2 / (CL1 + CL2 ) + Cstray，此处 Cstray 是引脚电容以及 PCB 相关的电容，典型值在 2pF-7pF 之间。
-
----
-
-填坑中，敬请期待~
-
-## 参考与致谢
-
 - [AN2586: Getting started with STM32F10xxx hardware development](https://www.st.com/content/ccc/resource/technical/document/application_note/6c/a3/24/49/a5/d4/4a/db/CD00164185.pdf/files/CD00164185.pdf/jcr:content/translations/en.CD00164185.pdf)
-
-> 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
-> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
-
-- [STM32F1 系列单片机硬件设计方法](https://blog.csdn.net/Creative_Team/article/details/80006705?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-7&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-7)
-- [STM32 硬件设计](https://cedar-renjun.github.io/2015/12/12/STM32-Hardware-Design/)
 
 ## 电源
 
-### 1. 主电源
+STM32 的电源分几种类型：
 
-引脚上标记 VDD1、VDD2... 的引脚为主电源。每个引脚必须接一个 100nF 的滤波电容，尽量靠近引脚放置；此外，需要一个 10uF 的钽电容公用。
+### 1. 主电源（VDD/VSS）
 
-### 2. 后备电源
+主电源指的是标记为 VDD1、VDD2... 的引脚。  
+每个引脚必须加一个 100nF 的滤波电容，且尽量靠近引脚放置，此外需要一个 10uF 的钽电容公用。
 
-VBAT 引脚可用于电池供电。如果不用，可以与 VDD 连接在一起。VBAT 也需要一个 100nF 电容滤波。
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605163136.png)
 
-### 3. ADC 电源
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605163204.png)
 
-不用到 ADC 的情况下，可将 VDD, VDDA, VREF+ 接在一起，并对地接 1uF 钽电容 + 10nF 陶瓷电容滤波。
+### 2. 后备电源（VBAT）
+
+VBAT 引脚可用于电池供电。如果不用，可以与 VDD 连接在一起。VBAT 也需要一个 100nF 电容滤波。  
+可参考以下的电源选择电路：
+
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605163337.jpg)
+
+### 3. ADC 电源（VDDA/VSSA）
+
+在不用到 ADC 的情况下，可将 VDD, VDDA, VREF+ 接在一起，并对地接 1uF 钽电容 + 10nF 陶瓷电容滤波。
 
 ## 复位
 
 因为 STM32 内部有上拉电阻，所以外部只接 100nF 电容 + 按键即可：
 
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605163429.png)
+
 如果不需要手动复位功能，也可以略去按键。
 
 ## 时钟
 
-### 高速时钟（HSE）
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605155729.png)
+
+如上图，STM32 的时钟分以下几种：
+
+1. **HSI**：高速内部时钟，是内部的 RC 振荡器，频率为 8MHz
+2. **HSE**：高速外部时钟，可接石英 / 陶瓷谐振器，或者接外部时钟源，频率范围为 4MHz~16MHz
+3. **LSI**：低速内部时钟，RC 振荡器，频率为 40kHz. 独立看门狗的时钟源只能是它，同时 它也可以作为 RTC 的时钟源
+4. **LSE**：低速外部时钟，接频率为 32.768kHz 的石英晶体。给 RTC 用的时钟源
+5. **PLL**：锁相环倍频输出，其时钟输入源可选择为 HSI/2, HSE 或 HSE/2. 倍频可为 2~16 倍，但是输出频率最大不得超过 72MHz
+
+为了稳定，我们在设计的时候一般外接晶振作为时钟源。**一般选取 8MHz 晶振作为 HSE**，便于倍频（一般倍频到 72MHz）；**选取 32.768kHz 晶振作为 LSE**，给 RTC 使用便于分频。
+
+无源晶振两端要加电容，滤除晶振波形中的高频杂波。容值可选 10 ～ 40pF.
+
+晶振输入输出引脚之间可加一个 1M 的电阻，产生负反馈，保证放大器工作在高增益的线性区。同时还起到限流作用，防止反相器驱动过载损坏晶振。
 
 ## 启动模式配置
 
-一般将 BOOT0 引脚串接 10K 电阻接地即可。  
+一般将 BOOT0 引脚串接 10K 电阻接地即可。
+
+如果需要模式切换，也可以参照以下的设计：
+
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605163537.png)
+
 启动模式详见 [**STM32 的启动模式**](https://wiki-power.com/post/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91/STM32%E7%9A%84%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F.html)
 
 ## 下载调试接口
 
 一般我们用 SWD 接口（接线少），引出 SWDIO, SWCLK, VCC, GND 即可。  
 因为 STM32 内部已经集成了上拉／下拉电阻，所以不需要在外部添加。
+
+## 参考与致谢
+
+- [STM32F1 系列单片机硬件设计方法](https://blog.csdn.net/Creative_Team/article/details/80006705?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-7&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-7)
+- [STM32 硬件设计](https://cedar-renjun.github.io/2015/12/12/STM32-Hardware-Design/)
+- [STM32 时钟系统](http://blog.chinaunix.net/uid-24219701-id-4081961.html)
+- [AN2586 应用笔记-STM32F10xxx 硬件开发使用入门](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/AN2586%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0-STM32F10xxx%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.pdf)
+- [AN2867 应用笔记-ST 微控制器振荡器电路设计指南](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/AN2867%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0-ST%E5%BE%AE%E6%8E%A7%E5%88%B6%E5%99%A8%E6%8C%AF%E8%8D%A1%E5%99%A8%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97.pdf)
+
+> 文章作者：**Power Lin**  
+> 原文地址：<https://wiki-power.com>  
+> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
