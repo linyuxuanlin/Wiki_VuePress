@@ -100,7 +100,7 @@ module.exports = [
     title: "树莓派",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/树莓派/云打印服务器搭建"],
+    children: ["post/树莓派/云打印服务器的搭建"],
   },
   {
     title: "前端",
