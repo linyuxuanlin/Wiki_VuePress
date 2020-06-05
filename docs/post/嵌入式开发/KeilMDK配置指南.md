@@ -1,6 +1,6 @@
 # Keil MDK 配置指南
 
-## 一、下载
+## 1. 下载
 
 **进入 Keil 官网下载页面：** [https://www.keil.com/demo/eval/arm.htm](https://www.keil.com/demo/eval/arm.htm)
 
@@ -12,7 +12,7 @@
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/UTOOLS1564402469518.png)
 
-## 二、安装
+## 2. 安装
 
 **打开下载完成的安装包，按如下步骤操作：**
 
@@ -34,7 +34,7 @@
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/UTOOLS1564405648731.png)
 
-## 三、破解
+## 3. 破解
 
 **点击下载破解器：** [https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/KEIL_Lic.exe](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/KEIL_Lic.exe)
 
@@ -57,8 +57,6 @@
 **拷贝激活码，到 MDK 中粘贴，后点击 `Add LIC`：**
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/UTOOLS1564406431978.png)
-
-## 四、完成
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

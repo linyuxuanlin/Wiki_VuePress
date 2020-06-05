@@ -2,7 +2,7 @@
 
 ## 文件头标注展开目录
 
-```
+```c
 /****************************************************************************
  *   Copyright (C) 2018 by Doxygen C Comment                                *
  *                                                                          *
@@ -38,7 +38,7 @@
 
 ## 结构体、枚举类型标注展开目录
 
-```
+```c
 /**
  * @brief 简要说明
  *
@@ -53,7 +53,7 @@ typedef enum BoxEnum_enum {
 
 ## 函数头注释展开目录
 
-```
+```c
 /**
  * @brief 函数简要说明，可以换行
  *
@@ -73,7 +73,7 @@ bool Test(int index, char *cent);
 
 ## 变量注释展开目录
 
-```
+```c
 int element = 0; /**< 变量简单说明 */
 ```
 
@@ -88,7 +88,7 @@ unsigned int variable = 0;
 
 ## 宏注释展开目录
 
-```
+```c
 /**
  * @brief 宏简要说明
  *
@@ -100,7 +100,3 @@ unsigned int variable = 0;
 ## 参考与致谢
 
 - [基于 Doxygen 的 C 语言简要注释规范](https://www.liuguogy.com/archives/doxygen-c-brief-annotation.html)
-
-> 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
-> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

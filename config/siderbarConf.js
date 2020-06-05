@@ -33,6 +33,7 @@ module.exports = [
       "post/嵌入式开发/PlatformIO搭配CubeMX食用",
       "post/嵌入式开发/CubeMX的一些坑",
       "post/嵌入式开发/STM32的启动模式",
+      "post/嵌入式开发/KeilMDK配置指南",
     ],
   },
   {
@@ -78,22 +79,23 @@ module.exports = [
     children: [
       "post/Arduino/ATTiny85调试记录",
       "post/Arduino/T-Clock桌上小钟",
-      "post/Arduino/小车游华广-比赛",
-      "post/Arduino/麦昆小车-测评",
+      //"post/Arduino/小车游华广-比赛",
+      //"post/Arduino/麦昆小车-测评",
       "post/Arduino/一个舵机的自我修养",
       "post/Arduino/麦轮小车",
     ],
   },
+  /*
   {
     title: "STM32",
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/STM32/KeilMDK配置指南",
-      "post/STM32/Doxygen注释规范",
+      //"post/STM32/Doxygen注释规范",
       //"post/STM32/STM32麦轮小车",
     ],
   },
+  */
   {
     title: "树莓派",
     collapsable: false,
