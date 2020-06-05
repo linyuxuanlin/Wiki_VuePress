@@ -4,7 +4,7 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/电路设计/STM32系统硬件电路设计",
+      "post/电路设计/单片机最小系统设计—基于STM32（F1）",
       "post/电路设计/SwiftCtrl-蓝牙手柄",
       "post/电路设计/TinyDVR-小巧身材，满载动力",
       "post/电路设计/ZenDriver-高性能的电机驱动",
