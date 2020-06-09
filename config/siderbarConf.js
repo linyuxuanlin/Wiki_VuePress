@@ -121,12 +121,14 @@ module.exports = [
     sidebarDepth: 0,
     children: ["post/微信小程序/BookJourney-二手书商城"],
   },
+  /*
   {
     title: "命令行",
     collapsable: false,
     sidebarDepth: 0,
     children: ["post/命令行/命令行基本操作"],
   },
+  */
   {
     title: "Git&GitHub",
     collapsable: false,
