@@ -18,7 +18,7 @@
 - [**AltiumDesigner_PcbLibrary**](https://github.com/KitSprout/AltiumDesigner_PcbLibrary)：一个较为齐全的库。
 - [**My_PCB_Library_Github**](https://github.com/Samwuzhitao/My_PCB_Library_Github)：挺齐全的一个库，还包含一些单片机方案板。
 - [**JLCSMT_LIB**](https://gitee.com/JLC_SMT/JLCSMT_LIB)：嘉立创提供的标准集成库，包含嘉立创可以 SMT 贴片的所有元件，直接用这个集成库，打板 / SMT 的时候兼容性会比较好。
-- [**Hare_Library**](https://www.jianguoyun.com/p/DX2d84cQ-OOjBxj0kPwB#dir=%2FHare_Library::mode=0)：彬哥整理的原理图库 / 封装库，涵盖队内硬件所需的大部分元器件。
+- [**Hare_Library**](https://github.com/linyuxuanlin/Power_Lib_Altium/tree/master/Other_Libs/Hare_Library)：彬哥整理的原理图库 / 封装库，涵盖队内硬件所需的大部分元器件。
 
 如何安装库文件：参考 [**Altium Designer 安装库文件**](https://wiki-power.com/post/unlist/AltiumDesigner%E5%AE%89%E8%A3%85%E5%BA%93%E6%96%87%E4%BB%B6.html)
 
