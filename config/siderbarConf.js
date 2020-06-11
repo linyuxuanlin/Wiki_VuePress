@@ -22,6 +22,7 @@ module.exports = [
       "post/电路设计/自制CMSIS-DAP",
       "post/电路设计/PCB名片设计",
       "post/电路设计/焊接比赛：培训及总结",
+      "post/电路设计/AD使用Git的注意事项",
     ],
   },
   {
