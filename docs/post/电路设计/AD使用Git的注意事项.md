@@ -6,6 +6,8 @@
 
 直接下载：[**.gitignore**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/.gitignore)
 
+直接将其放在 Git 仓库的根目录即可，如果显示重复，则需与原先的 `.gitignore` 合并。
+
 适用于 Altium Designer 的 `.gitignore` 文件包含以下内容：
 
 ```gitignore
