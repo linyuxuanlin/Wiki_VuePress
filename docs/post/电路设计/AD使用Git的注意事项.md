@@ -1,5 +1,16 @@
 # AD 使用 Git 的注意事项
 
+## 使用 Git 管理项目
+
+Altium Designer 支持使用 Git/SVN 用以版本控制。如果使用 Git, 直接在项目所在路径建立 Git 仓库即可。重启 Altium Designer, 会看到文件树边上出现了版本状态：
+
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200421100348.png)
+
+图标的含义如下：
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200421101221.png)
+
+可以在 `工程（C） - 版本控制（E）` 菜单直接进行 Git 操作，甚至可以直接提交 GitHub.
+
 ## .gitignore 文件
 
 在使用 Altium Designer 时，软件会自动生成一些缓存文件（例如 `History` 文件夹），它们不但拖慢了提交速度，也污染了提交记录。这时候就要使用 `.gitignore`，用来忽略这些缓存文件。
