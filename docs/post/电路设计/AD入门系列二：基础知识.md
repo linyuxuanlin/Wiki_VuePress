@@ -120,17 +120,17 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wi
       - 固定孔
         - M3 螺孔：内 **3.1** mm、外 **4** mm
    4. 排布元件
-      - 参考 [**PCB 元件布局规范**](post/电路设计/PCB 元件布局规范。md)
+      - 参考 [**PCB 元件布局规范**](https://wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%85%83%E4%BB%B6%E5%B8%83%E5%B1%80%E8%A7%84%E8%8C%83.html)
    5. 布线
       - 设置布线规则
-        - 参考 [**PCB 布线规范**](post/电路设计/PCB 布线规范。md)
+        - 参考 [**PCB 布线规范**](https://wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%B8%83%E7%BA%BF%E8%A7%84%E8%8C%83.html)
       - **不要开启自动布线！**
       - **开启泪滴功能**
    6. 字体标识（引脚标识 / 版权 / 迷惑性文字）
       - 放置于丝印层（顶层 / 底层）
       - 放底层要先镜像
    7. 敷铜（**PG**）
-      - 参考 [**PCB 布线规范**](post/电路设计/PCB 布线规范。md)
+      - 参考 [**PCB 布线规范**](https://wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%B8%83%E7%BA%BF%E8%A7%84%E8%8C%83.html)
 4. 打板
    1. 保存项目
    2. 将 **.pcb** 文件压缩（这样做似乎不太对，可以的话导出 Gerber）

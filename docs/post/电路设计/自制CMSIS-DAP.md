@@ -33,3 +33,11 @@ CMSIS-DAP / DAP-Link 相比 J-Link / ST-Link 有以下优势：
 - 支持虚拟串口
 - 免驱
 - DAPLink 是 CMSIS-DAP，支持 U 盘拖拽烧录
+
+## MCU
+
+### 晶振
+
+选用村田 8MHz 无源晶振，型号为 CSTCE8M00G53-R0，封装为 3213，电容为 15pF. 为什么选用这个呢？是因为它体积相对小，并且把两个起振电容整合进去了，硬件设计上能省很多事。至于村田晶振型号的命名方式，可以参考下表：
+
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200612143451.jpg)
