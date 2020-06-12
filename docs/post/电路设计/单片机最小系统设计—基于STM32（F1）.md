@@ -67,6 +67,8 @@ VBAT 引脚可用于电池供电。如果不用，可以与 VDD 连接在一起�
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200605171011.png)
 
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200612130149.jpg)
+
 ## 启动模式配置
 
 **一般将 BOOT0 引脚下拉**（串接 10K 电阻再接地），**BOOT1 任意** 即可。

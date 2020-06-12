@@ -19,6 +19,17 @@ GitHub 仓库：[**linyuxuanlin/DashDAP**](https://github.com/linyuxuanlin/DashD
 - [CMSIS DAP 仿真器](https://item.taobao.com/item.htm?spm=a1z10.1-c.w5003-21405148310.36.78726a3dta5ieC&id=550828063764&scene=taobao_shop)
 - [konosubakonoakua/Various_MCU_Debugger_DIY](https://github.com/konosubakonoakua/Various_MCU_Debugger_DIY)
 
+- [JLink、STLink、DAPLink、CMSIS DAP 使用区别](https://blog.csdn.net/zhouml_msn/article/details/105298776)
+
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
+
+## 背景
+
+CMSIS-DAP / DAP-Link 相比 J-Link / ST-Link 有以下优势：
+
+- 完全开源，无法律风险
+- 支持虚拟串口
+- 免驱
+- DAPLink 是 CMSIS-DAP，支持 U 盘拖拽烧录
