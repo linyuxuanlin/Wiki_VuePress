@@ -46,6 +46,7 @@ CMSIS-DAP / DAP-Link 相比 J-Link / ST-Link 有以下优势：
 
 - [JLink、STLink、DAPLink、CMSIS DAP 使用区别](https://blog.csdn.net/zhouml_msn/article/details/105298776)
 - [技新 · DAPLink 仿真器](https://www.jixin.pro/bbs/topic/4187)
+- [wuxx / nanoDAP](https://github.com/wuxx/nanoDAP)
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
