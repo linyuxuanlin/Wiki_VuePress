@@ -56,7 +56,7 @@ CMSIS-DAP / DAP-Link 相比 J-Link / ST-Link 有以下优势：
 
 ### 拖拽式下载（MSC）
 
-讲编译生成的 `.hex` 或 `.bin` 文件直接拖进 DAPLink 的虚拟 U 盘，即可完成烧录。如果发生错误，错误的信息就会存放在 `FAIL.txt` 中。
+讲编译生成的 `.hex` 或 `.bin` 文件直接拖进 DAPLink 的虚拟 U 盘，即可完成烧录。如果发生错误，错误的信息就会存放在 `FAIL.txt` 中
 
 ### 虚拟串口（CDC）
 
