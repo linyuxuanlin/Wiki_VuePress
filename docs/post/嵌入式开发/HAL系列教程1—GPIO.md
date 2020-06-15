@@ -6,9 +6,11 @@
 ## GPIO 基础知识
 
 GPIO 是什么？  
-其实就是 General Purpose Input Output 的缩写，即通用输入输出。有多通用？咱拿出一片单片机芯片（可以是 STM32，也可以是其他各式各样的）看看，**除了电源及功能引脚（图中有颜色的），其它的引脚都称为 GPIO**：
+其实就是 General Purpose Input Output 的缩写，即通用输入输出。有多通用呢？咱拿出一片单片机芯片看看：
 
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200615205256.jpg)
+
+可以看到，除了电源及功能引脚（图中有颜色的），剩下的引脚，都可以称为 GPIO.
 
 GPIO 可以干嘛？  
 看名字，Input / Output 说明它既可以输入信号，也可以输出信号。输入输出的信号都是什么？模电和数电里我们学过，可以是数字信号，也可以是模拟信号：
