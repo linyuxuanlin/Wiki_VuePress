@@ -21,7 +21,7 @@ module.exports = [
       "post/电路设计/AD入门系列五：库文件绘制",
       "post/电路设计/自制CMSIS-DAP",
       "post/电路设计/PCB名片设计",
-      "post/电路设计/焊接比赛：培训及总结",
+
       "post/电路设计/AD使用Git的注意事项",
     ],
   },
@@ -185,7 +185,11 @@ module.exports = [
     title: "比赛经历",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/比赛经历/THEHack2019", "post/比赛经历/Hack.init()"],
+    children: [
+      "post/比赛经历/THEHack2019",
+      "post/比赛经历/Hack.init()",
+      "post/比赛经历/焊接比赛：培训及总结",
+    ],
   },
   {
     title: "生活方式",
