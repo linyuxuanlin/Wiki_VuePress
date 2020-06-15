@@ -52,7 +52,7 @@ CMSIS-DAP / DAP-Link 相比 J-Link / ST-Link 有以下优势：
 
 ### 驱动
 
-在 Win10 下，CMSIS-DAP / DAPLink 自带驱动；Win7 及更老的系统需要手动安装驱动。
+在 Win10 / MacOS / Linux 不需要手动安装驱动；Win8 及更老的系统需要手动安装驱动。
 
 ### 拖拽式下载（MSC）
 
