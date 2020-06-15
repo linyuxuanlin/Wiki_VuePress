@@ -50,11 +50,24 @@ CMSIS-DAP / DAP-Link 相比 J-Link / ST-Link 有以下优势：
 
 ## 软件部分
 
+### 驱动
+
+在 Win10 下，CMSIS-DAP / DAPLink 自带驱动；Win7 及更老的系统需要手动安装驱动。
+
+### 拖拽式下载（MSC）
+
+讲编译生成的 `.hex` 或 `.bin` 文件直接拖进 DAPLink 的虚拟 U 盘，即可完成烧录。如果发生错误，错误的信息就会存放在 `FAIL.txt` 中。
+
+### 虚拟串口（CDC）
+
+CDC 虚拟串口功能具备一般的串口功能，允许双向通信，允许发送中断命令来重置目标板。
+
 ## 参考与致谢
 
 - [JLink、STLink、DAPLink、CMSIS DAP 使用区别](https://blog.csdn.net/zhouml_msn/article/details/105298776)
 - [技新 · DAPLink 仿真器](https://www.jixin.pro/bbs/topic/4187)
 - [wuxx / nanoDAP](https://github.com/wuxx/nanoDAP)
+- [LGG001 / DAPLink-Brochure](https://github.com/LGG001/DAPLink-Brochure)
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
