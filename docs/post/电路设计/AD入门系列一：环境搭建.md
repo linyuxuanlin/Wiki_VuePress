@@ -17,8 +17,8 @@
 本处引用公众号 **软件安装管家** 提供的 [**Altium Designer 2019 安装教程**](https://mp.weixin.qq.com/s?__biz=MzIwMjE1MjMyMw==&mid=2650202563&idx=8&sn=00f54cc41f8232db01982a22e3b729a2&chksm=8ee1412fb996c839543c2d9d25e4597b98ae1f810d3b45d5b01bba4c037daf65281e90bc030e&scene=21#wechat_redirect)，包含软件的下载、破解教程，简单几步即可完成软件的安装，此处不再赘述。
 
 Altium Designer 20 补充链接：  
-百度网盘链接：https://pan.baidu.com/s/1Rt9oTYSu4TMXPIeYepaPrQ  
-提取码：ehw6
+百度网盘链接：<https://pan.baidu.com/s/1Rt9oTYSu4TMXPIeYepaPrQ>  
+提取码：`ehw6`
 
 ## 调整设置项
 
