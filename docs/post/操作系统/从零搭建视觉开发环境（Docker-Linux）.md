@@ -17,4 +17,4 @@
 
 在 Windows 系统下，直接点击 [**此链接**](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe) 下载 Docker Desktop 软件（其他系统的下载安装方法请见 [**Install Docker Engine**](https://docs.docker.com/engine/install/)）。
 
-待其自动安装完成后，
+待其自动安装完成后
