@@ -33,7 +33,8 @@
 - [**常用电子元器件**](https://www.eetree.cn/wiki/%E5%B8%B8%E7%94%A8%E7%94%B5%E5%AD%90%E5%85%83%E5%99%A8%E4%BB%B6)
 - [**电子工程师的资源网站大全**](https://www.eetree.cn/wiki/)
 - [**凡亿原创电子技术干货文章**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/%E5%87%A1%E4%BA%BF%E5%8E%9F%E5%88%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7%E6%96%87%E7%AB%A0.zip)：包含 `单片机的复位电路` `采样电路的运用和设计` 等 13 篇技术文章
-- [EMC 设计标准电路](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/EMC%E8%AE%BE%E8%AE%A1%E6%A0%87%E5%87%86%E7%94%B5%E8%B7%AF.zip)
+- [**EMC 设计标准电路**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/EMC%E8%AE%BE%E8%AE%A1%E6%A0%87%E5%87%86%E7%94%B5%E8%B7%AF.zip)
+- [**元器件封装查询**](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/doc/%E5%85%83%E5%99%A8%E4%BB%B6%E5%B0%81%E8%A3%85%E6%9F%A5%E8%AF%A2.pdf)
 
 ### 在线工具
 
