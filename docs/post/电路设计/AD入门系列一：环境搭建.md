@@ -49,13 +49,11 @@
 
 ## 总结
 
-在这一章节中，我们基本完成了 Altium Designer 软件环境的搭建，可以开始愉快地画板子了 :\)
+在这一章节中，我们基本配置好了 Altium Designer 的环境，可以开始愉快地画板子了 :\)
 
 ## 参考与致谢
 
 - [Altium 公司 Altium Designer 专栏](https://seujxh.wordpress.com/2018/09/30/altium%e5%85%ac%e5%8f%b8altium-designer%e4%b8%93%e6%a0%8f/)
-
-另：感谢彬哥整理的经验和笔记。
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
