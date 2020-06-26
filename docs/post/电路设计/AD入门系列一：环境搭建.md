@@ -8,11 +8,7 @@
 
 ## 软件下载
 
-本处引用公众号 **软件安装管家** 提供的 [**Altium Designer 2019 安装教程**](https://mp.weixin.qq.com/s?__biz=MzIwMjE1MjMyMw==&mid=2650202563&idx=8&sn=00f54cc41f8232db01982a22e3b729a2&chksm=8ee1412fb996c839543c2d9d25e4597b98ae1f810d3b45d5b01bba4c037daf65281e90bc030e&scene=21#wechat_redirect)，包含软件的下载、破解教程，简单几步即可完成软件的安装，此处不再赘述。
-
-Altium Designer 20 补充链接：  
-百度网盘链接：<https://pan.baidu.com/s/1Rt9oTYSu4TMXPIeYepaPrQ>  
-提取码：`ehw6`
+直接参考 [**Altium Designer 2020 安装教程**](https://mp.weixin.qq.com/s?__biz=MzIwMjE1MjMyMw==&mid=502718968&idx=1&sn=4c37dc403171ffad01fca95b5a537b2e&chksm=0ee141143996c8021799bb5bf5407b7b56c2d7fa5dc484bda61893efd74a06a1f6be63a7a35e&scene=20&xtrack=1&key=088e5814bbd70a9bf7fb42111d02cbb81bb55981baea77169d867e2871add46f26dccde79326a96e819591677be92412fc05ff2af437922652dfe7ae1b94dc8172f36186ba0b2b460004027131ceae2c&ascene=1&uin=MTk5MDUwOTA0Mg%3D%3D&devicetype=Windows+10+x64&version=62090523&lang=zh_CN&exportkey=AyOYwgP948kprM0EiAGMcyk%3D&pass_ticket=6jBDTE0Qqg%2BrAl1wrTIo2UeJLmUrtbfUKPpgRGdeqhwXUk8QVkc%2Fyekd3BvlvVsB)，此处不再赘述。
 
 ## 调整设置项
 
