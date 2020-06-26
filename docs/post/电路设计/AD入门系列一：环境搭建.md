@@ -4,13 +4,7 @@
 
 ## 背景
 
-本系列教程基于 Altium Designer 19，往后如遇版本更新，本教程也将同步跟进。
-
-### 声明
-
-- 为保持版面整洁，提高阅读体验，本系列教程较少插入图片，替换以清晰的文字描述；
-- 中英文排版规范遵守 [我的排版标准](https://wiki-power.com/literary/words/wo-de-pai-ban-biao-zhun) ，其中，详细操作步骤及重点内容以 **粗体文本** 展现；
-- 本系列教程由 Power Lin 撰写，采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 协议，转载请保留全文并注明出处。
+本系列教程基于 Altium Designer 19（20 也兼容），往后的版本我也将同步跟进。
 
 ## 软件下载
 
