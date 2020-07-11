@@ -20,7 +20,7 @@
 
 ## 原理及实现
 
-**所有项目文件：**[**linyuxuanlin / Wight**](hhttps://github.com/linyuxuanlin/Wight)
+**所有项目文件：**[**linyuxuanlin / Wight**](https://github.com/linyuxuanlin/Wight)
 
 **代码：**
 
