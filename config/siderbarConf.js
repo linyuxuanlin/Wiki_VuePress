@@ -72,7 +72,10 @@ module.exports = [
     title: "活动策划",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/活动策划/RM校内赛-前期策划"],
+    children: [
+      "post/活动策划/RM校内赛-前期策划",
+      "post/活动策划/报告书都要写些什么？",
+    ],
   },
   {
     title: "Arduino",
