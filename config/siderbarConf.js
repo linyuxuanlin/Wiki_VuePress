@@ -163,6 +163,7 @@ module.exports = [
       "post/高效工作/VSCode生产力指南-JupyterNotebook",
       "post/高效工作/在浏览器上运行VScode（code-server）",
       "post/高效工作/如何配一台电脑",
+      "post/高效工作/用reveal.js制作幻灯片",
     ],
   },
   /*
