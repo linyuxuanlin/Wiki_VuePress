@@ -19,3 +19,36 @@
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
+
+## 参考语法
+
+### 图片
+
+```html
+<img
+  data-src=""
+  style="
+              width: px;
+              margin: 0 auto 1rem auto;
+              background: transparent;
+            "
+/>
+```
+
+### 文字
+
+```html
+<p style="white-space: pre-line;"><small> </small></p>
+```
+
+### 视频
+
+```html
+<section
+  data-transition="slide"
+  data-background="#EAB547"
+  data-background-transition="zoom"
+>
+  <video data-src=""></video>
+</section>
+```
