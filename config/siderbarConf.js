@@ -198,16 +198,17 @@ module.exports = [
   {
     title: "生活方式",
     collapsable: false,
-    sidebarDepth: 0,
+    sidebarDepth: 2,
     children: [
-      //"post/生活方式/书摘",
       //"post/生活方式/华广爬楼指北",
       "post/生活方式/读《黑客与画家》",
       "post/生活方式/英语六级-备考",
       "post/生活方式/谈谈未来的职业选择",
       //"post/生活方式/科技X的访谈",
+      "post/生活方式/书摘",
     ],
   },
+  /*
   {
     title: "书摘",
     collapsable: true,
@@ -264,6 +265,7 @@ module.exports = [
       "post/书摘/反脆弱：从不确定性中获益",
     ],
   },
+  */
   /*
   {
     title: "言论",
