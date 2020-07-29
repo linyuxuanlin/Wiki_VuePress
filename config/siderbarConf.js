@@ -210,7 +210,7 @@ module.exports = [
   },
   {
     title: "摘录",
-    collapsable: false,
+    collapsable: true,
     sidebarDepth: 0,
     children: [
       "post/摘录/Producter",
