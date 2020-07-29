@@ -197,8 +197,8 @@ module.exports = [
   },
   {
     title: "生活方式",
-    collapsable: false,
-    sidebarDepth: 0,
+    collapsable: true,
+    sidebarDepth: 1,
     children: [
       "post/生活方式/书摘",
       //"post/生活方式/华广爬楼指北",
