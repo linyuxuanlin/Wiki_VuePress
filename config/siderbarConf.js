@@ -200,7 +200,7 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/生活方式/书摘",
+      //"post/生活方式/书摘",
       //"post/生活方式/华广爬楼指北",
       "post/生活方式/读《黑客与画家》",
       "post/生活方式/英语六级-备考",
