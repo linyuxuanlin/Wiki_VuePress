@@ -1,9 +1,9 @@
-# Excel 批量激活链接并转换为图片
+# 财务处理流程
 
-## 参考与致谢 
+## 下载 KuTool 插件
 
-* []()
+点击 [**此链接**](https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/KutoolsforExcelSetup.exe) 下载 KuTool 插件，安装之后下载 [**破解补丁**](https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/KutoolsforExcel21.00%20%E4%B8%80%E9%94%AE%E7%A0%B4%E8%A7%A3%E8%A1%A5%E4%B8%81.7z) 并拷贝到软件安装目录，用管理员模式打开软件，完成破解。
 
-> 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
-> 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
+## 在 Excel 内将链接转化为图片
+
+选择链接列，选择 KuTool 标签页，插入 - 从路径（网址）插入图片
