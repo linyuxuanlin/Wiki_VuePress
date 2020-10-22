@@ -25,6 +25,10 @@
 5. 要在设置里面把生产分支设为 `gh-pages`
 6. 绑定域名
 
+## 注意
+
+每次 commit message 要写超过 1 个字符，否则不会部署。
+
 ## 参考与致谢
 
 - [Vercel](https://vercel.com/)
