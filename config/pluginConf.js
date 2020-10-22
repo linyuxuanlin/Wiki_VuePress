@@ -1,6 +1,6 @@
 module.exports = [
   ["@vuepress/back-to-top"], // 回到顶部
-  ["latex"],
+
   ["reading-progress"], // 阅读进度条插件
   ["vuepress-plugin-code-copy", true], // 代码块一键复制按钮
   [
