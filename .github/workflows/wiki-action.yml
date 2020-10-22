@@ -1,0 +1,27 @@
+name: Wiki-Action
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: 'master'
+      
+      - run: npm install
+      - run: npm run docs:build
+    
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: docs/.vuepress/dist
+          cname: ${{ secrets.CNAME }}
+          enable_jekyll: true
+          keep_files: true
