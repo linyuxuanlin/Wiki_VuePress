@@ -25,3 +25,15 @@ jobs:
           cname: ${{ secrets.CNAME }}
           enable_jekyll: true
           keep_files: true
+
+      - name: Deploy to OSS
+        uses: saltbo/uptoc@master
+        with:
+          driver: oss
+          region: cn-guangzhou
+          bucket: wiki-book
+          exclude: .cache
+          dist: docs/.vuepress/dist
+        env:
+          UPTOC_UPLOADER_AK: ${{ secrets.UPTOC_UPLOADER_KEYID }}
+          UPTOC_UPLOADER_SK: ${{ secrets.UPTOC_UPLOADER_KEYSECRET }}
