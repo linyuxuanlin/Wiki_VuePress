@@ -3,6 +3,7 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 0,
     children: [
+      "post/电路设计/AirForce-充满灵性的电机驱动模块",
       "post/电路设计/单片机最小系统设计—基于STM32（F1）",
       "post/电路设计/SwiftCtrl-蓝牙手柄",
       "post/电路设计/TinyDVR-小巧身材，满载动力",
