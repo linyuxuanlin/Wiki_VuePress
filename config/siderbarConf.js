@@ -149,6 +149,7 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 0,
     children: [
+      "post/高效工作/用Vercel加速Pages服务",
       "post/高效工作/文章排版规范",
       //"post/高效工作/Excel批量激活链接并转换为图片",
       "post/高效工作/基于docsify搭建个人Wiki",
