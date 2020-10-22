@@ -4,6 +4,22 @@
 一般来说，解决方法只有买服务器 / 迁移到 OSS. 但方法都偏复杂，也费钱。
 恰巧碰上了这个神器 Vercel. 于是又可以愉快地写博客了
 
+## Vercel 的优势
+
+- 免费自定义域名，支持 HTTPS
+- 提供 Serverless 服务
+- 提供 Google Cloud 与 AWS 节点，有香港与台湾节点，国内访问速度还可以
+- 免费额度有 20 GB，够用
+- 不限站点与 Serverless API 数量
+- Serverless 支持 Node.js, Go, Python, Ruby
+- 支持 now.sh CLI，GitHub，GitLab，Bitbucket 导入 / 部署
+
+## 用法
+
+因配置步骤简单，所以只用文字简要地说明
+
+1.
+
 ## 参考与致谢
 
 - [Vercel](https://vercel.com/)
