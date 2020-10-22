@@ -22,7 +22,8 @@
 2. 导入站点（直接导入 GitHub Repo）
 3. 配置部署指令（VuePress 平台可放空）
 4. 配置输出路径（VuePress 是 `docs/.vuepress/dist`）
-5. 绑定域名
+5. 要在设置里面把生产分支设为 `gh-pages`
+6. 绑定域名
 
 ## 参考与致谢
 
