@@ -20,7 +20,7 @@
 
 1. 用 GitHub 账号直接登录
 2. 导入站点（直接导入 GitHub Repo）
-3. 配置部署指令（VuePress 平台可以放空）
+3. 配置部署指令（VuePress 平台可放空）
 4. 配置输出路径（VuePress 是 `docs/.vuepress/dist`）
 5. 绑定域名
 
