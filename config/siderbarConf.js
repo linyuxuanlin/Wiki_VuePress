@@ -36,19 +36,17 @@ module.exports = [{
       "post/嵌入式开发/CubeMX的一些坑",
       "post/嵌入式开发/STM32的启动模式",
       "post/嵌入式开发/KeilMDK配置指南",
-      "post/嵌入式开发/大疆N3飞控参考资料",
     ],
   },
   {
-    title: "操作系统相关",
+    title: "操作系统",
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/操作系统相关/Docker学习笔记",
-      "post/操作系统相关/CentOS配置OhMyZsh",
-      "post/操作系统相关/如何快速制作一个启动盘",
-      "post/操作系统相关/使用VSCode进行远程开发",
-
+      "post/操作系统/Docker学习笔记",
+      "post/操作系统/CentOS配置OhMyZsh",
+      "post/操作系统/如何快速制作一个启动盘",
+      "post/操作系统/使用VSCode进行远程开发",
     ],
   },
   {
@@ -70,7 +68,6 @@ module.exports = [{
       //"post/产品经理/智能硬件产品开发流程",
     ],
   },
-  /*
   {
     title: "活动策划",
     collapsable: false,
@@ -80,7 +77,6 @@ module.exports = [{
       //"post/活动策划/报告书都要写些什么？",
     ],
   },
-  */
   {
     title: "Arduino",
     collapsable: false,
