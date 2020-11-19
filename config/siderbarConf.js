@@ -134,6 +134,7 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 2,
     children: [
+      "书摘与读书笔记",
       //"华广爬楼指北",
       "读《黑客与画家》",
       "英语六级-备考",
@@ -142,7 +143,6 @@ module.exports = [
       "Hack.init()",
       "焊接比赛：培训及总结",
       //"科技X的访谈",
-      "书摘与读书笔记",
     ],
   },
   /*
