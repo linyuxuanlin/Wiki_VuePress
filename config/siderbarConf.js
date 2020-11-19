@@ -36,6 +36,7 @@ module.exports = [{
       "post/嵌入式开发/CubeMX的一些坑",
       "post/嵌入式开发/STM32的启动模式",
       "post/嵌入式开发/KeilMDK配置指南",
+      "post/嵌入式开发/大疆N3飞控-参考资料",
     ],
   },
   {
@@ -49,12 +50,7 @@ module.exports = [{
       "post/操作系统/使用VSCode进行远程开发",
     ],
   },
-  {
-    title: "无人机",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: ["post/无人机/N3参数调试"],
-  },
+
   {
     title: "产品经理",
     collapsable: false,
