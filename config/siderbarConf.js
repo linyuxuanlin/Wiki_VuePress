@@ -1,28 +1,46 @@
-module.exports = [{
+module.exports = [
+
+  //隐藏的：
+  //Python学习笔记
+  //"post/STM32/Doxygen注释规范",
+  //"post/STM32/STM32麦轮小车",
+  //"post/活动策划/RM校内赛-前期策划",
+  //"post/活动策划/报告书都要写些什么？",
+  //"post/活动策划/无人驾驶比赛",
+  //"post/活动策划/硬件模块",
+  //"post/命令行/命令行基本操作"
+  //"post/音乐/哥德堡变奏曲",
+  //"post/音乐/不能说的秘密",
+  //"post/美食/极简面包-烘培",
+  //"post/言论/写作",
+  //"post/言论/财富",
+  //"post/言论/创业",
+  //"post/言论/个人发展",
+  {
+
     title: "电路设计",
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/电路设计/AirForce-充满灵性的电机驱动模块",
-      "post/电路设计/单片机最小系统设计—基于STM32（F1）",
-      "post/电路设计/SwiftCtrl-蓝牙手柄",
-      "post/电路设计/TinyDVR-小巧身材，满载动力",
-      "post/电路设计/ZenDriver-高性能的电机驱动",
-      "post/电路设计/PCB布线规范",
-      "post/电路设计/PCB元件布局规范",
-      "post/电路设计/函数思想在电路设计中的应用",
-      "post/电路设计/基本元器件选型",
-      "post/电路设计/电源的设计",
-      "post/电路设计/AD小技巧整理",
-      "post/电路设计/AD入门系列一：环境搭建",
-      "post/电路设计/AD入门系列二：基础知识",
-      "post/电路设计/AD入门系列三：原理图绘制",
-      "post/电路设计/AD入门系列四：PCB绘制",
-      "post/电路设计/AD入门系列五：库文件绘制",
-      "post/电路设计/自制CMSIS-DAP",
-      "post/电路设计/PCB名片设计",
-
-      "post/电路设计/AD使用Git的注意事项",
+      "AirForce-充满灵性的电机驱动模块",
+      "单片机最小系统设计—基于STM32（F1）",
+      "SwiftCtrl-蓝牙手柄",
+      "TinyDVR-小巧身材，满载动力",
+      "ZenDriver-高性能的电机驱动",
+      "PCB布线规范",
+      "PCB元件布局规范",
+      "函数思想在电路设计中的应用",
+      "基本元器件选型",
+      "电源的设计",
+      "AD小技巧整理",
+      "AD入门系列一：环境搭建",
+      "AD入门系列二：基础知识",
+      "AD入门系列三：原理图绘制",
+      "AD入门系列四：PCB绘制",
+      "AD入门系列五：库文件绘制",
+      "自制CMSIS-DAP",
+      "PCB名片设计",
+      "AD使用Git的注意事项",
     ],
   },
   {
@@ -30,13 +48,14 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/嵌入式开发/HAL系列教程1—GPIO",
-      "post/嵌入式开发/PlatformIO—一站式嵌入式开发工具",
-      "post/嵌入式开发/PlatformIO搭配CubeMX食用",
-      "post/嵌入式开发/CubeMX的一些坑",
-      "post/嵌入式开发/STM32的启动模式",
-      "post/嵌入式开发/KeilMDK配置指南",
-      "post/嵌入式开发/大疆N3飞控-参考资料",
+      "HAL系列教程1—GPIO",
+      "PlatformIO—一站式嵌入式开发工具",
+      "PlatformIO搭配CubeMX食用",
+      "CubeMX的一些坑",
+      "STM32的启动模式",
+      "KeilMDK配置指南",
+      "大疆N3飞控-参考资料",
+      //"STM32模块设计-LED",
     ],
   },
   {
@@ -44,10 +63,13 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/操作系统/Docker学习笔记",
-      "post/操作系统/CentOS配置OhMyZsh",
-      "post/操作系统/如何快速制作一个启动盘",
-      "post/操作系统/使用VSCode进行远程开发",
+      "Docker学习笔记",
+      "CentOS配置OhMyZsh",
+      "如何快速制作一个启动盘",
+      "使用VSCode进行远程开发",
+      //"Bash基础",
+      //"Linux基础（CentOS）",
+      //"从零搭建视觉开发环境（Docker-Linux）",
     ],
   },
 
@@ -56,50 +78,30 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/产品经理/产品经理的日常",
-      "post/产品经理/中台的概念",
-      "post/产品经理/画图基础",
-      "post/产品经理/智能硬件产品经理的技术要求",
-      "post/产品经理/如何撰写一份BRD",
-      //"post/产品经理/智能硬件产品开发流程",
+      "产品经理的日常",
+      "中台的概念",
+      "画图基础",
+      "智能硬件产品经理的技术要求",
+      "如何撰写一份BRD",
+      //"智能硬件产品开发流程",
     ],
   },
 
-  /*
-  {
-    title: "活动策划",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: [
-      "post/活动策划/RM校内赛-前期策划",
-      //"post/活动策划/报告书都要写些什么？",
-    ],
-  },
-  */
+
   {
     title: "Arduino",
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/Arduino/ATTiny85调试记录",
-      "post/Arduino/T-Clock桌上小钟",
-      //"post/Arduino/小车游华广-比赛",
-      //"post/Arduino/麦昆小车-测评",
-      "post/Arduino/一个舵机的自我修养",
-      "post/Arduino/麦轮小车",
+      "ATTiny85调试记录",
+      "T-Clock桌上小钟",
+      //"小车游华广-比赛",
+      //"麦昆小车-测评",
+      "一个舵机的自我修养",
+      "麦轮小车",
     ],
   },
-  /*
-  {
-    title: "STM32",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: [
-      //"post/STM32/Doxygen注释规范",
-      //"post/STM32/STM32麦轮小车",
-    ],
-  },
-  */
+
   {
     title: "树莓派",
     collapsable: false,
@@ -111,36 +113,29 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/前端/CSS学习笔记",
-      "post/前端/HTML学习笔记",
-      "post/前端/JavaScript学习笔记",
-      "post/前端/自适应网页设计",
-      "post/前端/Node.js和npm的安装与卸载（MacOS）",
-      "post/前端/前端开发-环境搭建",
+      "CSS学习笔记",
+      "HTML学习笔记",
+      "JavaScript学习笔记",
+      "自适应网页设计",
+      "Node.js和npm的安装与卸载（MacOS）",
+      "前端开发-环境搭建",
     ],
   },
   {
     title: "微信小程序",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["post/微信小程序/BookJourney-二手书商城"],
+    children: ["BookJourney-二手书商城"],
   },
-  /*
-  {
-    title: "命令行",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: ["post/命令行/命令行基本操作"],
-  },
-  */
+
   {
     title: "Git&GitHub",
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/Git&GitHub/Git学习笔记",
-      "post/Git&GitHub/Git配置代理",
-      "post/Git&GitHub/删除GitHub仓库中某个文件夹",
+      "Git学习笔记",
+      "Git配置代理",
+      "删除GitHub仓库中某个文件夹",
     ],
   },
   {
@@ -148,52 +143,35 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/高效工作/用Vercel加速Pages服务",
-      "post/高效工作/文章排版规范",
-      //"post/高效工作/Excel批量激活链接并转换为图片",
-      "post/高效工作/基于docsify搭建个人Wiki",
-      "post/高效工作/用Graphviz绘制关系图",
-      "post/高效工作/博客转至GitBook",
-      "post/高效工作/浅谈Bitcron博客平台",
-      "post/高效工作/RSS-高效率的阅读方式",
-      "post/高效工作/把回忆放心交给GooglePhotos",
-      "post/高效工作/构建知识管理系统",
-      "post/高效工作/回归博客",
-      "post/高效工作/定制SublimeText3",
-      "post/高效工作/VSCode生产力指南-环境配置",
-      "post/高效工作/VSCode生产力指南-JupyterNotebook",
-      "post/高效工作/在浏览器上运行VScode（code-server）",
-      "post/高效工作/如何配一台电脑",
-      "post/高效工作/用reveal.js制作幻灯片",
+      "用Vercel加速Pages服务",
+      "文章排版规范",
+      //"Excel批量激活链接并转换为图片",
+      //"如何保存易逝的文字",
+      "基于docsify搭建个人Wiki",
+      "用Graphviz绘制关系图",
+      "博客转至GitBook",
+      "浅谈Bitcron博客平台",
+      "RSS-高效率的阅读方式",
+      "把回忆放心交给GooglePhotos",
+      "构建知识管理系统",
+      "回归博客",
+      "定制SublimeText3",
+      "VSCode生产力指南-环境配置",
+      "VSCode生产力指南-JupyterNotebook",
+      "在浏览器上运行VScode（code-server）",
+      "如何配一台电脑",
+      "用reveal.js制作幻灯片",
     ],
   },
-  /*
-  {
-    title: "音乐",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: [
-      //"post/音乐/哥德堡变奏曲",
-      //"post/音乐/不能说的秘密",
-    ],
-  },
-  */
-  /*
-  {
-    title: "美食",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: ["post/美食/极简面包-烘培", "post/美食/参考"],
-  },
-  */
+
   {
     title: "比赛经历",
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      "post/比赛经历/THEHack2019",
-      "post/比赛经历/Hack.init()",
-      "post/比赛经历/焊接比赛：培训及总结",
+      "THEHack2019",
+      "Hack.init()",
+      "焊接比赛：培训及总结",
     ],
   },
   {
@@ -201,12 +179,12 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 2,
     children: [
-      //"post/生活方式/华广爬楼指北",
-      "post/生活方式/读《黑客与画家》",
-      "post/生活方式/英语六级-备考",
-      "post/生活方式/谈谈未来的职业选择",
-      //"post/生活方式/科技X的访谈",
-      "post/生活方式/阅读书摘",
+      //"华广爬楼指北",
+      "读《黑客与画家》",
+      "英语六级-备考",
+      "谈谈未来的职业选择",
+      //"科技X的访谈",
+      "阅读书摘",
     ],
   },
   /*
@@ -267,19 +245,7 @@ module.exports = [{
     ],
   },
   */
-  /*
-  {
-    title: "言论",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: [
-      "post/言论/写作",
-      "post/言论/财富",
-      "post/言论/创业",
-      "post/言论/个人发展",
-    ],
-  },
-  */
+
   {
     title: "友链",
     collapsable: false,
