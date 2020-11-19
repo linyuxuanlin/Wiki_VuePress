@@ -1,15 +1,12 @@
 ---
 home: false
 heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png
-
 # heroText: 标题
 
 # tagline: 副标题
 
 #comment: true
 
-actionText: 点击进入 →
-actionLink: /TinyDVR-小巧身材，满载动力
 #editLink: false
 #lastUpdated: false
 
@@ -21,6 +18,9 @@ actionLink: /TinyDVR-小巧身材，满载动力
 个人知识库
 
 <br />
+
+actionText: 点击进入 →
+actionLink: /TinyDVR-小巧身材，满载动力
 
 <br />
 
