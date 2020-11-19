@@ -64,6 +64,8 @@ module.exports = [{
       //"post/产品经理/智能硬件产品开发流程",
     ],
   },
+
+  /*
   {
     title: "活动策划",
     collapsable: false,
@@ -73,6 +75,7 @@ module.exports = [{
       //"post/活动策划/报告书都要写些什么？",
     ],
   },
+  */
   {
     title: "Arduino",
     collapsable: false,
