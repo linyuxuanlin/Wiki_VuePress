@@ -1,10 +1,11 @@
-module.exports = [{
+module.exports = [
+  {
     title: "电路设计",
     collapsable: false,
     sidebarDepth: 0,
     children: [
       "AirForce-充满灵性的电机驱动模块",
-      "单片机最小系统设计—基于STM32（F1）",
+      "如何设计一款单片机的最小系统",
       "SwiftCtrl-蓝牙手柄",
       "TinyDVR-小巧身材，满载动力",
       "ZenDriver-高性能的电机驱动",
