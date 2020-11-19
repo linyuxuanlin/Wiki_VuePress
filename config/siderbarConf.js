@@ -1,5 +1,4 @@
-module.exports = [
-  {
+module.exports = [{
     title: "电路设计",
     collapsable: false,
     sidebarDepth: 0,
@@ -132,7 +131,7 @@ module.exports = [
   {
     title: "生活 / 经历",
     collapsable: false,
-    sidebarDepth: 2,
+    sidebarDepth: 1,
     children: [
       "书摘与读书笔记",
       //"华广爬楼指北",
