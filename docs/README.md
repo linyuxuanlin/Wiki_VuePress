@@ -8,7 +8,7 @@ heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200
 
 comment: true
 
-actionText: 点击进入 →tet
+actionText: 点击进入 →
 actionLink: /TinyDVR-小巧身材，满载动力
 #editLink: false
 #lastUpdated: false
