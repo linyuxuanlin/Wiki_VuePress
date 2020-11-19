@@ -1,5 +1,8 @@
 module.exports = [
+
+
   {
+
     title: "电路设计",
     collapsable: false,
     sidebarDepth: 0,
@@ -38,7 +41,6 @@ module.exports = [
       "KeilMDK配置指南",
       "大疆N3飞控-参考资料",
       //"STM32模块设计-LED",
-      "基于树莓派搭建云打印服务器",
     ],
   },
   {
@@ -70,6 +72,7 @@ module.exports = [
     ],
   },
 
+
   {
     title: "Arduino",
     collapsable: false,
@@ -84,6 +87,12 @@ module.exports = [
     ],
   },
 
+  {
+    title: "树莓派",
+    collapsable: false,
+    sidebarDepth: 0,
+    children: ["云打印服务器的搭建"],
+  },
   {
     title: "前端",
     collapsable: false,
@@ -108,7 +117,11 @@ module.exports = [
     title: "Git&GitHub",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["Git学习笔记", "Git配置代理", "删除GitHub仓库中某个文件夹"],
+    children: [
+      "Git学习笔记",
+      "Git配置代理",
+      "删除GitHub仓库中某个文件夹",
+    ],
   },
   {
     title: "高效工作",
@@ -140,7 +153,11 @@ module.exports = [
     title: "比赛经历",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["THEHack2019", "Hack.init()", "焊接比赛：培训及总结"],
+    children: [
+      "THEHack2019",
+      "Hack.init()",
+      "焊接比赛：培训及总结",
+    ],
   },
   {
     title: "生活方式",
