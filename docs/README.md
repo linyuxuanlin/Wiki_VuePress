@@ -28,9 +28,8 @@ Hi there~
 > 一只不会讲故事的硬件攻城狮，称不上一个很酷的极客~
 
 为了避免遗忘，也为了分享，我将所学的知识结构化归档于此。  
-本站使用 VuePress 框架驱动，全站开源于 GitHub，并借用 Vercel 托管。如果你也想搭建自己的知识库，可以直接扒走~
-
-这儿是我的联系方式：
+本站使用 VuePress 框架驱动，全站开源于 GitHub，并借用 Vercel 托管。  
+如果你也想搭建自己的知识库，可以直接扒走整个仓库，也可以通过以下的方式与我交流：
 
 [![微信](https://img.shields.io/badge/WeChat-07C160)](https://wiki-power.com/post/unlist/WeChat.html)
 [![Telegram](https://img.shields.io/badge/Telegram-34ABE0)](https://t.me/linyuxuanlin)
