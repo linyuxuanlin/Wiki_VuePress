@@ -14,11 +14,11 @@ actionLink: /TinyDVR-小巧身材，满载动力
 #lastUpdated: false
 ---
 
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png)
+
 # Power's Wiki
 
 个人知识库
-
-![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200314124719.png)
 
 <br />
 
