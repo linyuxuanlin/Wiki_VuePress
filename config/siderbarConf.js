@@ -49,24 +49,10 @@ module.exports = [
       "CentOS配置OhMyZsh",
       "如何快速制作一个启动盘",
       "使用VSCode进行远程开发",
-      "基于树莓派搭建云打印服务器",
+
       //"Bash基础",
       //"Linux基础（CentOS）",
       //"从零搭建视觉开发环境（Docker-Linux）",
-    ],
-  },
-
-  {
-    title: "产品经理",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: [
-      "产品经理的日常",
-      "中台的概念",
-      "画图基础",
-      "智能硬件产品经理的技术要求",
-      "如何撰写一份BRD",
-      //"智能硬件产品开发流程",
     ],
   },
 
@@ -85,7 +71,7 @@ module.exports = [
   },
 
   {
-    title: "前端",
+    title: "软件开发",
     collapsable: false,
     sidebarDepth: 0,
     children: [
@@ -95,27 +81,20 @@ module.exports = [
       "自适应网页设计",
       "Node.js和npm的安装与卸载（MacOS）",
       "前端开发-环境搭建",
+      "BookJourney-二手书商城小程序",
+      "Git学习笔记",
+      "Git配置代理",
+      "删除GitHub仓库中某个文件夹",
     ],
   },
-  {
-    title: "微信小程序",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: ["BookJourney-二手书商城"],
-  },
 
-  {
-    title: "Git&GitHub",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: ["Git学习笔记", "Git配置代理", "删除GitHub仓库中某个文件夹"],
-  },
   {
     title: "高效工作",
     collapsable: false,
     sidebarDepth: 0,
     children: [
       "用Vercel加速Pages服务",
+      "基于树莓派搭建云打印服务器",
       "文章排版规范",
       //"Excel批量激活链接并转换为图片",
       //"如何保存易逝的文字",
@@ -137,13 +116,21 @@ module.exports = [
   },
 
   {
-    title: "比赛经历",
+    title: "PM 相关",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["THEHack2019", "Hack.init()", "焊接比赛：培训及总结"],
+    children: [
+      "产品经理的日常",
+      "中台的概念",
+      "画图基础",
+      "智能硬件产品经理的技术要求",
+      "如何撰写一份BRD",
+      //"智能硬件产品开发流程",
+    ],
   },
+
   {
-    title: "生活方式",
+    title: "生活 / 经历",
     collapsable: false,
     sidebarDepth: 2,
     children: [
@@ -151,8 +138,11 @@ module.exports = [
       "读《黑客与画家》",
       "英语六级-备考",
       "谈谈未来的职业选择",
+      "THEHack2019",
+      "Hack.init()",
+      "焊接比赛：培训及总结",
       //"科技X的访谈",
-      "阅读书摘",
+      "书摘与读书笔记",
     ],
   },
   /*

@@ -1,4 +1,4 @@
-# BookJourney - 二手书商城
+# BookJourney-二手书商城小程序
 
 ## 成品
 
@@ -26,10 +26,10 @@
 
 ## FAQ
 
-Q：为什么叫 BookJourney?   
+Q：为什么叫 BookJourney?  
 A：本来有个好听的中文名字叫「书程小驿」，但在注册小程序的时候发现已经被占用了，只好妥协。
 
-Q：赚到钱了吗？   
+Q：赚到钱了吗？  
 A：总利润收入：¥16.66……
 
 ## 总结
@@ -40,7 +40,7 @@ A：总利润收入：¥16.66……
 
 ## 参考与致谢
 
-* [EastWorld / wechat-app-mall](https://github.com/EastWorld/wechat-app-mall)
+- [EastWorld / wechat-app-mall](https://github.com/EastWorld/wechat-app-mall)
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
