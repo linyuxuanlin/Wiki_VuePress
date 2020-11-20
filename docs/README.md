@@ -15,7 +15,7 @@ heroImage: https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/20200
 
 # Power's Wiki
 
-testetset
+testetsetaaaaaaa
 Hi there~  
 这儿是我的个人知识库。如果你用手机访问，可以点击左上角的菜单键，展开文章目录，祝你玩得开心~
 
