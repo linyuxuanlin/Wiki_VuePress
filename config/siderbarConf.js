@@ -1,5 +1,4 @@
-module.exports = [
-  {
+module.exports = [{
     title: "电路设计",
     collapsable: false,
     sidebarDepth: 0,
@@ -221,6 +220,8 @@ module.exports = [
   //"创业",
   //"个人发展",
 
+
+  /*
   {
     title: "友链",
     collapsable: false,
@@ -231,4 +232,6 @@ module.exports = [
       ["https://waitech.cn/", "WAI 科技社"],
     ],
   },
+
+  */
 ];

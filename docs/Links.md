@@ -7,3 +7,4 @@
 - [**unbinilium.me**](https://unbinilium.me/)
 - [**非酋寻乡**](https://www.notion.so/fqjun/Learning-28a0ac3bcc454c3badab2a106eae6125)
 - [**BOBI の窝**](https://bobi.site)
+- [**WAI 科技社**](https://waitech.cn/)
