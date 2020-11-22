@@ -20,7 +20,7 @@
 - [**JLCSMT_LIB**](https://gitee.com/JLC_SMT/JLCSMT_LIB)：嘉立创提供的标准集成库，包含嘉立创可以 SMT 贴片的所有元件，直接用这个集成库，打板 / SMT 的时候兼容性会比较好。
 - [**Hare_Library**](https://github.com/linyuxuanlin/Power_Lib_Altium/tree/master/Other_Libs/Hare_Library)：彬哥整理的原理图库 / 封装库，涵盖队内硬件所需的大部分元器件。
 
-如何安装库文件：参考 [**Altium Designer 安装库文件**](https://wiki-power.com/post/unlist/AltiumDesigner%E5%AE%89%E8%A3%85%E5%BA%93%E6%96%87%E4%BB%B6.html)
+如何安装库文件：参考 [**Altium Designer 安装库文件**](https://wiki-power.com/unlist/AltiumDesigner%E5%AE%89%E8%A3%85%E5%BA%93%E6%96%87%E4%BB%B6.html)
 
 ### 不常见的元器件
 
@@ -36,7 +36,7 @@ AD 插件：
 - [**SnapEDA**](https://www.snapeda.com/)
 - [**Ultra Librarian**](https://www.ultralibrarian.com/)
 
-SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wiki-power.com/post/unlist/%E4%BB%8ESnapEDA%E5%AF%BC%E5%85%A5%E5%BA%93%E6%96%87%E4%BB%B6.html)
+SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wiki-power.com/unlist/%E4%BB%8ESnapEDA%E5%AF%BC%E5%85%A5%E5%BA%93%E6%96%87%E4%BB%B6.html)
 
 ## 快捷键
 

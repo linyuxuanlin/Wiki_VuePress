@@ -31,7 +31,7 @@ Hi there~
 本站使用 VuePress 框架驱动，全站开源于 GitHub，并借用 Vercel 托管。  
 如果你也想搭建自己的知识库，可以直接扒走整个仓库，也可以通过以下的方式与我交流：
 
-[![微信](https://img.shields.io/badge/WeChat-07C160)](https://wiki-power.com/post/unlist/WeChat.html)
+[![微信](https://img.shields.io/badge/WeChat-07C160)](https://wiki-power.com/unlist/WeChat.html)
 [![Telegram](https://img.shields.io/badge/Telegram-34ABE0)](https://t.me/linyuxuanlin)
 [![知乎](https://img.shields.io/badge/知乎-0084ff)](https://www.zhihu.com/people/linyuxuanlin)
 [![少数派](https://img.shields.io/badge/少数派-C23133)](https://sspai.com/u/power/)
