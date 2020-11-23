@@ -111,7 +111,7 @@ module.exports = {
     repo: "linyuxuanlin/Wiki-book",
     repoLabel: "本站源码", // 显示在 NavBar
     docsDir: "docs",
-    editLinks: true,
+    editLinks: false,
     editLinkText: "在 GitHub 上编辑此页", // 显示在文章底部
 
     record: "Power Lin © 2015 | 粤 ICP 备 20014898 号",
