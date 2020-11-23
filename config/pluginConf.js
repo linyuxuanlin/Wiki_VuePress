@@ -21,7 +21,7 @@ module.exports = [
         appKey: "5DHVcLGeYkA1q8gSNY7wsb3z",
         meta: ["nick", "mail"], // 评论人信息填写昵称和邮箱
         path: "<%- frontmatter.to.path %>", // 定位评论使用的是页面文件名，否则定向错误
-        placeholder: "快来评论一下吧!", // 评论的输入框提示
+        placeholder: "随便写点啥~", // 评论的输入框提示
       },
     },
   ],
