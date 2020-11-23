@@ -15,6 +15,7 @@
 
 1. Chrome
 2. VS Code
+3. Qv2ray（https://qv2ray.net/）
 
 ## 参考与致谢 
 
