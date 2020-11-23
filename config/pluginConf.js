@@ -10,7 +10,6 @@ module.exports = [
     },
   ],
 
-  /*
   [
     "vuepress-plugin-comment",
     {
@@ -24,7 +23,6 @@ module.exports = [
     }
   ],
 
-*/
   [
     "@vuepress/pwa",
     {
