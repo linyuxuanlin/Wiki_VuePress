@@ -16,6 +16,9 @@
 1. Chrome
 2. VS Code
 3. Qv2ray（https://qv2ray.net/）
+4. Git
+   - `$ git config --global user.name "John Doe"`
+   - `$ git config --global user.email johndoe@example.com`
 
 ## 参考与致谢 
 
