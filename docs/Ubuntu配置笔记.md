@@ -98,5 +98,3 @@
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
-
-vmess://eyJ2IjoiMiIsInBzIjoiXHU2ZDFiXHU2NzQ5XHU3N2Y2IHwgXHU0ZTEzXHU3ZWJmIHwgXHU0ZTA5XHU1MzQzXHU1MTQ2IHwgXHU0ZTA5XHU3ZjUxXHU3NmY0XHU4ZmRlIiwiYWRkIjoibGEub3V0c2l0ZS54eXoiLCJwb3J0Ijo0NDMsImlkIjoiMGIyZWZjY2EtOGY5My00YThmLWE1ZjgtMjVkODJjMmJmYjFiIiwiYWlkIjoiMiIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ilwvb3V0c2l0ZSIsInRscyI6InRscyJ9
