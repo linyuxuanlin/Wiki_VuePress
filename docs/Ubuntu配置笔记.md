@@ -81,6 +81,14 @@
 7. 安装 rosinstall
    - `$ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential`
 
+## 卸载
+
+步骤：
+
+- `sudo apt-get autoremove --purge ros-*`
+- `sudo apt-get autoremove`
+- 检查～/.bashrc　以及／opt / 目录是否有 ros 文件夹存在
+
 ## 参考与致谢 
 
 * []()
