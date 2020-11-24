@@ -17,6 +17,7 @@
 2. VS Code
 3. Qv2ray（https://qv2ray.net/）
 4. Git
+   - `$ sudo apt install git`
    - `$ git config --global user.name "John Doe"`
    - `$ git config --global user.email johndoe@example.com`
 
@@ -61,6 +62,7 @@
 ### 安装
 
 编译器：
+
 - `$ sudo apt-get install g++`
 - `$ sudo apt-get install python`
 
@@ -75,10 +77,10 @@
    - `$ rosdep update`
    - `$ sudo rosdep init`
    - `$ rosdep update`
-6. 设置环境变量
+5. 设置环境变量
    - `$ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc`
    - `$ source ~/.bashrc`
-7. 安装 rosinstall
+6. 安装 rosinstall
    - `$ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential`
 
 ## 卸载
@@ -87,12 +89,14 @@
 
 - `sudo apt-get autoremove --purge ros-*`
 - `sudo apt-get autoremove`
-- 检查～/.bashrc　以及／opt / 目录是否有 ros 文件夹存在
+- 检查～/.bashrc 　以及／opt / 目录是否有 ros 文件夹存在
 
-## 参考与致谢 
+## 参考与致谢
 
-* []()
+- []()
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
+
+vmess://eyJ2IjoiMiIsInBzIjoiXHU2ZDFiXHU2NzQ5XHU3N2Y2IHwgXHU0ZTEzXHU3ZWJmIHwgXHU0ZTA5XHU1MzQzXHU1MTQ2IHwgXHU0ZTA5XHU3ZjUxXHU3NmY0XHU4ZmRlIiwiYWRkIjoibGEub3V0c2l0ZS54eXoiLCJwb3J0Ijo0NDMsImlkIjoiMGIyZWZjY2EtOGY5My00YThmLWE1ZjgtMjVkODJjMmJmYjFiIiwiYWlkIjoiMiIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ilwvb3V0c2l0ZSIsInRscyI6InRscyJ9
