@@ -1,5 +1,7 @@
 # Ubuntu 配置笔记
 
+【施工中】
+
 ## 安装系统
 
 参考 https://www.bilibili.com/read/cv2480151/
@@ -74,14 +76,14 @@
    - `$ sudo apt update`
    - `$ sudo apt install ros-noetic-desktop-full`
 4. 初始化 rosdep
-   - `$ rosdep update`
+   - `$ sudo apt-get install python3-rosdep`
    - `$ sudo rosdep init`
    - `$ rosdep update`
 5. 设置环境变量
    - `$ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc`
    - `$ source ~/.bashrc`
 6. 安装 rosinstall
-   - `$ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential`
+   - `$ sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential`
 
 ## 卸载
 
