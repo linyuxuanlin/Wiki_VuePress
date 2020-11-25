@@ -25,6 +25,15 @@ module.exports = [{
     ],
   },
   {
+    title: "队内管理",
+    collapsable: false,
+    sidebarDepth: 0,
+    children: [
+      "换届大会-活动总结",
+
+    ],
+  },
+  {
     title: "嵌入式开发",
     collapsable: false,
     sidebarDepth: 0,
