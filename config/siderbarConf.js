@@ -30,7 +30,7 @@ module.exports = [{
     sidebarDepth: 0,
     children: [
       "换届大会-活动总结",
-
+      "破冰-活动总结",
     ],
   },
   {
