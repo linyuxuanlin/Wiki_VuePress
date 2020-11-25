@@ -24,10 +24,10 @@ Bitcron 的邀请制度很严格。每个用户每充值 50 元，可以邀请�
 
 ## FAQ
 
-Q：以后还会更换博客平台吗？   
+Q：以后还会更换博客平台吗？  
 A：~~在发现更适合自己的博客平台之前，是不会更换的。~~ 已经更换为 Gitbook 平台。
 
-Q：我想入坑 Bitcron ，可以给我一个邀请码吗？   
+Q：我想入坑 Bitcron ，可以给我一个邀请码吗？  
 A：可以联系我拿邀请码。
 
 ## 总结
@@ -42,11 +42,15 @@ A：可以联系我拿邀请码。
 
 ## 参考与致谢
 
-* [简谈 Bitcron 与博客](https://linhai1990.com/archives/89.html)
-* [Bitcron 折腾小记（上）](https://linhai1990.com/archives/103.html)
-* [Bitcron 折腾小记（下）](https://linhai1990.com/archives/104.html)
-* [Bitcron 初体验](https://cyhour.com/533/)
-* [我把 pi.bitcron.com 全部看了一遍，整理出了这些有用的信息](https://www.liaoyuqin.com/post/help/pibitcron)
+- [简谈 Bitcron 与博客](https://linhai1990.com/archives/89.html)
+- [Bitcron 折腾小记（上）](https://linhai1990.com/archives/103.html)
+- [Bitcron 折腾小记（下）](https://linhai1990.com/archives/104.html)
+- [Bitcron 初体验](https://cyhour.com/533/)
+- [我把 pi.bitcron.com 全部看了一遍，整理出了这些有用的信息](https://www.liaoyuqin.com/post/help/pibitcron)
+
+<br />
+
+<br />
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

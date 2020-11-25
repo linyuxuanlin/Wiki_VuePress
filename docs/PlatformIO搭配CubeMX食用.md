@@ -65,6 +65,10 @@ PlatformIO 可以用快捷键 `Ctrl + Alt + B` 编译，用 `Ctrl + Alt + U` 编
 - [STM32CubeMX 系列教程 06_Project Manager 工程管理器详细说明](https://www.strongerhuang.com/STM32Cube/STM32CubeMX/STM32CubeMX%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B06_Project%20Manager%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%99%A8%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E.html)
 - [用 VScode 作为 stm32 开发平台（platformIO）](https://www.jianshu.com/p/49cfa03d6164)
 
+<br />
+
+<br />
+
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

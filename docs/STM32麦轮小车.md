@@ -8,14 +8,14 @@
 
 模块知识：
 
-* 外部中断
-* 串口
-* SysTick 定时器
-* TIM 高级定时器
-* 驱动舵机
-* 驱动电机，实现调速
-* 编码器
-* 遥控（PS2）
+- 外部中断
+- 串口
+- SysTick 定时器
+- TIM 高级定时器
+- 驱动舵机
+- 驱动电机，实现调速
+- 编码器
+- 遥控（PS2）
 
 ## 运动学原理
 
@@ -106,8 +106,12 @@ void M_process(s16 x,s16 y) { //传入左摇杆 L(x,y) 坐标
 
 ## 参考与致谢
 
-* [Mecanum Wheel Robot - Bluetooth Controlled](https://www.instructables.com/id/Mecanum-wheel-robot-bluetooth-controlled/)
-* [Design of Omnidirectional Mobile Platform Control System Based on STM32 CAN Bus Control](https://image.hanspub.org/Html/11-1540843_22169.htm)
+- [Mecanum Wheel Robot - Bluetooth Controlled](https://www.instructables.com/id/Mecanum-wheel-robot-bluetooth-controlled/)
+- [Design of Omnidirectional Mobile Platform Control System Based on STM32 CAN Bus Control](https://image.hanspub.org/Html/11-1540843_22169.htm)
+
+<br />
+
+<br />
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

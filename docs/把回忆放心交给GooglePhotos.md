@@ -4,13 +4,13 @@
 
 过去，我们会把承载着回忆的照片存在电脑或硬盘上。我们渐渐发现，照片不断堆积，文件夹式的分类方法也逐渐失去其意义：一次旅行过后，常常因拖延症而没有整理照片；照片整理好了，却再也不会翻看品味了；一旦硬盘遭祸（物理或人为因素），只能送去数据恢复，有时还不一定能救回来。
 
- ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/%E7%94%A8%20Google%20Photos%20%E7%AE%A1%E7%90%86%E7%85%A7%E7%89%87/2af4c42e6f7a9f4ed45b6f150b164184.jpg)
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/%E7%94%A8%20Google%20Photos%20%E7%AE%A1%E7%90%86%E7%85%A7%E7%89%87/2af4c42e6f7a9f4ed45b6f150b164184.jpg)
 
 我不断寻找、发现新的存放照片的介质。过用 Resilio Sync，微云同步盘，百度云同步盘等同步工具做多重备份；也考虑过搭建 NAS 照片库（RAID 1）；或者是各类云服务例如 iCloud，小米云相册，微云，百度云等，却始终没有用着顺手的。首先，用文件夹的形式来管理照片，确实很规整，但不方便整理与翻看；其次，国内的这些服务提供商，哪天要缺钱了把你隐私给卖了，也是很常见的。
 
 我最终发现了 Google Photos, 相对安全，操作也比较人性化。体验了一年多时间，觉得挺不错的，于是更新了本篇文章。
 
- ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/%E7%94%A8%20Google%20Photos%20%E7%AE%A1%E7%90%86%E7%85%A7%E7%89%87/0f0ab1740e3206831f3e6ef19ef0c903.png)
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/%E7%94%A8%20Google%20Photos%20%E7%AE%A1%E7%90%86%E7%85%A7%E7%89%87/0f0ab1740e3206831f3e6ef19ef0c903.png)
 
 ## 特色
 
@@ -18,13 +18,13 @@
 
 相比 iCloud（5GB 免费空间），小米云（11GB 免费空间），虽然可以购买储存容量，但是在同步所有照片的时候，多少还是有点小心翼翼。而 Google Photos 的无限容量，完全满足搭建个人存放照片的需求。但有条件：照片最高 1600 万像素，视频 1080p，超出会被压缩。不过对于非专业用户来说，也足够了。
 
- ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/%E7%94%A8%20Google%20Photos%20%E7%AE%A1%E7%90%86%E7%85%A7%E7%89%87/cea385ad94811257f4b7c084d41c5d30.jpg)
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/%E7%94%A8%20Google%20Photos%20%E7%AE%A1%E7%90%86%E7%85%A7%E7%89%87/cea385ad94811257f4b7c084d41c5d30.jpg)
 
 ### 2. 智能
 
 相较于文件夹形式管理，即使没有对照片归档分类，Google Photos 的搜索功能也足以帮你挖出封存多年的旧照片；你可以给人物打上标签，就可以搜索到关于 TA 的所有照片了。另外，「重温往年今日」也是一个不错的功能。
 
- ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/%E7%94%A8%20Google%20Photos%20%E7%AE%A1%E7%90%86%E7%85%A7%E7%89%87/f1ccf68a3eeae7b4a69f58122838666d.png)
+![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/%E7%94%A8%20Google%20Photos%20%E7%AE%A1%E7%90%86%E7%85%A7%E7%89%87/f1ccf68a3eeae7b4a69f58122838666d.png)
 
 ### 3. 相对安全
 
@@ -34,11 +34,11 @@
 
 ### 4. 其他优点
 
-* 兼容各设备（iCloud 和某些云服务，只照顾自家设备）
-* 自带照片编辑器
-* 同步到云端后可释放手机储存
-* 自动合并重复照片
-* 界面美观、人性化
+- 兼容各设备（iCloud 和某些云服务，只照顾自家设备）
+- 自带照片编辑器
+- 同步到云端后可释放手机储存
+- 自动合并重复照片
+- 界面美观、人性化
 
 ## 弊端
 
@@ -56,7 +56,7 @@ Google Photos 在打开的时候才能同步照片，或许这也是优点。同
 
 ## FAQ
 
-Q：还是对数据安全不放心，有更好的解决方法吗？   
+Q：还是对数据安全不放心，有更好的解决方法吗？  
 A：建议用移动硬盘加密备份，或者打包加密再上传到国外的网盘。
 
 ## 总结
@@ -65,12 +65,16 @@ A：建议用移动硬盘加密备份，或者打包加密再上传到国外的�
 
 ## 参考与致谢
 
-* [探寻 Google Photos 无限免费的“真相”](http://www.ifanr.com/527180)
-* [Google Photos 备份照片的好选择，却不一定是最好的](http://www.sohu.com/a/190124959_742974)
-* [Google 相簿你一定想知道的 16 招搜尋照片神奇密技](https://www.playpcesor.com/2015/06/google-photos-search-tips-16.html)
-* [“中国人更愿意用隐私换便利”，李彦宏错了吗？](https://news.newseed.cn/p/1345029)
-* [这一次，Google Photos 要重新定义「云相册」](https://sspai.com/post/29151)
-* [Google 隐私权和条款](https://policies.google.com/privacy?hl=zh-CN)
+- [探寻 Google Photos 无限免费的“真相”](http://www.ifanr.com/527180)
+- [Google Photos 备份照片的好选择，却不一定是最好的](http://www.sohu.com/a/190124959_742974)
+- [Google 相簿你一定想知道的 16 招搜尋照片神奇密技](https://www.playpcesor.com/2015/06/google-photos-search-tips-16.html)
+- [“中国人更愿意用隐私换便利”，李彦宏错了吗？](https://news.newseed.cn/p/1345029)
+- [这一次，Google Photos 要重新定义「云相册」](https://sspai.com/post/29151)
+- [Google 隐私权和条款](https://policies.google.com/privacy?hl=zh-CN)
+
+<br />
+
+<br />
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

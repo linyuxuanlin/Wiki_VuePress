@@ -176,6 +176,10 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wi
 - [Using Version Control](https://www.altium.com/documentation/altium-designer/using-version-control-ad)
 - 彬哥整理的经验和笔记
 
+<br />
+
+<br />
+
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

@@ -22,6 +22,10 @@
 - 在每个模块的电源输入端 **增加去耦电容**：滤除电源上的干扰信号。注意尽量靠近取电模块。
 - 继电器线圈处加上放电二极管（如 1N4148 ）
 
+<br />
+
+<br />
+
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

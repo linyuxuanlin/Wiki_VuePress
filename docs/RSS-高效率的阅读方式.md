@@ -38,18 +38,19 @@ RSS 的对立面是算法推荐，像微信公众号、知乎、微博、今日�
 ![](https://wiki-media-1253965369.cos.ap-guangzhou.myqcloud.com/img/rss.png)
 
 则可以直接点击此图标，并直接订阅 RSS 链接。  
-如果没有标识呢？也可能是有 RSS 的，不过藏得比较深。  
+如果没有标识呢？也可能是有 RSS 的，不过藏得比较深。
 
 这时候我们可以用一款叫 RSS+ 的浏览器插件：
-* 先安装 [油猴插件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) ，这里需要科学上网。
-* 再安装 [RSS+ 脚本](https://greasyfork.org/zh-CN/scripts/373252-rss-show-site-all-rss)
-* 此时，如果网站有 RSS，可在右下角小圆圈里发现。
+
+- 先安装 [油猴插件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) ，这里需要科学上网。
+- 再安装 [RSS+ 脚本](https://greasyfork.org/zh-CN/scripts/373252-rss-show-site-all-rss)
+- 此时，如果网站有 RSS，可在右下角小圆圈里发现。
 
 而对无 RSS 的网站，可以自己制作 RSS，这里推荐几个工具：
 
-* [feed43](http://feed43.com/)
-* [RSSHub](https://docs.rsshub.app/#%E5%BE%AE%E5%8D%9A)
-* [FeedOcean](https://feedocean.com/?lang=zh-CN)
+- [feed43](http://feed43.com/)
+- [RSSHub](https://docs.rsshub.app/#%E5%BE%AE%E5%8D%9A)
+- [FeedOcean](https://feedocean.com/?lang=zh-CN)
 
 以上的工具，不仅可以订阅无 RSS 的博客，还能直接订阅知乎专栏、公众号、微博、贴吧等。具体方法参见文档。
 
@@ -68,7 +69,7 @@ RSS 的对立面是算法推荐，像微信公众号、知乎、微博、今日�
 
 ## FAQ
 
-Q：RSS 阅读会不会被时代淘汰？   
+Q：RSS 阅读会不会被时代淘汰？  
 A：读书这种方式也没有被时代淘汰。一个趋势是，凡是互联网平台，总是向群众「喜闻乐见」喜闻乐见的方向发展，直至内容变水，新的平台取而代之，像是知乎和豆瓣。而 RSS 不受平台兴衰的影响，除非有更好的协议出现，否则 RSS 不会被淘汰。
 
 ## 总结
@@ -79,12 +80,16 @@ A：读书这种方式也没有被时代淘汰。一个趋势是，凡是互联�
 
 ## 参考与致谢
 
-* [使用 RSS 可以做什么你未曾想过的事](https://sspai.com/post/34280)
-* [怎样查找一个网站的 RSS 地址？用 RSS + ！](https://blog.wizos.me/20181022-258.html)
-* [RSS 工具大全](https://blog.wizos.me/20180412-134.html)
-* [【RSS】我的 RSS 使用介绍](https://www.cnblogs.com/buwuliao/p/8379549.html)
-* [自制全文 RSS 汇总（附 推荐工具）](https://www.douban.com/note/522518464/)
-* [论 RSS 的「复兴」](https://sspai.com/post/43998)
+- [使用 RSS 可以做什么你未曾想过的事](https://sspai.com/post/34280)
+- [怎样查找一个网站的 RSS 地址？用 RSS + ！](https://blog.wizos.me/20181022-258.html)
+- [RSS 工具大全](https://blog.wizos.me/20180412-134.html)
+- [【RSS】我的 RSS 使用介绍](https://www.cnblogs.com/buwuliao/p/8379549.html)
+- [自制全文 RSS 汇总（附 推荐工具）](https://www.douban.com/note/522518464/)
+- [论 RSS 的「复兴」](https://sspai.com/post/43998)
+
+<br />
+
+<br />
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

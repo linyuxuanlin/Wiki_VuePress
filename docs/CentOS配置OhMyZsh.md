@@ -51,7 +51,7 @@ $ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 复制配置：
 
 ```shell
-$ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc 
+$ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
 ## 修改 Oh My Zsh 主题
@@ -63,6 +63,7 @@ $ ls ~/.oh-my-zsh/themes
 ```
 
 修改主题：
+
 ```shell
 $ vim ~/.zshrc
 ```
@@ -75,10 +76,14 @@ $ vim ~/.zshrc
 $ reboot
 ```
 
-## 参考与致谢 
+## 参考与致谢
 
-* [centos7 安装 zsh 配置 oh-my-zsh](https://www.jianshu.com/p/4ce7d511bc13)
-* [CentOs 安装 oh my zsh](https://www.jianshu.com/p/556ff130fc65)
+- [centos7 安装 zsh 配置 oh-my-zsh](https://www.jianshu.com/p/4ce7d511bc13)
+- [CentOs 安装 oh my zsh](https://www.jianshu.com/p/556ff130fc65)
+
+<br />
+
+<br />
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  

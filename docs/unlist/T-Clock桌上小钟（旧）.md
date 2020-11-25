@@ -10,10 +10,10 @@
 
 元件：
 
-* Arduino 主控
-* OLED 屏幕（SSD1306 SPI）
-* RTC 时钟模块（DS1307）
-* 锂电池 & 充电模块
+- Arduino 主控
+- OLED 屏幕（SSD1306 SPI）
+- RTC 时钟模块（DS1307）
+- 锂电池 & 充电模块
 
 外壳：因暂时没有好的设计，所以没有制作外壳。
 
@@ -140,7 +140,7 @@ void loop(void)
 
 资料下载：
 
-* 所有文件（包含库文件）：[https://github.com/linyuxuanlin/My-Arduino-projects/tree/master/T-Clock](https://github.com/linyuxuanlin/My-Arduino-projects/tree/master/T-Clock)
+- 所有文件（包含库文件）：[https://github.com/linyuxuanlin/My-Arduino-projects/tree/master/T-Clock](https://github.com/linyuxuanlin/My-Arduino-projects/tree/master/T-Clock)
 
 ## 总结
 
@@ -150,9 +150,13 @@ void loop(void)
 
 ## 参考与致谢
 
-* [屏幕无法显示？先测试一下](http://shimo.im/doc/63ALdXdl3EUInWJO)
-* [使用 Arduino UNO 为 Arduino Pro Mini 下载程序](http://blog.sina.com.cn/s/blog_53f8d23d0102wv3m.html)
-* [U8glib 用法](https://github.com/olikraus/u8glib/wiki/device#ssd1306-128x64)
+- [屏幕无法显示？先测试一下](http://shimo.im/doc/63ALdXdl3EUInWJO)
+- [使用 Arduino UNO 为 Arduino Pro Mini 下载程序](http://blog.sina.com.cn/s/blog_53f8d23d0102wv3m.html)
+- [U8glib 用法](https://github.com/olikraus/u8glib/wiki/device#ssd1306-128x64)
+
+<br />
+
+<br />
 
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
