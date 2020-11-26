@@ -104,21 +104,3 @@
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
-
-int E1 = 10;
-int M1 = 12;  
-int E2 =11;  
-int M2 = 13;  
-void setup(){
-pinMode(M1, OUTPUT);  
-pinMode(M2, OUTPUT);
-}
-void loop(){
-int value;
-for(value = 0 ; value <= 255; value+=5){
-digitalWrite(M1,HIGH);  
-digitalWrite(M2, HIGH);  
-analogWrite(E1, value); //PWM 调速
-analogWrite(E2, value); //PWM 调速
-delay(30);
-}
