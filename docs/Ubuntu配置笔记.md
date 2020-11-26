@@ -104,3 +104,7 @@
 > 文章作者：**Power Lin**  
 > 原文地址：<https://wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
+> 温馨提示，Linux 版本现在处于初期 Beta 版本，会有很多未知的 Bug.
+> 请勿使用在生产环境，同时要求自身有一定的 Linux 技术。
+> Linux 版本用户 QQ 交流群：1102342629
+> Linux 版本下载地址：https://update.todesk.com/todeskBeta_1.1.0c.deb
