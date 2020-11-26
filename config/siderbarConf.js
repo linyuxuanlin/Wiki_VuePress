@@ -1,4 +1,5 @@
-module.exports = [{
+module.exports = [
+  {
     title: "电路设计",
     collapsable: false,
     sidebarDepth: 0,
@@ -28,10 +29,7 @@ module.exports = [{
     title: "队内管理",
     collapsable: false,
     sidebarDepth: 0,
-    children: [
-      "换届大会-活动总结",
-      "破冰-活动总结",
-    ],
+    children: ["换届大会-活动总结", "破冰-活动总结"],
   },
   {
     title: "嵌入式开发",
@@ -229,7 +227,6 @@ module.exports = [{
   //"财富",
   //"创业",
   //"个人发展",
-
 
   /*
   {
