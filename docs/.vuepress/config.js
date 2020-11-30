@@ -115,7 +115,7 @@ module.exports = {
     editLinkText: "在 GitHub 上编辑此页", // 显示在文章底部
 
     record: "Power Lin © 2015 | 粤 ICP 备 20014898 号",
-    recordLink: "http://www.beian.miit.gov.cn/",
+    recordLink: "https://beian.miit.gov.cn",
     //cyberSecurityRecord: '公安部备案文案',
     //cyberSecurityLink: '公安部备案指向链接',
     // 项目开始时间，只填写年份
