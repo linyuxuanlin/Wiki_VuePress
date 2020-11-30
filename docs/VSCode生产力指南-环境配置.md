@@ -67,7 +67,7 @@ VS Code 发展到现在，各种功能已经非常强大，基本超越收费闭
 - [**Prettier - Code formatter**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)：HTML/CSS/JavaScript 等前端语言自动格式化工具
   - **用法**：`Ctrl + Shift + P`
 - [**Color Manager**](https://marketplace.visualstudio.com/items?itemName=RoyAction.color-manager)：直接预览色值对应的颜色
-- [**Live Server**]()：在 VS Code 内运行本地网页
+- [**Live Server**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)：在 VS Code 内运行本地网页
 
 ### 其他
 
