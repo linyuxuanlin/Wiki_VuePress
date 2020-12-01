@@ -15,12 +15,13 @@ module.exports = [
     text: "友链",
     link: "/Links",
   },
-  {
-    text: "书摘",
-    link: "https://digest.wiki-power.com",
-  },
+
   {
     text: "收藏夹",
     link: "/Collection",
+  },
+  {
+    text: "书摘",
+    link: "https://digest.wiki-power.com",
   },
 ];
