@@ -10,7 +10,10 @@ module.exports = [
         link: '/Tools'
     },
     */
-
+  {
+    text: "书摘",
+    link: "https://digest.wiki-power.com",
+  },
   {
     text: "友链",
     link: "/Links",
@@ -19,9 +22,5 @@ module.exports = [
   {
     text: "收藏夹",
     link: "/Collection",
-  },
-  {
-    text: "书摘",
-    link: "https://digest.wiki-power.com",
   },
 ];
