@@ -2,7 +2,12 @@
 
 ## 参考与致谢
 
-- []()
+- [dokuwiki 学习（一）—— 增加页面命名空间](https://blog.csdn.net/wszll_Alex/article/details/80246721)
+- [dokuwiki 学习（二）—— 新增页面（文章）](https://blog.csdn.net/wszll_Alex/article/details/80246836)
+- [dokuwiki 学习（三）—— 删除页面（文章）](https://blog.csdn.net/wszll_Alex/article/details/80252098)
+- [dokuwiki 学习（四）—— 移动页面（文章）](https://blog.csdn.net/wszll_Alex/article/details/80252132)
+
+- [dokuwiki 学习（六）—— 增加媒体命名空间](https://blog.csdn.net/wszll_Alex/article/details/80252201)
 
 <br />
 
@@ -21,6 +26,7 @@
 - Pagelist Plugin
 - simplenavi plugin
 - Wrap Plugin
+- Indexmenu Plugin：索引目录
 
 模板
 
@@ -45,3 +51,18 @@ DokuWiki 的文章数据在 `dokuwiki/data/pages` 目录下。命名空间相当
    // return urldecode($file);
    return $file;
    ```
+
+## 新增文章
+
+1. 搜索安装插件：`Add New Page Plugin`
+2. 网址后缀 id 改为 `sidebar` 访问
+3. 创建页面，写入 `{{NEWPAGE}}`
+
+## 删除文章
+
+把文章内容删空，页面就自动删除了。没有文章的命名空间也会被自动移除
+
+## 移动文章 / 修改名字
+
+1. 搜索安装插件：`Move Plugin`
+2. 在右侧工具栏 - `页面重命名`
