@@ -9,6 +9,14 @@
 
 - [dokuwiki 学习（六）—— 增加媒体命名空间](https://blog.csdn.net/wszll_Alex/article/details/80252201)
 
+对比：
+
+- MoinMoin Wiki
+- FosWiki
+- xwiki
+- mm-wiki
+- MinDoc
+
 <br />
 
 <br />
@@ -66,3 +74,21 @@ DokuWiki 的文章数据在 `dokuwiki/data/pages` 目录下。命名空间相当
 
 1. 搜索安装插件：`Move Plugin`
 2. 在右侧工具栏 - `页面重命名`
+
+## 定制
+
+### 删除页面内的编辑按钮
+
+`inc/html.php` 中搜索
+
+```
+return "<div class='secedit editbutton_" . $data['target'] .
+                   " editbutton_" . $secid . "'>" .
+       html_btn('secedit', $ID, '',
+                array_merge(array('do'  => 'edit',
+                                  'rev' => $INFO['lastmod'],
+                                  'summary' => '['.$name.'] '), $data),
+                'post', $name) . '</div>';
+```
+
+注释掉。
