@@ -28,7 +28,11 @@ module.exports = [{
     title: "队内管理",
     collapsable: false,
     sidebarDepth: 0,
-    children: ["换届大会-活动总结", "破冰-活动总结", "团队Wiki系统搭建-理论文,"],
+    children: [
+      "团队知识库的搭建-理论",
+      "换届大会-活动总结",
+      "破冰-活动总结",
+    ],
   },
   {
     title: "嵌入式开发",
