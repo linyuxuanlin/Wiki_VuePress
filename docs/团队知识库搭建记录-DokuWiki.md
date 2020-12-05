@@ -7,6 +7,7 @@
 - [dokuwiki 学习（三）—— 删除页面（文章）](https://blog.csdn.net/wszll_Alex/article/details/80252098)
 - [dokuwiki 学习（四）—— 移动页面（文章）](https://blog.csdn.net/wszll_Alex/article/details/80252132)
 - [dokuwiki 插件的常用配置及其他 Tips](https://leekwen.blog.csdn.net/article/details/54907445?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control)
+- [自定义 DokuWiki](https://wiki.gimo.me/wiki/customize)
 
 - [dokuwiki 学习（六）—— 增加媒体命名空间](https://blog.csdn.net/wszll_Alex/article/details/80252201)
 
@@ -15,7 +16,7 @@
 - MoinMoin Wiki
 - FosWiki
 - xwiki
-- mm-wiki从7456
+- mm-wiki 从 7456
 - MinDoc
 
 <br />
