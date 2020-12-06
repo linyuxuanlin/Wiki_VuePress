@@ -105,6 +105,7 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 0,
     children: [
+      "使用Markdown进行高效写作",
       "团队知识库搭建记录-DokuWiki",
       "个人知识库极简搭建指南-VuePress",
       "用Vercel加速Pages服务",
