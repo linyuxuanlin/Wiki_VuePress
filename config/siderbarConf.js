@@ -1,4 +1,5 @@
-module.exports = [{
+module.exports = [
+  {
     title: "电路设计",
     collapsable: false,
     sidebarDepth: 0,
@@ -149,7 +150,6 @@ module.exports = [{
     collapsable: false,
     sidebarDepth: 1,
     children: [
-      //"书摘与读书笔记",
       //"华广爬楼指北",
       "读《黑客与画家》",
       "英语六级-备考",
