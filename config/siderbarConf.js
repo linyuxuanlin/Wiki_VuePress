@@ -177,18 +177,4 @@ module.exports = [
   //"财富",
   //"创业",
   //"个人发展",
-
-  /*
-  {
-    title: "友链",
-    collapsable: false,
-    sidebarDepth: 0,
-    children: [
-      ["https://bobi.site/", "BOBI83"],
-      ["https://unbinilium.me", "Unbinilium"],
-      ["https://waitech.cn/", "WAI 科技社"],
-    ],
-  },
-
-  */
 ];
