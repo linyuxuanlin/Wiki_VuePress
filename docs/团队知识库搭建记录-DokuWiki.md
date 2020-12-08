@@ -8,6 +8,7 @@
 - [dokuwiki 学习（四）—— 移动页面（文章）](https://blog.csdn.net/wszll_Alex/article/details/80252132)
 - [dokuwiki 插件的常用配置及其他 Tips](https://leekwen.blog.csdn.net/article/details/54907445?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control)
 - [自定义 DokuWiki](https://wiki.gimo.me/wiki/customize)
+- [Upload doesn't match extension - DokuWiki User Forum](https://forum.dokuwiki.org/d/1297-upload-doesn-t-match-extension/3)
 
 - [dokuwiki 学习（六）—— 增加媒体命名空间](https://blog.csdn.net/wszll_Alex/article/details/80252201)
 
@@ -94,3 +95,28 @@ return "<div class='secedit editbutton_" . $data['target'] .
 ```
 
 注释掉。
+
+## 问题及解决
+
+### 上传的文件与扩展名不符
+
+修改 `inc/media.php` ：
+
+```
+if(substr($mime,0,6) == 'image/'){
+$info = getimagesize($file);
+if($mime == 'image/gif' && $info[2] != 1){
+msg(sprintf('php function getimagesize(%s) does not think this is an image/gif file (info[2]=%d) even though %s is the mime type',$file,$info[2],$mime));
+return 0;
+}elseif($mime == 'image/jpeg' && $info[2] != 2){
+msg(sprintf('php function getimagesize(%s) does not think this is an image/jpeg file (info[2]=%d) even though %s is the mime type',$file,$info[2],$mime));
+return 0;
+}elseif($mime == 'image/png' && $info[2] != 3){
+msg(sprintf('php function getimagesize(%s) does not think this is an image/png file (info[2]=%d) even though %s is the mime type',$file,$info[2],$mime));
+return 0;
+}
+
+This function used to return -1 if the info[2] didn't return the right type. Now I just return 0 and show a msg. The debug messages printed out show
+
+php function getimagesize(/srv/www/www.ini.unizh.ch/tmp/phpQu74yf) does not think this is an image/jpeg file (info[2]=0) even though image/jpeg is the mime type
+```
