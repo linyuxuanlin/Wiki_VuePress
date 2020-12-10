@@ -120,3 +120,7 @@ This function used to return -1 if the info[2] didn't return the right type. Now
 
 php function getimagesize(/srv/www/www.ini.unizh.ch/tmp/phpQu74yf) does not think this is an image/jpeg file (info[2]=0) even though image/jpeg is the mime type
 ```
+
+### 批量导入用户出现乱码
+
+解决方法：使用 utf8 编码的 .csv 文件
