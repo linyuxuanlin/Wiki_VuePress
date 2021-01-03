@@ -31,7 +31,7 @@
 
 在克隆下来的仓库内，全局搜索以下变量，并把它们改掉：
 
-- `wiki-power.com`：替换为你的自定义域名 `xx.com`
+- `vuepress.wiki-power.com`：替换为你的自定义域名 `xx.com`
 - `linyuxuanlin/Wiki-book`：替换为你的 GitHub 用户名和仓库名 `xxx/Wiki-book`
   - （如果仓库名称不为 `Wiki-book`，则需全局搜索并修改对应的仓库名）
 - `master`：替换为 `main`.
@@ -74,5 +74,5 @@
 <br />
 
 > 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 原文地址：<https://vuepress.wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

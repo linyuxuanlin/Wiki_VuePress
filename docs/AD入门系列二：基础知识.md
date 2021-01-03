@@ -20,7 +20,7 @@
 - [**JLCSMT_LIB**](https://gitee.com/JLC_SMT/JLCSMT_LIB)：嘉立创提供的标准集成库，包含嘉立创可以 SMT 贴片的所有元件，直接用这个集成库，打板 / SMT 的时候兼容性会比较好。
 - [**Hare_Library**](https://github.com/linyuxuanlin/Power_Lib_Altium/tree/master/Other_Libs/Hare_Library)：彬哥整理的原理图库 / 封装库，涵盖队内硬件所需的大部分元器件。
 
-如何安装库文件：参考 [**Altium Designer 安装库文件**](https://wiki-power.com/unlist/AltiumDesigner%E5%AE%89%E8%A3%85%E5%BA%93%E6%96%87%E4%BB%B6.html)
+如何安装库文件：参考 [**Altium Designer 安装库文件**](https://vuepress.wiki-power.com/unlist/AltiumDesigner%E5%AE%89%E8%A3%85%E5%BA%93%E6%96%87%E4%BB%B6.html)
 
 ### 不常见的元器件
 
@@ -36,7 +36,7 @@ AD 插件：
 - [**SnapEDA**](https://www.snapeda.com/)
 - [**Ultra Librarian**](https://www.ultralibrarian.com/)
 
-SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wiki-power.com/unlist/%E4%BB%8ESnapEDA%E5%AF%BC%E5%85%A5%E5%BA%93%E6%96%87%E4%BB%B6.html)
+SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://vuepress.wiki-power.com/unlist/%E4%BB%8ESnapEDA%E5%AF%BC%E5%85%A5%E5%BA%93%E6%96%87%E4%BB%B6.html)
 
 ## 快捷键
 
@@ -120,17 +120,17 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wi
       - 固定孔
         - M3 螺孔：内 **3.1** mm、外 **4** mm
    4. 排布元件
-      - 参考 [**PCB 元件布局规范**](https://wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%85%83%E4%BB%B6%E5%B8%83%E5%B1%80%E8%A7%84%E8%8C%83.html)
+      - 参考 [**PCB 元件布局规范**](https://vuepress.wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%85%83%E4%BB%B6%E5%B8%83%E5%B1%80%E8%A7%84%E8%8C%83.html)
    5. 布线
       - 设置布线规则
-        - 参考 [**PCB 布线规范**](https://wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%B8%83%E7%BA%BF%E8%A7%84%E8%8C%83.html)
+        - 参考 [**PCB 布线规范**](https://vuepress.wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%B8%83%E7%BA%BF%E8%A7%84%E8%8C%83.html)
       - **不要开启自动布线！**
       - **开启泪滴功能**
    6. 字体标识（引脚标识 / 版权 / 迷惑性文字）
       - 放置于丝印层（顶层 / 底层）
       - 放底层要先镜像
    7. 敷铜（**PG**）
-      - 参考 [**PCB 布线规范**](https://wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%B8%83%E7%BA%BF%E8%A7%84%E8%8C%83.html)
+      - 参考 [**PCB 布线规范**](https://vuepress.wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/PCB%E5%B8%83%E7%BA%BF%E8%A7%84%E8%8C%83.html)
 4. 打板
    1. 保存项目
    2. 将 **.pcb** 文件压缩（这样做似乎不太对，可以的话导出 Gerber）
@@ -161,7 +161,7 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wi
 
 ### 使用 Git 管理项目
 
-详见 [**AD 使用 Git 的注意事项**](https://wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/AD%E4%BD%BF%E7%94%A8Git%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html)
+详见 [**AD 使用 Git 的注意事项**](https://vuepress.wiki-power.com/post/%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1/AD%E4%BD%BF%E7%94%A8Git%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html)
 
 ## 总结
 
@@ -181,5 +181,5 @@ SnapEDA 安装库的方法：参考 [**从 SnapEDA 导入库文件**](https://wi
 <br />
 
 > 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 原文地址：<https://vuepress.wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

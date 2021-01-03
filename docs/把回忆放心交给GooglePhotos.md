@@ -77,5 +77,5 @@ A：建议用移动硬盘加密备份，或者打包加密再上传到国外的�
 <br />
 
 > 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 原文地址：<https://vuepress.wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

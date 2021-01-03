@@ -4,4 +4,4 @@
 
 ![Wiki-Action](https://github.com/linyuxuanlin/Wiki-book/workflows/Wiki-Action/badge.svg)
 
-https://wiki-power.com
+https://vuepress.wiki-power.com

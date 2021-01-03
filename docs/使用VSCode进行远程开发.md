@@ -7,7 +7,7 @@
 尝试了各类 SSH 工具，最终还是回到免费好用颜值又高的 VS Code.
 本篇文章仅记录以供日后参考用，部分内容未详细展开说明。更多教程请参考文末链接。
 
-VS Code 基础配置篇：[**VS Code 生产力指南 - 环境配置**](https://wiki-power.com/post/%E9%AB%98%E6%95%88%E5%B7%A5%E4%BD%9C/VSCode%E7%94%9F%E4%BA%A7%E5%8A%9B%E6%8C%87%E5%8D%97-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html)
+VS Code 基础配置篇：[**VS Code 生产力指南 - 环境配置**](https://vuepress.wiki-power.com/post/%E9%AB%98%E6%95%88%E5%B7%A5%E4%BD%9C/VSCode%E7%94%9F%E4%BA%A7%E5%8A%9B%E6%8C%87%E5%8D%97-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html)
 
 ## 配置扩展
 
@@ -53,5 +53,5 @@ $ sudo sysctl -p
 <br />
 
 > 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 原文地址：<https://vuepress.wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

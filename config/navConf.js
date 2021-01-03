@@ -12,7 +12,7 @@ module.exports = [
     */
   {
     text: "书摘",
-    link: "https://digest.wiki-power.com",
+    link: "https://digest.vuepress.wiki-power.com",
   },
   {
     text: "友链",

@@ -41,7 +41,7 @@ module.exports = [
     "vuepress-plugin-rss",
     {
       base_url: "/", // required
-      site_url: "https://wiki-power.com", // required
+      site_url: "https://vuepress.wiki-power.com", // required
       //copyright: "2018 Coralo", // optional
       // filter some post
       //filter: (frontmatter) => {

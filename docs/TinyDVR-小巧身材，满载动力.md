@@ -64,5 +64,5 @@ TinyDVR 是一款电机驱动套件，包含母板（Master）与子板（Slave�
 <br />
 
 > 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 原文地址：<https://vuepress.wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

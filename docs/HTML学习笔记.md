@@ -66,7 +66,7 @@
     <a href="#top">回到顶部</a>
     <p id="top">顶部</p>
     <!--链接到其他页面的特定位置-->
-    <a href="http://wiki-power.com/#top">跳转到站外页面的某个位置</a>
+    <a href="http://vuepress.wiki-power.com/#top">跳转到站外页面的某个位置</a>
 
     <!--图像-->
     <img src="/xx.png" alt="无法加载时的文字说明" />
@@ -116,5 +116,5 @@
 <br />
 
 > 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 原文地址：<https://vuepress.wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

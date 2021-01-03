@@ -2,7 +2,7 @@
 
 ## 背景
 
-在 [**上一篇文章**](https://wiki-power.com/post/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91/PlatformIO%E2%80%94%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7.html) 中，我们可以看到，PlatformIO 用起来比 Keil 优雅多了。  
+在 [**上一篇文章**](https://vuepress.wiki-power.com/post/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91/PlatformIO%E2%80%94%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7.html) 中，我们可以看到，PlatformIO 用起来比 Keil 优雅多了。  
 众所周知，STM32 打开方式中，HAL 库比标准库更方便易用（配合神器 CubeMX），但 PlatformIO 官方对 CubeMX 的兼容不是特别完美（需通过 Python 中间件来进行代码转换）
 
 在这篇文章中，我将介绍一种独特的方法，让 PlatformIO 配合 CubeMX 食用起来更加美味。
@@ -70,5 +70,5 @@ PlatformIO 可以用快捷键 `Ctrl + Alt + B` 编译，用 `Ctrl + Alt + U` 编
 <br />
 
 > 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 原文地址：<https://vuepress.wiki-power.com>  
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

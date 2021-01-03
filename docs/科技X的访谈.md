@@ -131,4 +131,4 @@ Hello 大家好，我是 Power，斜杠青年大学生一枚。这是我的标�
 ## Power 的联系方式
 
 - 微信：`linyuxuanlin`
-- 个人网站：<https://wiki-power.com>
+- 个人网站：<https://vuepress.wiki-power.com>

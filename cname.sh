@@ -3,4 +3,4 @@
 set -e
 
 cd docs/.vuepress/dist
-echo 'wiki-power.com' > CNAME
+echo 'vuepress.wiki-power.com' > CNAME
