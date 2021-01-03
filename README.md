@@ -1,4 +1,4 @@
-# Power's Wiki1
+# Power's Wiki
 
 个人知识库（已弃用，仅供参考）
 
