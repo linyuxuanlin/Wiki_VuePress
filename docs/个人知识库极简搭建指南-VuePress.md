@@ -24,7 +24,7 @@
 
 ## 第二步：克隆仓库
 
-（这里以我的知识库作为模板）打开链接：[**linyuxuanlin/Wiki-book**](https://github.com/linyuxuanlin/Wiki-book)  
+（这里以我的知识库作为模板）打开链接：[**linyuxuanlin/VuePress**](https://github.com/linyuxuanlin/VuePress)  
 将仓库克隆到本地。咱 **假设** 你的仓库名字为 `xxx/Wiki-book`（其中 `xxx` 是你的 GitHub 用户名），记住它。
 
 ## 第三步：修改变量
@@ -32,7 +32,7 @@
 在克隆下来的仓库内，全局搜索以下变量，并把它们改掉：
 
 - `vuepress.wiki-power.com`：替换为你的自定义域名 `xx.com`
-- `linyuxuanlin/Wiki-book`：替换为你的 GitHub 用户名和仓库名 `xxx/Wiki-book`
+- `linyuxuanlin/VuePress`：替换为你的 GitHub 用户名和仓库名 `xxx/Wiki-book`
   - （如果仓库名称不为 `Wiki-book`，则需全局搜索并修改对应的仓库名）
 - `master`：替换为 `main`.
 

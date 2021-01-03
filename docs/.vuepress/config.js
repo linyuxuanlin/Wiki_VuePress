@@ -108,7 +108,7 @@ module.exports = {
     smoothScroll: true,
 
     // 显示 'Edit on GitHub'
-    repo: "linyuxuanlin/Wiki-book",
+    repo: "linyuxuanlin/VuePress",
     repoLabel: "本站源码", // 显示在 NavBar
     docsDir: "docs",
     editLinks: false,
